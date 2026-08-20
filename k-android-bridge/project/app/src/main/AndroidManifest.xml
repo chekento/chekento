@@ -14,6 +14,7 @@
             <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
         </activity>
         <service android:name=".AudioBridgeService" android:exported="false" android:foregroundServiceType="mediaProjection|microphone"/>
+        <service android:name=".OverlayTestService" android:exported="false" android:foregroundServiceType="shortService"/>
         <service android:name=".BridgeTileService" android:label="K Audio EQ" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true">
             <intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter>
         </service>
