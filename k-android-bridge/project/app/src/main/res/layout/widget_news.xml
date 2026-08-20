@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/widget_bg" android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/header" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="AI NEWS · LIVE" android:textColor="@color/cyan" android:textStyle="bold" android:textSize="16sp"/>
+        <TextView android:id="@+id/refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="↻" android:textColor="@color/orange" android:textSize="24sp" android:padding="8dp"/>
+    </LinearLayout>
+    <TextView android:id="@+id/sub" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Aktuell · Modelle · Tools · Research · EU AI Act · DSGVO/GDPR" android:textColor="#A9CBE2" android:textSize="11sp" android:paddingBottom="5dp"/>
+    <TextView android:id="@+id/n1" style="@style/NewsRow"/><TextView android:id="@+id/n2" style="@style/NewsRow"/>
+    <TextView android:id="@+id/n3" style="@style/NewsRow"/><TextView android:id="@+id/n4" style="@style/NewsRow"/>
+    <TextView android:id="@+id/n5" style="@style/NewsRow"/><TextView android:id="@+id/n6" style="@style/NewsRow"/>
+    <TextView android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tippen: öffnen · Aktualisiert automatisch" android:textColor="#7FA8C3" android:textSize="10sp" android:gravity="center" android:paddingTop="5dp"/>
+</LinearLayout>

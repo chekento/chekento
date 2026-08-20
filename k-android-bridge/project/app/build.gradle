@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'cloud.kosch.kandroid.bridge'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'cloud.kosch.kandroid.bridge'
+        minSdk 29
+        targetSdk 36
+        versionCode 10
+        versionName '1.0.0'
+    }
+}
