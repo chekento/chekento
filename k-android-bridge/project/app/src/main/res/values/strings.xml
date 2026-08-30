@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">K Android 1.0.3 Bridge</string>
+    <string name="widget_name">K Android AI News</string>
+    <string name="accessibility_desc">Blendet den Companion-EQ nur auf dem Total-Launcher-Companion-Tab und optional in KI-Apps ein. Es werden keine Bildschirminhalte gelesen.</string>
+</resources>
