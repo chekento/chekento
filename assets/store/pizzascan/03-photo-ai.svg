@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf6"/><stop offset="1" stop-color="#f8fbff"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#343b52" flood-opacity=".15"/></filter></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<g transform="translate(205 70)" filter="url(#s)">
+<rect width="790" height="1060" rx="80" fill="#171717"/><rect x="28" y="28" width="734" height="1004" rx="58" fill="#fff"/>
+<rect x="300" y="42" width="190" height="34" rx="17" fill="#171717"/>
+<rect x="58" y="118" width="674" height="516" rx="36" fill="#fbdec0"/>
+<circle cx="395" cy="375" r="190" fill="#d84c27"/><circle cx="395" cy="375" r="164" fill="#ffe0a8"/>
+<g fill="#d53726"><circle cx="330" cy="318" r="28"/><circle cx="465" cy="342" r="30"/><circle cx="380" cy="448" r="28"/><circle cx="505" cy="440" r="26"/></g>
+<g fill="#3f9a49"><ellipse cx="405" cy="280" rx="22" ry="42" transform="rotate(30 405 280)"/><ellipse cx="300" cy="420" rx="21" ry="38" transform="rotate(-30 300 420)"/></g>
+<g stroke="#fff" stroke-width="8" fill="none"><path d="M86 164h66v-34M638 164h66v-34M86 586h66v34M638 586h66v34"/></g>
+<rect x="58" y="665" width="674" height="317" rx="32" fill="#fff" stroke="#e2e6ee"/>
+<g transform="translate(94 700)">
+<circle cx="34" cy="34" r="30" fill="#ff6640"/><path d="M19 36h30M34 21v30" stroke="white" stroke-width="6"/>
+<rect x="84" y="14" width="230" height="18" rx="9" fill="#2c3544"/><rect x="84" y="50" width="330" height="12" rx="6" fill="#abb4c2"/>
+<g transform="translate(0 105)">
+<rect width="548" height="18" rx="9" fill="#edf0f4"/><rect width="438" height="18" rx="9" fill="#ff6840"/>
+<rect y="50" width="548" height="18" rx="9" fill="#edf0f4"/><rect y="50" width="382" height="18" rx="9" fill="#6a7cff"/>
+<rect y="100" width="548" height="18" rx="9" fill="#edf0f4"/><rect y="100" width="468" height="18" rx="9" fill="#48aa67"/>
+<rect y="150" width="548" height="18" rx="9" fill="#edf0f4"/><rect y="150" width="331" height="18" rx="9" fill="#f3b82f"/>
+</g>
+</g>
+</g></svg>
