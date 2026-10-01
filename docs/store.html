@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f9fc">
+<title>KoSch App Store</title>
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f5f7fb;--card:#fff;--text:#1f2328;--muted:#667085;--line:#e3e8ef;
+  --blue:#1a73e8;--shadow:0 16px 44px rgba(30,41,59,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:
+radial-gradient(circle at 15% 0%,rgba(26,115,232,.08),transparent 28rem),
+radial-gradient(circle at 100% 18%,rgba(132,94,247,.07),transparent 26rem),var(--bg);color:var(--text)}
+a{color:inherit}
+.shell{max-width:1180px;margin:auto;padding:28px 18px 70px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}.mark{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#1a73e8,#7c5cff);display:grid;place-items:center;color:#fff;font-weight:900;box-shadow:0 10px 24px rgba(26,115,232,.22)}
+h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margin:7px 0 0;color:var(--muted)}
+.toplinks{display:flex;gap:9px;flex-wrap:wrap}.chip{display:inline-flex;align-items:center;gap:7px;padding:10px 13px;border-radius:999px;border:1px solid var(--line);background:#fff;text-decoration:none;font-size:14px;font-weight:700}
+.intro{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:24px;padding:18px 20px;margin-bottom:22px;box-shadow:0 8px 26px rgba(30,41,59,.05);color:#4b5563}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.app{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:18px;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:18px}
+.app-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin:2px 2px 14px}
+.app-title{font-size:24px;font-weight:850;letter-spacing:-.025em}.app-sub{color:var(--muted);font-size:14px;margin-top:4px}.status{font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px;background:#f2f5f9;border:1px solid var(--line);white-space:nowrap}
+.viewer{position:relative;aspect-ratio:1/1;background:#edf1f7;border-radius:22px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y}
+.viewer img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .16s ease,transform .2s ease}.viewer.loading img{opacity:.5;transform:scale(.995)}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.75);background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(0,0,0,.14);font-size:28px;line-height:40px;cursor:pointer;color:#273142}.arrow:hover{background:#fff}.prev{left:12px}.next{right:12px}
+.counter{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(25,30,40,.72);backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px}
+.thumbs{display:flex;gap:8px;overflow:auto;padding:10px 1px 3px;scrollbar-width:thin}.thumb{flex:0 0 58px;width:58px;height:58px;border-radius:13px;overflow:hidden;border:2px solid transparent;background:#eef2f7;padding:0;cursor:pointer}.thumb.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(26,115,232,.1)}.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.actions{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:8px;margin-top:14px}.btn{border-radius:13px;padding:11px 10px;text-align:center;text-decoration:none;font-weight:800;font-size:13px;border:1px solid var(--line);background:#fff}.btn.install{background:var(--blue);border-color:var(--blue);color:#fff}.btn:hover{filter:brightness(.98)}
+.meta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:10px;min-height:25px;color:var(--muted);font-size:12px}.downloads img{height:20px;vertical-align:middle}
+.more{margin-top:12px;border-top:1px solid var(--line);padding-top:11px}.more summary{cursor:pointer;font-weight:800;font-size:13px}.more p{color:#59636e;line-height:1.55;font-size:13px;margin:10px 0 2px}
+.footer{text-align:center;color:var(--muted);font-size:13px;margin-top:28px}.footer a{font-weight:700}
+@media(max-width:760px){.shell{padding:16px 10px 50px}.grid{grid-template-columns:1fr;gap:14px}.app{border-radius:22px;padding:12px}.viewer{border-radius:18px}.actions{grid-template-columns:1.15fr 1fr 1fr}.btn{font-size:12px;padding:10px 7px}.arrow{width:40px;height:40px}.toplinks{width:100%}.chip{flex:1;justify-content:center}.intro{font-size:14px}.app-title{font-size:22px}}
+</style>
+</head>
+<body>
+<main class="shell">
+  <div class="topbar">
+    <div class="brand"><div class="mark">KS</div><div><h1>KoSch App Store</h1><p class="subtitle">Manual screenshot galleries · direct APKs · repositories</p></div></div>
+    <nav class="toplinks">
+      <a class="chip" href="https://github.com/chekento">GitHub</a>
+      <a class="chip" href="https://kosch.cloud">kosch.cloud</a>
+      <a class="chip" href="https://chatgpt.com">ChatGPT</a>
+    </nav>
+  </div>
+  <div class="intro">Swipe or use ‹ › to browse each app manually. Every card keeps the three important actions visible: <strong>Install APK</strong>, <strong>Repository</strong>, and <strong>Details</strong>. The gallery is data-driven, so more screenshots can be added later without changing the slider code.</div>
+  <section class="grid" id="app-grid"></section>
+  <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Check each repository for status, privacy notes, checksums and limitations.</div>
+</main>
+<script>
+const apps=[
+{
+ id:"pmddcam",name:"PMDDcam",sub:"Perceptual Motion & Depth Design Camera",status:"0.4.0 Preview",
+ install:"https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk",
+ repo:"https://github.com/chekento/PMDDcam",details:"https://github.com/chekento#pmddcam-details",
+ badge:"https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads",
+ note:"Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing.",
+ images:[
+  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-01.webp",
+  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-02.webp",
+  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-03.webp",
+  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-04.webp",
+  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-after.webp"
+ ]},
+{
+ id:"scenic-path",name:"Scenic Path",sub:"The Beautiful Way Finder",status:"0.7.3 RC4",
+ install:"https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk",
+ repo:"https://github.com/chekento/scenic-path-android",details:"https://github.com/chekento#scenic-path-details",
+ badge:"https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads",
+ note:"ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation.",
+ images:[
+  "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-hero-photo.webp",
+  "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-beautiful-means.webp",
+  "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-journey-beautifully.webp",
+  "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-features.svg"
+ ]},
+{
+ id:"pizzascan",name:"PizzaScan",sub:"Worldwide Pizza Discovery",status:"2.3.23 · Build 58",
+ install:"https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk",
+ repo:"https://github.com/chekento/Pizzascan",details:"https://github.com/chekento#pizzascan-details",
+ badge:"https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads",
+ note:"Worldwide pizza discovery with maps, reviews, favorites and optional local CLIP/SigLIP analysis.",
+ images:[
+  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Feature-EN-1024x500.png",
+  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Vorstellung-DE-1024x500.png",
+  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-App-Icon-512.png",
+  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/Open-Mini-Live.svg",
+  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/Download-Android-APK.svg"
+ ]},
+{
+ id:"ai-news",name:"AI News",sub:"AI Intelligence & Monitoring",status:"3.8.1 Beta",
+ install:"https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk",
+ repo:"https://github.com/chekento/Ainews",details:"https://github.com/chekento#ai-news-details",
+ badge:"https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads",
+ note:"AI-focused source monitoring, discovery, radar, provider coverage and widgets.",
+ images:[
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg"
+ ]},
+{
+ id:"labyrinthia",name:"Labyrinthia",sub:"The Endless Maze",status:"2.4.3 Pre-Alpha",
+ install:"https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk",
+ repo:"https://github.com/chekento/labyrinthia-endless-maze",details:"https://github.com/chekento#labyrinthia-details",
+ badge:"https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads",
+ note:"Endless procedural maze, tilt controls, checkpoints, 1,000 ranks and 1,000 achievements.",
+ images:[
+  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/main-menu-hero-v2.jpg",
+  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/camera-focus.jpg",
+  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/key-and-exit.jpg",
+  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/tactical-minimap.jpg",
+  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/tilt-controls.jpg",
+  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/level-complete.jpg"
+ ]},
+{
+ id:"chroma-clash",name:"Chroma Clash",sub:"Universia Coloralis",status:"1.0.0 Public",
+ install:"https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk",
+ repo:"https://github.com/chekento/chroma-clash-android",details:"https://github.com/chekento#chroma-clash-details",
+ badge:"https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads",
+ note:"Precision color gameplay with CIE Lab / CIEDE2000 scoring, 100 ranks, achievements and offline progression.",
+ images:[
+  "https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-hero.svg",
+  "https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-gameplay.svg",
+  "https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-progression.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg"
+ ]}
+];
+
+const grid=document.getElementById("app-grid");
+for(const app of apps){
+ const article=document.createElement("article");article.className="app";article.id=app.id;
+ article.innerHTML=`
+  <div class="app-head"><div><div class="app-title">${app.name}</div><div class="app-sub">${app.sub}</div></div><div class="status">${app.status}</div></div>
+  <div class="viewer">
+    <button class="arrow prev" aria-label="Previous image">‹</button>
+    <img class="mainimg" alt="${app.name} screenshot" src="${app.images[0]}">
+    <button class="arrow next" aria-label="Next image">›</button>
+    <span class="counter">1 / ${app.images.length}</span>
+  </div>
+  <div class="thumbs"></div>
+  <div class="actions">
+    <a class="btn install" href="${app.install}">↓ Install APK</a>
+    <a class="btn" href="${app.repo}">Repository</a>
+    <a class="btn" href="${app.details}">Details</a>
+  </div>
+  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads"><img src="${app.badge}" alt="${app.name} downloads"></span></div>
+  <details class="more"><summary>Quick info</summary><p>${app.note}</p></details>`;
+ grid.appendChild(article);
+ const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainimg"),counter=article.querySelector(".counter"),thumbs=article.querySelector(".thumbs");
+ let idx=0,startX=null;
+ function show(n){idx=(n+app.images.length)%app.images.length;viewer.classList.add("loading");main.onload=()=>viewer.classList.remove("loading");main.src=app.images[idx];counter.textContent=`${idx+1} / ${app.images.length}`;[...thumbs.children].forEach((b,i)=>b.classList.toggle("active",i===idx));}
+ app.images.forEach((src,i)=>{const b=document.createElement("button");b.className="thumb"+(i===0?" active":"");b.setAttribute("aria-label",`Show image ${i+1}`);b.innerHTML=`<img src="${src}" alt="">`;b.onclick=()=>show(i);thumbs.appendChild(b)});
+ article.querySelector(".prev").onclick=()=>show(idx-1);article.querySelector(".next").onclick=()=>show(idx+1);
+ viewer.addEventListener("touchstart",e=>startX=e.changedTouches[0].clientX,{passive:true});
+ viewer.addEventListener("touchend",e=>{if(startX===null)return;const d=e.changedTouches[0].clientX-startX;if(Math.abs(d)>45)show(idx+(d<0?1:-1));startX=null},{passive:true});
+ article.addEventListener("keydown",e=>{if(e.key==="ArrowLeft")show(idx-1);if(e.key==="ArrowRight")show(idx+1)});
+}
+if(location.hash){setTimeout(()=>document.querySelector(location.hash)?.scrollIntoView({behavior:"smooth",block:"start"}),120)}
+</script>
+</body>
+</html>
