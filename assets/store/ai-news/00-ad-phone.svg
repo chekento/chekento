@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f2f6fb"/></linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#25d9ff"/><stop offset=".5" stop-color="#ef56c9"/><stop offset="1" stop-color="#ffe05b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1bdcf2"/><stop offset="1" stop-color="#8a5dff"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#263247" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/><circle cx="1030" cy="150" r="220" fill="#1bdcf2" opacity=".08"/><circle cx="120" cy="1000" r="260" fill="#8a5dff" opacity=".07"/>
+  <text x="72" y="100" font-family="Inter,Segoe UI,Arial" font-size="54" font-weight="850" fill="#1f2328">AI News</text>
+  <text x="72" y="140" font-family="Inter,Segoe UI,Arial" font-size="21" fill="#687384">AI Intelligence & Monitoring</text>
+  <g transform="translate(142 190)" filter="url(#s)">
+    <rect width="860" height="628" rx="64" fill="#11131a"/><rect x="28" y="28" width="804" height="572" rx="48" fill="#fff"/>
+    <rect x="335" y="42" width="190" height="32" rx="16" fill="#11131a"/>
+    
+    <rect x="320" y="282" width="510" height="440" rx="36" fill="#f7f9fd"/>
+    <rect x="350" y="316" width="450" height="156" rx="28" fill="#172137"/>
+    <circle cx="700" cy="394" r="58" fill="none" stroke="#1bdcf2" stroke-width="12"/><circle cx="700" cy="394" r="18" fill="#8a5dff"/>
+    <rect x="370" y="342" width="220" height="20" rx="10" fill="#fff"/><rect x="370" y="382" width="160" height="14" rx="7" fill="#8490a5"/>
+    <rect x="350" y="504" width="210" height="168" rx="24" fill="#fff" stroke="#dfe4ec"/><rect x="586" y="504" width="214" height="168" rx="24" fill="#fff" stroke="#dfe4ec"/>
+    <path d="M380 632c44-64 88-28 126-74" fill="none" stroke="#1bdcf2" stroke-width="8"/><path d="M614 632c56-38 96-70 154-112" fill="none" stroke="#8a5dff" stroke-width="8"/>
+  </g>
+  <rect x="72" y="860" width="210" height="38" rx="19" fill="#fff" stroke="#d9e1ea"/><text x="177" y="885" text-anchor="middle" font-size="15" font-weight="700" fill="#3f4856">160 sources</text><rect x="308" y="860" width="210" height="38" rx="19" fill="#fff" stroke="#d9e1ea"/><text x="413" y="885" text-anchor="middle" font-size="15" font-weight="700" fill="#3f4856">61 providers</text><rect x="72" y="914" width="210" height="38" rx="19" fill="#fff" stroke="#d9e1ea"/><text x="177" y="939" text-anchor="middle" font-size="15" font-weight="700" fill="#3f4856">Live radar</text><rect x="308" y="914" width="210" height="38" rx="19" fill="#fff" stroke="#d9e1ea"/><text x="413" y="939" text-anchor="middle" font-size="15" font-weight="700" fill="#3f4856">Saved stories</text>
+  <rect x="72" y="1005" width="1056" height="84" rx="28" fill="url(#accent)"/>
+  <text x="600" y="1058" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="850" fill="#fff">ANDROID APP · DIRECT APK · REPOSITORY</text>
+  </svg>
