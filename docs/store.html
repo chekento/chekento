@@ -27,16 +27,17 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
 .app{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:18px;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:18px}
 .app-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin:2px 2px 14px}
 .app-title{font-size:24px;font-weight:850;letter-spacing:-.025em}.app-sub{color:var(--muted);font-size:14px;margin-top:4px}.status{font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px;background:#f2f5f9;border:1px solid var(--line);white-space:nowrap}
-.viewer{position:relative;aspect-ratio:1/1;background:#edf1f7;border-radius:22px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y}
-.viewer img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .16s ease,transform .2s ease}.viewer.loading img{opacity:.5;transform:scale(.995)}
+.viewer{position:relative;aspect-ratio:1/1;background:linear-gradient(145deg,#ffffff,#f2f5f9);border-radius:22px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y;display:grid;place-items:center}
+.viewer:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,115,232,.025),transparent 42%,rgba(124,92,255,.035));pointer-events:none}
+.viewer img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;object-position:center;padding:10px;display:block;transition:opacity .16s ease,transform .2s ease}.viewer.loading img{opacity:.5;transform:scale(.995)}
 .arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.75);background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(0,0,0,.14);font-size:28px;line-height:40px;cursor:pointer;color:#273142}.arrow:hover{background:#fff}.prev{left:12px}.next{right:12px}
 .counter{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(25,30,40,.72);backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px}
-.thumbs{display:flex;gap:8px;overflow:auto;padding:10px 1px 3px;scrollbar-width:thin}.thumb{flex:0 0 58px;width:58px;height:58px;border-radius:13px;overflow:hidden;border:2px solid transparent;background:#eef2f7;padding:0;cursor:pointer}.thumb.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(26,115,232,.1)}.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumbs{display:flex;gap:8px;overflow:auto;padding:10px 1px 3px;scrollbar-width:thin}.thumb{flex:0 0 58px;width:58px;height:58px;border-radius:13px;overflow:hidden;border:2px solid transparent;background:#eef2f7;padding:0;cursor:pointer}.thumb.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(26,115,232,.1)}.thumb img{width:100%;height:100%;object-fit:contain;object-position:center;background:#fff;display:block}
 .actions{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:8px;margin-top:14px}.btn{border-radius:13px;padding:11px 10px;text-align:center;text-decoration:none;font-weight:800;font-size:13px;border:1px solid var(--line);background:#fff}.btn.install{background:var(--blue);border-color:var(--blue);color:#fff}.btn:hover{filter:brightness(.98)}
 .meta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:10px;min-height:25px;color:var(--muted);font-size:12px}.downloads img{height:20px;vertical-align:middle}
 .more{margin-top:12px;border-top:1px solid var(--line);padding-top:11px}.more summary{cursor:pointer;font-weight:800;font-size:13px}.more p{color:#59636e;line-height:1.55;font-size:13px;margin:10px 0 2px}
 .footer{text-align:center;color:var(--muted);font-size:13px;margin-top:28px}.footer a{font-weight:700}
-@media(max-width:760px){.shell{padding:16px 10px 50px}.grid{grid-template-columns:1fr;gap:14px}.app{border-radius:22px;padding:12px}.viewer{border-radius:18px}.actions{grid-template-columns:1.15fr 1fr 1fr}.btn{font-size:12px;padding:10px 7px}.arrow{width:40px;height:40px}.toplinks{width:100%}.chip{flex:1;justify-content:center}.intro{font-size:14px}.app-title{font-size:22px}}
+@media(max-width:900px){.shell{padding:16px 10px 50px}.grid{grid-template-columns:1fr;gap:14px}.app{border-radius:22px;padding:12px}.viewer{border-radius:18px}.actions{grid-template-columns:1.15fr 1fr 1fr}.btn{font-size:12px;padding:10px 7px}.arrow{width:40px;height:40px}.toplinks{width:100%}.chip{flex:1;justify-content:center}.intro{font-size:14px}.app-title{font-size:22px}}
 </style>
 </head>
 <body>
@@ -49,7 +50,7 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
       <a class="chip" href="https://chatgpt.com">ChatGPT</a>
     </nav>
   </div>
-  <div class="intro">Swipe or use ‹ › to browse each app manually. Every card keeps the three important actions visible: <strong>Install APK</strong>, <strong>Repository</strong>, and <strong>Details</strong>. The gallery is data-driven, so more screenshots can be added later without changing the slider code.</div>
+  <div class="intro">Swipe or use ‹ › to browse each app manually. Slides are curated per app and shown in a true square frame without cropping. Every card keeps <strong>Install APK</strong>, <strong>Repository</strong>, and <strong>Details</strong> visible. More screenshots can be appended later without changing the slider code.</div>
   <section class="grid" id="app-grid"></section>
   <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Check each repository for status, privacy notes, checksums and limitations.</div>
 </main>
@@ -87,11 +88,11 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads",
  note:"Worldwide pizza discovery with maps, reviews, favorites and optional local CLIP/SigLIP analysis.",
  images:[
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-map.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/02-review.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/03-photo-ai.svg",
   "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Feature-EN-1024x500.png",
-  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Vorstellung-DE-1024x500.png",
-  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-App-Icon-512.png",
-  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/Open-Mini-Live.svg",
-  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/Download-Android-APK.svg"
+  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Vorstellung-DE-1024x500.png"
  ]},
 {
  id:"ai-news",name:"AI News",sub:"AI Intelligence & Monitoring",status:"3.8.1 Beta",
@@ -102,8 +103,7 @@ const apps=[
  images:[
   "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg",
   "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg"
  ]},
 {
  id:"labyrinthia",name:"Labyrinthia",sub:"The Endless Maze",status:"2.4.3 Pre-Alpha",
@@ -126,10 +126,9 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads",
  note:"Precision color gameplay with CIE Lab / CIEDE2000 scoring, 100 ranks, achievements and offline progression.",
  images:[
-  "https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-hero.svg",
-  "https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-gameplay.svg",
-  "https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-progression.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-match.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/02-progression.svg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/03-modes.svg"
  ]}
 ];
 
