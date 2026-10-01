@@ -27,13 +27,15 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
 .app{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:18px;box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:18px}
 .app-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin:2px 2px 14px}
 .app-title{font-size:24px;font-weight:850;letter-spacing:-.025em}.app-sub{color:var(--muted);font-size:14px;margin-top:4px}.status{font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px;background:#f2f5f9;border:1px solid var(--line);white-space:nowrap}
-.viewer{position:relative;aspect-ratio:1/1;background:linear-gradient(145deg,#ffffff,#f2f5f9);border-radius:22px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y;display:grid;place-items:center}
-.viewer:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,115,232,.025),transparent 42%,rgba(124,92,255,.035));pointer-events:none}
-.viewer img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;object-position:center;padding:10px;display:block;transition:opacity .16s ease,transform .2s ease}.viewer.loading img{opacity:.5;transform:scale(.995)}
+.viewer{position:relative;aspect-ratio:1/1;background:linear-gradient(145deg,#ffffff,#f2f5f9);border-radius:22px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y}
+.viewer:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,115,232,.025),transparent 42%,rgba(124,92,255,.035));pointer-events:none;z-index:0}
+.mainvisual{position:absolute;inset:10px;z-index:1;background-repeat:no-repeat;background-position:center;background-size:contain;border-radius:16px;transition:opacity .16s ease,transform .2s ease}
+.viewer.loading .mainvisual{opacity:.55;transform:scale(.995)}
+.slide-kind{position:absolute;left:12px;bottom:12px;z-index:4;background:rgba(255,255,255,.9);border:1px solid rgba(208,215,222,.9);color:#273142;font-size:11px;font-weight:900;letter-spacing:.04em;padding:7px 10px;border-radius:999px;box-shadow:0 6px 16px rgba(0,0,0,.08)}
 .arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.75);background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(0,0,0,.14);font-size:28px;line-height:40px;cursor:pointer;color:#273142}.arrow:hover{background:#fff}.prev{left:12px}.next{right:12px}
 .counter{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(25,30,40,.72);backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px}
 .slide-kind{position:absolute;left:12px;top:12px;z-index:3;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);color:#364152;border:1px solid rgba(215,222,232,.9);font-size:11px;font-weight:850;letter-spacing:.04em;padding:7px 10px;border-radius:999px}
-.thumbs{display:flex;gap:8px;overflow:auto;padding:10px 1px 3px;scrollbar-width:thin}.thumb{flex:0 0 58px;width:58px;height:58px;border-radius:13px;overflow:hidden;border:2px solid transparent;background:#eef2f7;padding:0;cursor:pointer}.thumb.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(26,115,232,.1)}.thumb img{width:100%;height:100%;object-fit:contain;object-position:center;background:#fff;display:block}
+.thumbs{display:flex;gap:8px;overflow:auto;padding:10px 1px 3px;scrollbar-width:thin}.thumb{flex:0 0 58px;width:58px;height:58px;border-radius:13px;overflow:hidden;border:2px solid transparent;background:#eef2f7;padding:0;cursor:pointer}.thumb.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(26,115,232,.1)}.thumb{background-repeat:no-repeat;background-position:center;background-size:contain}.thumb img{display:none}
 .actions{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:8px;margin-top:14px}.btn{border-radius:13px;padding:11px 10px;text-align:center;text-decoration:none;font-weight:800;font-size:13px;border:1px solid var(--line);background:#fff}.btn.install{background:var(--blue);border-color:var(--blue);color:#fff}.btn:hover{filter:brightness(.98)}
 .meta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:10px;min-height:25px;color:var(--muted);font-size:12px}.downloads img{height:20px;vertical-align:middle}
 .more{margin-top:12px;border-top:1px solid var(--line);padding-top:11px}.more summary{cursor:pointer;font-weight:800;font-size:13px}.more p{color:#59636e;line-height:1.55;font-size:13px;margin:10px 0 2px}
@@ -63,9 +65,8 @@ const apps=[
  repo:"https://github.com/chekento/PMDDcam",details:"https://github.com/chekento#pmddcam-details",
  badge:"https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads",
  note:"Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing.",
+ sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/pmddcam-generated.webp?v=1",generatedCount:5,
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pmddcam/00-ad-phone.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pmddcam/01-ad-features.svg?v=1",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-03.webp",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-04.webp",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-after.webp"
@@ -76,9 +77,8 @@ const apps=[
  repo:"https://github.com/chekento/scenic-path-android",details:"https://github.com/chekento#scenic-path-details",
  badge:"https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads",
  note:"ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation.",
+ sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/scenic-path-generated.webp?v=1",generatedCount:5,
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/scenic-path/00-ad-phone.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/scenic-path/01-ad-features.svg?v=1",
   "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-hero-photo.webp",
   "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-beautiful-means.webp",
   "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-journey-beautifully.webp",
@@ -90,12 +90,11 @@ const apps=[
  repo:"https://github.com/chekento/Pizzascan",details:"https://github.com/chekento#pizzascan-details",
  badge:"https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads",
  note:"Worldwide pizza discovery with maps, reviews, favorites and optional local CLIP/SigLIP analysis.",
+ sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/pizzascan-generated.webp?v=1",generatedCount:5,
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/00-ad-phone.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-ad-features.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-map.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/02-review.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/03-photo-ai.svg?v=1"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-map.svg?v=2",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/02-review.svg?v=2",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/03-photo-ai.svg?v=2"
  ]},
 {
  id:"ai-news",name:"AI News",sub:"AI Intelligence & Monitoring",status:"3.8.1 Beta",
@@ -103,12 +102,11 @@ const apps=[
  repo:"https://github.com/chekento/Ainews",details:"https://github.com/chekento#ai-news-details",
  badge:"https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads",
  note:"AI-focused source monitoring, discovery, radar, provider coverage and widgets.",
+ sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/ai-news-generated.webp?v=1",generatedCount:4,
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/00-ad-phone.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-ad-features.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg?v=1"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg?v=2",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg?v=2",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg?v=2"
  ]},
 {
  id:"labyrinthia",name:"Labyrinthia",sub:"The Endless Maze",status:"2.4.3 Pre-Alpha",
@@ -116,9 +114,8 @@ const apps=[
  repo:"https://github.com/chekento/labyrinthia-endless-maze",details:"https://github.com/chekento#labyrinthia-details",
  badge:"https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads",
  note:"Endless procedural maze, tilt controls, checkpoints, 1,000 ranks and 1,000 achievements.",
+ sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/labyrinthia-generated.webp?v=1",generatedCount:4,
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/labyrinthia/00-ad-phone.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/labyrinthia/01-ad-features.svg?v=1",
   "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/camera-focus.jpg",
   "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/key-and-exit.jpg",
   "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/tactical-minimap.jpg",
@@ -131,26 +128,47 @@ const apps=[
  repo:"https://github.com/chekento/chroma-clash-android",details:"https://github.com/chekento#chroma-clash-details",
  badge:"https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads",
  note:"Precision color gameplay with CIE Lab / CIEDE2000 scoring, 100 ranks, achievements and offline progression.",
+ sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/chroma-clash-generated.webp?v=1",generatedCount:3,
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/00-ad-phone.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-ad-features.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-match.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/02-progression.svg?v=1",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/03-modes.svg?v=1"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-match.svg?v=2",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/02-progression.svg?v=2",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/03-modes.svg?v=2"
  ]}
 ];
 
 const grid=document.getElementById("app-grid");
+function spritePos(index,count){
+  if(count<=1) return "0% 0%";
+  return ((index/(count-1))*100).toFixed(4)+"% 0%";
+}
+function applySlide(el,slide){
+  el.style.backgroundImage='url("'+slide.src+'")';
+  el.style.backgroundRepeat="no-repeat";
+  if(slide.type==="sprite"){
+    el.style.backgroundSize=(slide.count*100)+"% 100%";
+    el.style.backgroundPosition=spritePos(slide.index,slide.count);
+  } else {
+    el.style.backgroundSize="contain";
+    el.style.backgroundPosition="center";
+  }
+}
 for(const app of apps){
+ const generated=Array.from({length:app.generatedCount},(_,i)=>({
+   type:"sprite",src:app.sprite,index:i,count:app.generatedCount,
+   label:i===0?"APP AD":i===1?"FEATURE AD":"IN-APP"
+ }));
+ const extras=(app.images||[]).map(src=>({type:"image",src,label:"EXTRA"}));
+ const slides=[...generated,...extras];
+
  const article=document.createElement("article");article.className="app";article.id=app.id;
  article.innerHTML=`
   <div class="app-head"><div><div class="app-title">${app.name}</div><div class="app-sub">${app.sub}</div></div><div class="status">${app.status}</div></div>
   <div class="viewer">
     <button class="arrow prev" aria-label="Previous image">‹</button>
-    <img class="mainimg" alt="${app.name} screenshot" src="${app.images[0]}">
+    <div class="mainvisual" role="img" aria-label="${app.name} slideshow image"></div>
     <button class="arrow next" aria-label="Next image">›</button>
-    <span class="slide-kind">APP AD</span>
-    <span class="counter">1 / ${app.images.length}</span>
+    <span class="slide-kind"></span>
+    <span class="counter">1 / ${slides.length}</span>
   </div>
   <div class="thumbs"></div>
   <div class="actions">
@@ -161,15 +179,31 @@ for(const app of apps){
   <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads"><img src="${app.badge}" alt="${app.name} downloads"></span></div>
   <details class="more"><summary>Quick info</summary><p>${app.note}</p></details>`;
  grid.appendChild(article);
- const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainimg"),counter=article.querySelector(".counter"),kind=article.querySelector(".slide-kind"),thumbs=article.querySelector(".thumbs");
+ const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainvisual"),counter=article.querySelector(".counter"),kind=article.querySelector(".slide-kind"),thumbs=article.querySelector(".thumbs");
  let idx=0,startX=null;
- function slideKind(i){return i===0?"APP AD":i===1?"FEATURE AD":"IN-APP";}
- function show(n){idx=(n+app.images.length)%app.images.length;viewer.classList.add("loading");main.onload=()=>viewer.classList.remove("loading");main.src=app.images[idx];counter.textContent=`${idx+1} / ${app.images.length}`;kind.textContent=slideKind(idx);[...thumbs.children].forEach((b,i)=>b.classList.toggle("active",i===idx));}
- app.images.forEach((src,i)=>{const b=document.createElement("button");b.className="thumb"+(i===0?" active":"");b.setAttribute("aria-label",`Show image ${i+1}`);b.innerHTML=`<img src="${src}" alt="">`;b.onclick=()=>show(i);thumbs.appendChild(b)});
+ function show(n){
+   idx=(n+slides.length)%slides.length;
+   viewer.classList.add("loading");
+   const slide=slides[idx];
+   applySlide(main,slide);
+   kind.textContent=slide.label;
+   counter.textContent=`${idx+1} / ${slides.length}`;
+   [...thumbs.children].forEach((b,i)=>b.classList.toggle("active",i===idx));
+   setTimeout(()=>viewer.classList.remove("loading"),120);
+ }
+ slides.forEach((slide,i)=>{
+   const b=document.createElement("button");
+   b.className="thumb"+(i===0?" active":"");
+   b.setAttribute("aria-label",`Show ${slide.label.toLowerCase()} ${i+1}`);
+   applySlide(b,slide);
+   b.onclick=()=>show(i);
+   thumbs.appendChild(b);
+ });
  article.querySelector(".prev").onclick=()=>show(idx-1);article.querySelector(".next").onclick=()=>show(idx+1);
  viewer.addEventListener("touchstart",e=>startX=e.changedTouches[0].clientX,{passive:true});
  viewer.addEventListener("touchend",e=>{if(startX===null)return;const d=e.changedTouches[0].clientX-startX;if(Math.abs(d)>45)show(idx+(d<0?1:-1));startX=null},{passive:true});
  article.addEventListener("keydown",e=>{if(e.key==="ArrowLeft")show(idx-1);if(e.key==="ArrowRight")show(idx+1)});
+ show(0);
 }
 if(location.hash){setTimeout(()=>document.querySelector(location.hash)?.scrollIntoView({behavior:"smooth",block:"start"}),120)}
 </script>
