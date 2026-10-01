@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff2e8"/></linearGradient><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7b43"/><stop offset="1" stop-color="#ff3d28"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#5b2a1c" flood-opacity=".15"/></filter></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/><circle cx="1050" cy="190" r="190" fill="#ff6a3d" opacity=".08"/>
+<g transform="translate(200 75) rotate(3 400 520)" filter="url(#s)">
+<rect width="800" height="1050" rx="78" fill="#151515"/><rect x="28" y="28" width="744" height="994" rx="58" fill="#fff"/>
+<rect x="305" y="42" width="190" height="34" rx="17" fill="#151515"/>
+<rect x="62" y="112" width="676" height="320" rx="34" fill="#f6d2ac"/>
+<circle cx="400" cy="272" r="132" fill="#d84b27"/><circle cx="400" cy="272" r="113" fill="#ffd995"/>
+<g fill="#d63425"><circle cx="352" cy="230" r="22"/><circle cx="445" cy="245" r="24"/><circle cx="382" cy="322" r="23"/><circle cx="468" cy="325" r="21"/></g>
+<g fill="#4a9d4d"><ellipse cx="402" cy="208" rx="18" ry="34" transform="rotate(32 402 208)"/><ellipse cx="337" cy="300" rx="16" ry="29" transform="rotate(-28 337 300)"/></g>
+<rect x="62" y="462" width="676" height="438" rx="32" fill="#fff" stroke="#eee3db"/>
+<g transform="translate(100 505)">
+<g fill="#ffad19"><circle cx="28" cy="28" r="26"/><circle cx="88" cy="28" r="26"/><circle cx="148" cy="28" r="26"/><circle cx="208" cy="28" r="26"/><circle cx="268" cy="28" r="26"/></g>
+<rect x="0" y="88" width="540" height="18" rx="9" fill="#ece7e3"/><rect x="0" y="88" width="430" height="18" rx="9" fill="#ff5a36"/>
+<rect x="0" y="142" width="540" height="18" rx="9" fill="#ece7e3"/><rect x="0" y="142" width="380" height="18" rx="9" fill="#f38b36"/>
+<rect x="0" y="196" width="540" height="18" rx="9" fill="#ece7e3"/><rect x="0" y="196" width="470" height="18" rx="9" fill="#47a765"/>
+<rect x="0" y="250" width="540" height="18" rx="9" fill="#ece7e3"/><rect x="0" y="250" width="330" height="18" rx="9" fill="#f0b72e"/>
+<rect x="0" y="314" width="360" height="20" rx="10" fill="#292929"/><rect x="0" y="352" width="470" height="13" rx="6.5" fill="#a69f99"/>
+</g>
+<rect x="62" y="928" width="676" height="54" rx="27" fill="url(#p)"/>
+</g></svg>
