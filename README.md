@@ -28,118 +28,146 @@
 
 <div align="center">
 
-**Tap an app card to open its repository. Use the blue INSTALL APK button for the direct Android download.**  
-Hover over a card for quick information; detailed descriptions remain collapsed below.
+**Compact cards · direct APK · repository · manual screenshot gallery**
+
+[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html)
 
 </div>
 
-<br>
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
 
-<p align="center">
 <a href="https://github.com/chekento/PMDDcam">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=3" width="49%" alt="PMDDcam" title="PMDDcam — Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing. Click to open the repository.">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=4" width="100%" alt="PMDDcam" title="PMDDcam — open repository">
 </a>
+
+<sub>
+<a href="https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/PMDDcam"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html#pmddcam"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#pmddcam-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads" alt="PMDDcam downloads">
+
+</td>
+<td width="50%" align="center" valign="top">
+
 <a href="https://github.com/chekento/scenic-path-android">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=3" width="49%" alt="Scenic Path" title="Scenic Path — ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation. Click to open the repository.">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=4" width="100%" alt="Scenic Path" title="Scenic Path — open repository">
 </a>
-</p>
 
-<table align="center">
-<tr>
-<td width="50%" align="center">
+<sub>
+<a href="https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/scenic-path-android"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html#scenic-path"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#scenic-path-details"><strong>ⓘ Details</strong></a>
+</sub>
 
-[![Install PMDDcam](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk)
-[![PMDDcam Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/PMDDcam)
-[![PMDDcam Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#pmddcam-details)
-
-![PMDDcam Downloads](https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads)
-
-</td>
-<td width="50%" align="center">
-
-[![Install Scenic Path](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk)
-[![Scenic Path Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/scenic-path-android)
-[![Scenic Path Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#scenic-path-details)
-
-![Scenic Path Downloads](https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads)
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads" alt="Scenic Path downloads">
 
 </td>
 </tr>
-</table>
 
-<br>
+<tr>
+<td width="50%" align="center" valign="top">
 
-<p align="center">
 <a href="https://github.com/chekento/Pizzascan">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=3" width="49%" alt="PizzaScan" title="PizzaScan — Worldwide pizza discovery, OpenStreetMap, personal reviews and optional local CLIP/SigLIP analysis. Click to open the repository.">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=4" width="100%" alt="PizzaScan" title="PizzaScan — open repository">
 </a>
+
+<sub>
+<a href="https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/Pizzascan"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html#pizzascan"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#pizzascan-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads" alt="PizzaScan downloads">
+
+</td>
+<td width="50%" align="center" valign="top">
+
 <a href="https://github.com/chekento/Ainews">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=3" width="49%" alt="AI News" title="AI News — AI-focused intelligence across models, agents, research, providers, governance and safety. Click to open the repository.">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=4" width="100%" alt="AI News" title="AI News — open repository">
 </a>
-</p>
 
-<table align="center">
-<tr>
-<td width="50%" align="center">
+<sub>
+<a href="https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/Ainews"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html#ai-news"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#ai-news-details"><strong>ⓘ Details</strong></a>
+</sub>
 
-[![Install PizzaScan](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk)
-[![PizzaScan Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/Pizzascan)
-[![PizzaScan Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#pizzascan-details)
-
-![PizzaScan Downloads](https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads)
-
-</td>
-<td width="50%" align="center">
-
-[![Install AI News](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk)
-[![AI News Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/Ainews)
-[![AI News Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#ai-news-details)
-
-![AI News Downloads](https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads)
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads" alt="AI News downloads">
 
 </td>
 </tr>
-</table>
 
-<br>
+<tr>
+<td width="50%" align="center" valign="top">
 
-<p align="center">
 <a href="https://github.com/chekento/labyrinthia-endless-maze">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=3" width="49%" alt="Labyrinthia" title="Labyrinthia — Endless procedural maze, tilt physics, 1,000 ranks and 1,000 achievements. Click to open the repository.">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=4" width="100%" alt="Labyrinthia" title="Labyrinthia — open repository">
 </a>
-<a href="https://github.com/chekento/chroma-clash-android">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=3" width="49%" alt="Chroma Clash" title="Chroma Clash — Precision color game with CIE Lab / CIEDE2000 scoring, 100 ranks and offline progression. Click to open the repository.">
-</a>
-</p>
 
-<table align="center">
-<tr>
-<td width="50%" align="center">
+<sub>
+<a href="https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/labyrinthia-endless-maze"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html#labyrinthia"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#labyrinthia-details"><strong>ⓘ Details</strong></a>
+</sub>
 
-[![Install Labyrinthia](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk)
-[![Labyrinthia Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/labyrinthia-endless-maze)
-[![Labyrinthia Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#labyrinthia-details)
-
-![Labyrinthia Downloads](https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads)
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads" alt="Labyrinthia downloads">
 
 </td>
-<td width="50%" align="center">
+<td width="50%" align="center" valign="top">
 
-[![Install Chroma Clash](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk)
-[![Chroma Clash Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/chroma-clash-android)
-[![Chroma Clash Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#chroma-clash-details)
+<a href="https://github.com/chekento/chroma-clash-android">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=4" width="100%" alt="Chroma Clash" title="Chroma Clash — open repository">
+</a>
 
-![Chroma Clash Downloads](https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads)
+<sub>
+<a href="https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/chroma-clash-android"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html#chroma-clash"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#chroma-clash-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads" alt="Chroma Clash downloads">
 
 </td>
 </tr>
 </table>
 
-<br>
-
-> **Download counters:** The number shown directly inside each app card is read from the corresponding GitHub Release asset and synchronized automatically. Newly created Release assets start at 0; older repository-file downloads cannot be reconstructed retroactively.
->
-> **APK note:** Some builds are Preview, Beta, RC or Pre-Alpha versions distributed directly through GitHub. Android may ask for permission to install APKs from your browser or GitHub client. Check the relevant project section for development status and limitations.
+<sub>
+**Store behavior:** tapping a card opens its repository. **APK** starts the direct Android download. **Slides** opens the manual gallery with previous/next controls, thumbnails and swipe support. More screenshots can be appended without changing the slider code.
+</sub>
 
 ---
 
