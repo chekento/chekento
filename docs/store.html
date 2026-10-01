@@ -32,6 +32,7 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
 .viewer img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;object-position:center;padding:10px;display:block;transition:opacity .16s ease,transform .2s ease}.viewer.loading img{opacity:.5;transform:scale(.995)}
 .arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.75);background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(0,0,0,.14);font-size:28px;line-height:40px;cursor:pointer;color:#273142}.arrow:hover{background:#fff}.prev{left:12px}.next{right:12px}
 .counter{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(25,30,40,.72);backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px}
+.slide-kind{position:absolute;left:12px;top:12px;z-index:3;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);color:#364152;border:1px solid rgba(215,222,232,.9);font-size:11px;font-weight:850;letter-spacing:.04em;padding:7px 10px;border-radius:999px}
 .thumbs{display:flex;gap:8px;overflow:auto;padding:10px 1px 3px;scrollbar-width:thin}.thumb{flex:0 0 58px;width:58px;height:58px;border-radius:13px;overflow:hidden;border:2px solid transparent;background:#eef2f7;padding:0;cursor:pointer}.thumb.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(26,115,232,.1)}.thumb img{width:100%;height:100%;object-fit:contain;object-position:center;background:#fff;display:block}
 .actions{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:8px;margin-top:14px}.btn{border-radius:13px;padding:11px 10px;text-align:center;text-decoration:none;font-weight:800;font-size:13px;border:1px solid var(--line);background:#fff}.btn.install{background:var(--blue);border-color:var(--blue);color:#fff}.btn:hover{filter:brightness(.98)}
 .meta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:10px;min-height:25px;color:var(--muted);font-size:12px}.downloads img{height:20px;vertical-align:middle}
@@ -50,7 +51,7 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
       <a class="chip" href="https://chatgpt.com">ChatGPT</a>
     </nav>
   </div>
-  <div class="intro">Swipe or use ‹ › to browse each app manually. Slides are curated per app and shown in a true square frame without cropping. Every card keeps <strong>Install APK</strong>, <strong>Repository</strong>, and <strong>Details</strong> visible. More screenshots can be appended later without changing the slider code.</div>
+  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The first two slides are always the two app advertisements</strong> — first the app-in-action presentation, then the feature banner. In-app and gameplay views follow afterwards. Every slide stays square and uncropped.</div>
   <section class="grid" id="app-grid"></section>
   <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Check each repository for status, privacy notes, checksums and limitations.</div>
 </main>
@@ -63,8 +64,8 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads",
  note:"Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing.",
  images:[
-  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-01.webp",
-  "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-02.webp",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pmddcam/00-ad-phone.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pmddcam/01-ad-features.svg?v=1",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-03.webp",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-04.webp",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-after.webp"
@@ -76,6 +77,8 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads",
  note:"ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation.",
  images:[
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/scenic-path/00-ad-phone.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/scenic-path/01-ad-features.svg?v=1",
   "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-hero-photo.webp",
   "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-beautiful-means.webp",
   "https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-journey-beautifully.webp",
@@ -88,11 +91,11 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads",
  note:"Worldwide pizza discovery with maps, reviews, favorites and optional local CLIP/SigLIP analysis.",
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-map.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/02-review.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/03-photo-ai.svg",
-  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Feature-EN-1024x500.png",
-  "https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-Vorstellung-DE-1024x500.png"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/00-ad-phone.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-ad-features.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/01-map.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/02-review.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/pizzascan/03-photo-ai.svg?v=1"
  ]},
 {
  id:"ai-news",name:"AI News",sub:"AI Intelligence & Monitoring",status:"3.8.1 Beta",
@@ -101,9 +104,11 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads",
  note:"AI-focused source monitoring, discovery, radar, provider coverage and widgets.",
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/00-ad-phone.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-ad-features.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg?v=1"
  ]},
 {
  id:"labyrinthia",name:"Labyrinthia",sub:"The Endless Maze",status:"2.4.3 Pre-Alpha",
@@ -112,7 +117,8 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads",
  note:"Endless procedural maze, tilt controls, checkpoints, 1,000 ranks and 1,000 achievements.",
  images:[
-  "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/main-menu-hero-v2.jpg",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/labyrinthia/00-ad-phone.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/labyrinthia/01-ad-features.svg?v=1",
   "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/camera-focus.jpg",
   "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/key-and-exit.jpg",
   "https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/generated/tactical-minimap.jpg",
@@ -126,9 +132,11 @@ const apps=[
  badge:"https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads",
  note:"Precision color gameplay with CIE Lab / CIEDE2000 scoring, 100 ranks, achievements and offline progression.",
  images:[
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-match.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/02-progression.svg",
-  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/03-modes.svg"
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/00-ad-phone.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-ad-features.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/01-match.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/02-progression.svg?v=1",
+  "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/chroma-clash/03-modes.svg?v=1"
  ]}
 ];
 
@@ -141,6 +149,7 @@ for(const app of apps){
     <button class="arrow prev" aria-label="Previous image">‹</button>
     <img class="mainimg" alt="${app.name} screenshot" src="${app.images[0]}">
     <button class="arrow next" aria-label="Next image">›</button>
+    <span class="slide-kind">APP AD</span>
     <span class="counter">1 / ${app.images.length}</span>
   </div>
   <div class="thumbs"></div>
@@ -152,9 +161,10 @@ for(const app of apps){
   <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads"><img src="${app.badge}" alt="${app.name} downloads"></span></div>
   <details class="more"><summary>Quick info</summary><p>${app.note}</p></details>`;
  grid.appendChild(article);
- const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainimg"),counter=article.querySelector(".counter"),thumbs=article.querySelector(".thumbs");
+ const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainimg"),counter=article.querySelector(".counter"),kind=article.querySelector(".slide-kind"),thumbs=article.querySelector(".thumbs");
  let idx=0,startX=null;
- function show(n){idx=(n+app.images.length)%app.images.length;viewer.classList.add("loading");main.onload=()=>viewer.classList.remove("loading");main.src=app.images[idx];counter.textContent=`${idx+1} / ${app.images.length}`;[...thumbs.children].forEach((b,i)=>b.classList.toggle("active",i===idx));}
+ function slideKind(i){return i===0?"APP AD":i===1?"FEATURE AD":"IN-APP";}
+ function show(n){idx=(n+app.images.length)%app.images.length;viewer.classList.add("loading");main.onload=()=>viewer.classList.remove("loading");main.src=app.images[idx];counter.textContent=`${idx+1} / ${app.images.length}`;kind.textContent=slideKind(idx);[...thumbs.children].forEach((b,i)=>b.classList.toggle("active",i===idx));}
  app.images.forEach((src,i)=>{const b=document.createElement("button");b.className="thumb"+(i===0?" active":"");b.setAttribute("aria-label",`Show image ${i+1}`);b.innerHTML=`<img src="${src}" alt="">`;b.onclick=()=>show(i);thumbs.appendChild(b)});
  article.querySelector(".prev").onclick=()=>show(idx-1);article.querySelector(".next").onclick=()=>show(idx+1);
  viewer.addEventListener("touchstart",e=>startX=e.changedTouches[0].clientX,{passive:true});
