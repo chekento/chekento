@@ -1,10 +1,10 @@
 <div align="center">
 
-# KoSch Projects
+# KoSch Apps
 
-### AI · Android · Visual Computing · Navigation · Information Systems · Interactive Software
+### Android · AI · Visual Computing · Navigation · Interactive Software
 
-**Practical and experimental software for Android and the Web.**
+**A compact portfolio of installable Android projects and browser experiences.**
 
 [🌐 kosch.cloud](https://kosch.cloud)
 &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -14,411 +14,104 @@
 &nbsp;&nbsp;·&nbsp;&nbsp;
 [📂 All Repositories](https://github.com/chekento?tab=repositories)
 
+<br>
+
+<img src="https://img.shields.io/badge/ANDROID_APPS-6-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="6 Android apps">
+<img src="https://img.shields.io/badge/DIRECT_APK-downloads-238636?style=for-the-badge&logo=github&logoColor=white" alt="Direct APK downloads">
+<img src="https://img.shields.io/badge/WEB-experiences-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web experiences">
+
 </div>
 
 ---
 
-# 📱 KoSch App Gallery
+## Featured Apps
 
 <div align="center">
 
-### Direct Android downloads
-
-**Explore · Install · Test**
+**Click a card to download the current APK. Hover over a card for quick information.**  
+Detailed project descriptions are available in the expandable sections below.
 
 </div>
 
-<table>
-<tr>
+<br>
 
-<td width="50%" valign="top" align="center">
-
-<a href="https://github.com/chekento/PMDDcam">
-<img
-  src="https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-01.webp"
-  width="150"
-  alt="PMDDcam"
-  title="PMDDcam — Perceptual Motion & Depth Design camera with local depth processing and interactive 2.5D viewing."
-/>
-</a>
-
-<h3>PMDDcam</h3>
-
-<strong>Perceptual Motion & Depth Design Camera</strong>
-
-<br><br>
-
-<code>0.4.0 Preview</code>
-
-<br><br>
-
-Depth · PMDD · Local AI · 2.5D
-
-<br><br>
-
-<img
-  src="https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads"
-  alt="PMDDcam APK downloads"
-/>
-
-<br><br>
-
+<p align="center">
 <a href="https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk">
-<strong>⬇ INSTALL APK</strong>
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg" width="49%" alt="PMDDcam" title="PMDDcam — Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing. Click to download the Android APK.">
 </a>
-
-&nbsp;·&nbsp;
-
-<a href="https://github.com/chekento/PMDDcam">
-Repository
-</a>
-
-<br><br>
-
-<details>
-<summary><strong>ⓘ Quick info</strong></summary>
-
-<br>
-
-Camera, depth estimation, object analysis, PMDD processing, 80 visual styles and an interactive viewer reacting to perspective and optional head position.
-
-<br><br>
-
-<a href="#detailed-project-information">Full description ↓</a>
-
-</details>
-
-</td>
-
-<td width="50%" valign="top" align="center">
-
-<a href="https://github.com/chekento/scenic-path-android">
-<img
-  src="https://raw.githubusercontent.com/chekento/scenic-path-android/main/assets/frontpage/scenic-path-icon.png"
-  width="120"
-  alt="Scenic Path App Icon"
-  title="Scenic Path — Route planning built around scenery, POIs, ScenicScore and controlled detours."
-/>
-</a>
-
-<h3>Scenic Path</h3>
-
-<strong>The Beautiful Way Finder</strong>
-
-<br><br>
-
-<code>0.7.3 RC4</code>
-
-<br><br>
-
-Navigation · ScenicScore · POIs · GPS
-
-<br><br>
-
-<img
-  src="https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads"
-  alt="Scenic Path APK downloads"
-/>
-
-<br><br>
-
 <a href="https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk">
-<strong>⬇ INSTALL APK</strong>
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg" width="49%" alt="Scenic Path" title="Scenic Path — ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation. Click to download the Android APK.">
 </a>
+</p>
 
-&nbsp;·&nbsp;
-
-<a href="https://github.com/chekento/scenic-path-android">
-Repository
-</a>
-
-<br><br>
-
-<details>
-<summary><strong>ⓘ Quick info</strong></summary>
+<p align="center">
+<a href="https://github.com/chekento/PMDDcam/releases/tag/v0.4.0"><img src="https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=PMDDcam%20downloads" alt="PMDDcam downloads"></a>
+&nbsp;&nbsp;
+<a href="#pmddcam-details"><img src="https://img.shields.io/badge/PMDDcam-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="PMDDcam details"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/chekento/scenic-path-android/releases/tag/v0.7.3-rc4"><img src="https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=Scenic%20Path%20downloads" alt="Scenic Path downloads"></a>
+&nbsp;&nbsp;
+<a href="#scenic-path-details"><img src="https://img.shields.io/badge/Scenic_Path-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="Scenic Path details"></a>
+</p>
 
 <br>
 
-Navigation that treats the journey itself as part of the destination, with route-corridor POIs, ScenicScore and a configurable detour budget.
-
-<br><br>
-
-<a href="#detailed-project-information">Full description ↓</a>
-
-</details>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top" align="center">
-
-<a href="https://github.com/chekento/Pizzascan">
-<img
-  src="https://raw.githubusercontent.com/chekento/Pizzascan/main/store/graphics/PizzaScan-App-Icon-512.png"
-  width="120"
-  alt="PizzaScan App Icon"
-  title="PizzaScan — Worldwide pizza and Italian restaurant discovery with maps, ratings and optional local image analysis."
-/>
+<p align="center">
+<a href="https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg" width="49%" alt="PizzaScan" title="PizzaScan — Worldwide pizza discovery, OpenStreetMap, personal reviews and optional local CLIP/SigLIP analysis. Click to download the Android APK.">
 </a>
-
-<h3>PizzaScan</h3>
-
-<strong>Worldwide Pizza Discovery</strong>
-
-<br><br>
-
-<code>2.3.23 · Build 58</code>
-
-<br><br>
-
-Maps · Restaurants · Reviews · Local AI
-
-<br><br>
-
-<img
-  src="https://img.shields.io/badge/APK%20downloads-not%20fully%20tracked-lightgrey?style=flat-square"
-  alt="PizzaScan downloads are not fully tracked"
-/>
-
-<br><br>
-
-<a href="https://raw.githubusercontent.com/chekento/Pizzascan/main/downloads/PizzaScan-2.3.23.apk">
-<strong>⬇ INSTALL APK</strong>
-</a>
-
-&nbsp;·&nbsp;
-
-<a href="https://github.com/chekento/Pizzascan">
-Repository
-</a>
-
-<br><br>
-
-<details>
-<summary><strong>ⓘ Quick info</strong></summary>
-
-<br>
-
-Worldwide pizza and Italian restaurant discovery with OpenStreetMap, personal ratings, visit history, review tools and optional CLIP/SigLIP image analysis.
-
-<br><br>
-
-<a href="#detailed-project-information">Full description ↓</a>
-
-</details>
-
-</td>
-
-<td width="50%" valign="top" align="center">
-
-<a href="https://github.com/chekento/Ainews">
-<img
-  src="https://raw.githubusercontent.com/chekento/Ainews/main/assets/branding/logo-mark.svg"
-  width="120"
-  alt="AI News App Icon"
-  title="AI News — AI-focused intelligence, provider monitoring, discovery, radar and Android widgets."
-/>
-</a>
-
-<h3>AI News</h3>
-
-<strong>AI Intelligence & Monitoring</strong>
-
-<br><br>
-
-<code>3.8.1 Beta</code>
-
-<br><br>
-
-News · Providers · Radar · Widgets
-
-<br><br>
-
-<img
-  src="https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads"
-  alt="AI News APK downloads"
-/>
-
-<br><br>
-
 <a href="https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk">
-<strong>⬇ INSTALL APK</strong>
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg" width="49%" alt="AI News" title="AI News — AI-focused intelligence across models, agents, research, providers, governance and safety. Click to download the Android APK.">
 </a>
+</p>
 
-&nbsp;·&nbsp;
-
-<a href="https://github.com/chekento/Ainews">
-Repository
-</a>
-
-<br><br>
-
-<details>
-<summary><strong>ⓘ Quick info</strong></summary>
+<p align="center">
+<a href="https://github.com/chekento/Pizzascan/releases/tag/v2.3.23"><img src="https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=PizzaScan%20downloads" alt="PizzaScan downloads"></a>
+&nbsp;&nbsp;
+<a href="#pizzascan-details"><img src="https://img.shields.io/badge/PizzaScan-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="PizzaScan details"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/chekento/Ainews/releases/tag/android-latest"><img src="https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=AI%20News%20downloads" alt="AI News downloads"></a>
+&nbsp;&nbsp;
+<a href="#ai-news-details"><img src="https://img.shields.io/badge/AI_News-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="AI News details"></a>
+</p>
 
 <br>
 
-AI-focused news and intelligence environment covering models, agents, research, infrastructure, robotics, governance and safety.
-
-<br><br>
-
-<a href="#detailed-project-information">Full description ↓</a>
-
-</details>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top" align="center">
-
-<a href="https://github.com/chekento/labyrinthia-endless-maze">
-<img
-  src="https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/assets/icons/labyrinthia-icon-512.png"
-  width="120"
-  alt="Labyrinthia App Icon"
-  title="Labyrinthia — Endless procedural maze with motion controls, physics, 1,000 ranks and 1,000 achievements."
-/>
+<p align="center">
+<a href="https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg" width="49%" alt="Labyrinthia" title="Labyrinthia — Endless procedural maze, tilt physics, 1,000 ranks and 1,000 achievements. Click to download the Android APK.">
 </a>
-
-<h3>Labyrinthia</h3>
-
-<strong>The Endless Maze</strong>
-
-<br><br>
-
-<code>2.4.3 Pre-Alpha</code>
-
-<br><br>
-
-Procedural Maze · Physics · Progression
-
-<br><br>
-
-<img
-  src="https://img.shields.io/badge/APK%20downloads-not%20tracked-lightgrey?style=flat-square"
-  alt="Labyrinthia APK downloads are not tracked"
-/>
-
-<br><br>
-
-<a href="https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/downloads/Labyrinthia-v2.4.3-debug.apk">
-<strong>⬇ INSTALL APK</strong>
+<a href="https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg" width="49%" alt="Chroma Clash" title="Chroma Clash — Precision color game with CIE Lab / CIEDE2000 scoring, 100 ranks and offline progression. Click to download the Android APK.">
 </a>
+</p>
 
-&nbsp;·&nbsp;
-
-<a href="https://github.com/chekento/labyrinthia-endless-maze">
-Repository
-</a>
-
-<br><br>
-
-<details>
-<summary><strong>ⓘ Quick info</strong></summary>
+<p align="center">
+<a href="https://github.com/chekento/labyrinthia-endless-maze/releases/tag/v2.4.3"><img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=Labyrinthia%20downloads" alt="Labyrinthia downloads"></a>
+&nbsp;&nbsp;
+<a href="#labyrinthia-details"><img src="https://img.shields.io/badge/Labyrinthia-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="Labyrinthia details"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/chekento/chroma-clash-android/releases/tag/v1.0.0"><img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=Chroma%20Clash%20downloads" alt="Chroma Clash downloads"></a>
+&nbsp;&nbsp;
+<a href="#chroma-clash-details"><img src="https://img.shields.io/badge/Chroma_Clash-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="Chroma Clash details"></a>
+</p>
 
 <br>
 
-An endless procedural maze game combining touch, swipe and tilt controls with traps, checkpoints, physics and persistent progression.
-
-<br><br>
-
-<a href="#detailed-project-information">Full description ↓</a>
-
-</details>
-
-</td>
-
-<td width="50%" valign="top" align="center">
-
-<a href="https://github.com/chekento/chroma-clash-android">
-<img
-  src="https://raw.githubusercontent.com/chekento/chroma-clash-android/main/assets/frontpage/chroma-clash-hero.svg"
-  width="150"
-  alt="Chroma Clash"
-  title="Chroma Clash — Precision color game using CIE Lab and CIEDE2000 perceptual color difference scoring."
-/>
-</a>
-
-<h3>Chroma Clash</h3>
-
-<strong>Universia Coloralis</strong>
-
-<br><br>
-
-<code>Android · Public</code>
-
-<br><br>
-
-Color Science · CIEDE2000 · Skill Game
-
-<br><br>
-
-<img
-  src="https://img.shields.io/badge/APK%20downloads-not%20tracked-lightgrey?style=flat-square"
-  alt="Chroma Clash APK downloads are not tracked"
-/>
-
-<br><br>
-
-<a href="https://github.com/chekento/chroma-clash-android/blob/main/downloads/chroma-clash.apk?raw=1">
-<strong>⬇ INSTALL APK</strong>
-</a>
-
-&nbsp;·&nbsp;
-
-<a href="https://github.com/chekento/chroma-clash-android">
-Repository
-</a>
-
-<br><br>
-
-<details>
-<summary><strong>ⓘ Quick info</strong></summary>
-
-<br>
-
-A precision color-matching game that evaluates visual accuracy using CIE Lab and CIEDE2000 rather than a simple RGB-distance calculation.
-
-<br><br>
-
-<a href="#detailed-project-information">Full description ↓</a>
-
-</details>
-
-</td>
-
-</tr>
-</table>
-
-<div align="center">
-
-### 6 Android Apps · Direct Downloads · One Project Portfolio
-
-[📂 Browse all repositories](https://github.com/chekento?tab=repositories)
-
-</div>
-
-> **Download statistics:** GitHub exposes reliable download counters for **Release assets**. Downloads of APK files stored directly inside a repository or served through `raw.githubusercontent.com` are not counted by GitHub, so no artificial number is displayed for those apps.
-
-> **Installation:** Some applications are Preview, Beta, RC, Pre-Alpha or development builds distributed directly through GitHub rather than Google Play. Android may ask for permission to install an APK from your browser or GitHub client. See the corresponding repository for build status, checksums and known limitations.
+> **APK note:** Some builds are Preview, Beta, RC or Pre-Alpha versions distributed directly through GitHub. Android may ask for permission to install APKs from your browser or GitHub client. Check the relevant project section for development status and limitations.
 
 ---
 
-# 🌐 Web Experiences
+## Web Experiences
 
-| Project | Web Experience |
-|---|---|
-| **PMDDcam** | [▶ Launch WebApp](https://raw.githack.com/chekento/PMDDcam/main/webapp/index.html) |
-| **PizzaScan** | [▶ Browser Version](https://raw.githack.com/chekento/Pizzascan/main/web/index.html) |
-| **PizzaScan Languages** | [🌍 Multilingual Project Page](https://chekento.github.io/Pizzascan/) |
-| **AI News** | [🔴 Live AI Intelligence](https://github.com/chekento/Ainews/blob/main/portal/news.md) |
-| **Labyrinthia** | [▶ Play in Browser](https://maze.on.websim.com) |
+<div align="center">
+
+[![PMDDcam Web](https://img.shields.io/badge/PMDDcam-Web_App-86F1D1?style=for-the-badge&logo=googlechrome&logoColor=071019)](https://raw.githack.com/chekento/PMDDcam/main/webapp/index.html)
+[![PizzaScan Web](https://img.shields.io/badge/PizzaScan-Browser-FF9A56?style=for-the-badge&logo=googlemaps&logoColor=071019)](https://raw.githack.com/chekento/Pizzascan/main/web/index.html)
+[![AI News Live](https://img.shields.io/badge/AI_News-Live_Intelligence-19F3FF?style=for-the-badge&logo=rss&logoColor=071019)](https://github.com/chekento/Ainews/blob/main/portal/news.md)
+[![Labyrinthia Web](https://img.shields.io/badge/Labyrinthia-Play_in_Browser-FF6B8A?style=for-the-badge&logo=gamejolt&logoColor=white)](https://maze.on.websim.com)
+
+</div>
 
 ---
 
@@ -427,6 +120,8 @@ A precision color-matching game that evaluates visual accuracy using CIE Lab and
 All detailed descriptions are collapsed by default to keep the profile fast to scan.
 
 ---
+
+<a id="pmddcam-details"></a>
 
 <details>
 
@@ -536,6 +231,8 @@ The project does not require a cloud upload for ordinary photo processing and do
 
 ---
 
+<a id="scenic-path-details"></a>
+
 <details>
 
 <summary><strong>🏞️ Scenic Path — The Beautiful Way Finder</strong></summary>
@@ -638,6 +335,8 @@ Scenic Path attempts to make the **route corridor itself searchable and optimiza
 </details>
 
 ---
+
+<a id="pizzascan-details"></a>
 
 <details>
 
@@ -761,7 +460,7 @@ The current project supports fourteen interface languages:
 ### Links
 
 - [Repository](https://github.com/chekento/Pizzascan)
-- [⬇ PizzaScan 2.3.23 Build 58 APK](https://raw.githubusercontent.com/chekento/Pizzascan/main/downloads/PizzaScan-2.3.23.apk)
+- [⬇ PizzaScan 2.3.23 Build 58 APK](https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk)
 - [Browser Version](https://raw.githack.com/chekento/Pizzascan/main/web/index.html)
 - [Multilingual Project Page](https://chekento.github.io/Pizzascan/)
 - [Changelog](https://github.com/chekento/Pizzascan/blob/main/CHANGELOG.md)
@@ -770,6 +469,8 @@ The current project supports fourteen interface languages:
 </details>
 
 ---
+
+<a id="ai-news-details"></a>
 
 <details>
 
@@ -875,6 +576,8 @@ For important information, the original source should remain the authoritative r
 
 ---
 
+<a id="labyrinthia-details"></a>
+
 <details>
 
 <summary><strong>✦ Labyrinthia — The Endless Maze</strong></summary>
@@ -968,7 +671,7 @@ The game uses procedural ambient soundscapes and effects designed to keep the of
 ### Links
 
 - [Repository](https://github.com/chekento/labyrinthia-endless-maze)
-- [⬇ Labyrinthia 2.4.3 APK](https://raw.githubusercontent.com/chekento/labyrinthia-endless-maze/main/downloads/Labyrinthia-v2.4.3-debug.apk)
+- [⬇ Labyrinthia 2.4.3 APK](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk)
 - [Playable Web Version](https://maze.on.websim.com)
 - [Version Archive](https://github.com/chekento/labyrinthia-endless-maze/blob/main/VERSIONS.md)
 - [Changelog](https://github.com/chekento/labyrinthia-endless-maze/blob/main/CHANGELOG.md)
@@ -976,6 +679,8 @@ The game uses procedural ambient soundscapes and effects designed to keep the of
 </details>
 
 ---
+
+<a id="chroma-clash-details"></a>
 
 <details>
 
@@ -1072,7 +777,7 @@ That makes Chroma Clash both a game and an experiment in:
 ### Links
 
 - [Repository](https://github.com/chekento/chroma-clash-android)
-- [⬇ Direct Chroma Clash APK](https://github.com/chekento/chroma-clash-android/blob/main/downloads/chroma-clash.apk?raw=1)
+- [⬇ Direct Chroma Clash APK](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk)
 
 </details>
 
