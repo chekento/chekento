@@ -28,19 +28,19 @@
 
 <div align="center">
 
-**Click a card to download the current APK. Hover over a card for quick information.**  
-Detailed project descriptions are available in the expandable sections below.
+**Tap an app card to open its repository. Use the blue INSTALL APK button for the direct Android download.**  
+Hover over a card for quick information; detailed descriptions remain collapsed below.
 
 </div>
 
 <br>
 
 <p align="center">
-<a href="https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=2" width="49%" alt="PMDDcam" title="PMDDcam — Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing. Click to download the Android APK.">
+<a href="https://github.com/chekento/PMDDcam">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=3" width="49%" alt="PMDDcam" title="PMDDcam — Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing. Click to download the Android APK.">
 </a>
-<a href="https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=2" width="49%" alt="Scenic Path" title="Scenic Path — ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation. Click to download the Android APK.">
+<a href="https://github.com/chekento/scenic-path-android">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=3" width="49%" alt="Scenic Path" title="Scenic Path — ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation. Click to download the Android APK.">
 </a>
 </p>
 
@@ -57,11 +57,11 @@ Detailed project descriptions are available in the expandable sections below.
 <br>
 
 <p align="center">
-<a href="https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=2" width="49%" alt="PizzaScan" title="PizzaScan — Worldwide pizza discovery, OpenStreetMap, personal reviews and optional local CLIP/SigLIP analysis. Click to download the Android APK.">
+<a href="https://github.com/chekento/Pizzascan">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=3" width="49%" alt="PizzaScan" title="PizzaScan — Worldwide pizza discovery, OpenStreetMap, personal reviews and optional local CLIP/SigLIP analysis. Click to download the Android APK.">
 </a>
-<a href="https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=2" width="49%" alt="AI News" title="AI News — AI-focused intelligence across models, agents, research, providers, governance and safety. Click to download the Android APK.">
+<a href="https://github.com/chekento/Ainews">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=3" width="49%" alt="AI News" title="AI News — AI-focused intelligence across models, agents, research, providers, governance and safety. Click to download the Android APK.">
 </a>
 </p>
 
@@ -78,23 +78,36 @@ Detailed project descriptions are available in the expandable sections below.
 <br>
 
 <p align="center">
-<a href="https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=2" width="49%" alt="Labyrinthia" title="Labyrinthia — Endless procedural maze, tilt physics, 1,000 ranks and 1,000 achievements. Click to download the Android APK.">
+<a href="https://github.com/chekento/labyrinthia-endless-maze">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=3" width="49%" alt="Labyrinthia" title="Labyrinthia — Endless procedural maze, tilt physics, 1,000 ranks and 1,000 achievements. Click to download the Android APK.">
 </a>
-<a href="https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=2" width="49%" alt="Chroma Clash" title="Chroma Clash — Precision color game with CIE Lab / CIEDE2000 scoring, 100 ranks and offline progression. Click to download the Android APK.">
+<a href="https://github.com/chekento/chroma-clash-android">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=3" width="49%" alt="Chroma Clash" title="Chroma Clash — Precision color game with CIE Lab / CIEDE2000 scoring, 100 ranks and offline progression. Click to download the Android APK.">
 </a>
 </p>
 
-<p align="center">
-<a href="https://github.com/chekento/labyrinthia-endless-maze/releases/tag/v2.4.3"><img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=Labyrinthia%20downloads" alt="Labyrinthia downloads"></a>
-&nbsp;&nbsp;
-<a href="#labyrinthia-details"><img src="https://img.shields.io/badge/Labyrinthia-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="Labyrinthia details"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/chekento/chroma-clash-android/releases/tag/v1.0.0"><img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=Chroma%20Clash%20downloads" alt="Chroma Clash downloads"></a>
-&nbsp;&nbsp;
-<a href="#chroma-clash-details"><img src="https://img.shields.io/badge/Chroma_Clash-details-30363D?style=flat-square&logo=readme&logoColor=white" alt="Chroma Clash details"></a>
-</p>
+<table align="center">
+<tr>
+<td width="50%" align="center">
+
+[![Install Labyrinthia](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk)
+[![Labyrinthia Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/labyrinthia-endless-maze)
+[![Labyrinthia Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#labyrinthia-details)
+
+![Labyrinthia Downloads](https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads)
+
+</td>
+<td width="50%" align="center">
+
+[![Install Chroma Clash](https://img.shields.io/badge/INSTALL-APK-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk)
+[![Chroma Clash Repository](https://img.shields.io/badge/OPEN-REPOSITORY-F6F8FA?style=for-the-badge&logo=github&logoColor=1F2328)](https://github.com/chekento/chroma-clash-android)
+[![Chroma Clash Details](https://img.shields.io/badge/INFO-DETAILS-F6F8FA?style=for-the-badge&logo=readme&logoColor=1F2328)](#chroma-clash-details)
+
+![Chroma Clash Downloads](https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads)
+
+</td>
+</tr>
+</table>
 
 <br>
 
