@@ -37,10 +37,10 @@ Detailed project descriptions are available in the expandable sections below.
 
 <p align="center">
 <a href="https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg" width="49%" alt="PMDDcam" title="PMDDcam — Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing. Click to download the Android APK.">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=2" width="49%" alt="PMDDcam" title="PMDDcam — Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing. Click to download the Android APK.">
 </a>
 <a href="https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg" width="49%" alt="Scenic Path" title="Scenic Path — ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation. Click to download the Android APK.">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=2" width="49%" alt="Scenic Path" title="Scenic Path — ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation. Click to download the Android APK.">
 </a>
 </p>
 
@@ -58,10 +58,10 @@ Detailed project descriptions are available in the expandable sections below.
 
 <p align="center">
 <a href="https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg" width="49%" alt="PizzaScan" title="PizzaScan — Worldwide pizza discovery, OpenStreetMap, personal reviews and optional local CLIP/SigLIP analysis. Click to download the Android APK.">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=2" width="49%" alt="PizzaScan" title="PizzaScan — Worldwide pizza discovery, OpenStreetMap, personal reviews and optional local CLIP/SigLIP analysis. Click to download the Android APK.">
 </a>
 <a href="https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg" width="49%" alt="AI News" title="AI News — AI-focused intelligence across models, agents, research, providers, governance and safety. Click to download the Android APK.">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=2" width="49%" alt="AI News" title="AI News — AI-focused intelligence across models, agents, research, providers, governance and safety. Click to download the Android APK.">
 </a>
 </p>
 
@@ -79,10 +79,10 @@ Detailed project descriptions are available in the expandable sections below.
 
 <p align="center">
 <a href="https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg" width="49%" alt="Labyrinthia" title="Labyrinthia — Endless procedural maze, tilt physics, 1,000 ranks and 1,000 achievements. Click to download the Android APK.">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=2" width="49%" alt="Labyrinthia" title="Labyrinthia — Endless procedural maze, tilt physics, 1,000 ranks and 1,000 achievements. Click to download the Android APK.">
 </a>
 <a href="https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk">
-  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg" width="49%" alt="Chroma Clash" title="Chroma Clash — Precision color game with CIE Lab / CIEDE2000 scoring, 100 ranks and offline progression. Click to download the Android APK.">
+  <img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=2" width="49%" alt="Chroma Clash" title="Chroma Clash — Precision color game with CIE Lab / CIEDE2000 scoring, 100 ranks and offline progression. Click to download the Android APK.">
 </a>
 </p>
 
@@ -98,6 +98,8 @@ Detailed project descriptions are available in the expandable sections below.
 
 <br>
 
+> **Download counters:** The number shown directly inside each app card is read from the corresponding GitHub Release asset and synchronized automatically. Newly created Release assets start at 0; older repository-file downloads cannot be reconstructed retroactively.
+>
 > **APK note:** Some builds are Preview, Beta, RC or Pre-Alpha versions distributed directly through GitHub. Android may ask for permission to install APKs from your browser or GitHub client. Check the relevant project section for development status and limitations.
 
 ---
