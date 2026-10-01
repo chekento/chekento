@@ -30,9 +30,10 @@
       <text x="260" y="180" text-anchor="middle" font-size="14" font-weight="600" fill="#d7deea">ROUTING</text><rect x="332" y="158" width="128" height="34" rx="17" fill="#ffffff10" stroke="#ffffff1d"/>
       <text x="396" y="180" text-anchor="middle" font-size="14" font-weight="600" fill="#d7deea">POIs</text><rect x="468" y="158" width="128" height="34" rx="17" fill="#ffffff10" stroke="#ffffff1d"/>
       <text x="532" y="180" text-anchor="middle" font-size="14" font-weight="600" fill="#d7deea">GPS</text>
-  <text x="44" y="224" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#8996a8">ScenicScore · route corridor discovery · Smart Stops</text>
+  <text x="44" y="214" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#8996a8">ScenicScore · route corridor discovery · Smart Stops</text>
+  <rect x="44" y="230" width="214" height="34" rx="17" fill="#ffffff10" stroke="#ffffff22"/>
+  <text id="apk-download-count" x="58" y="253" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="760" fill="#f7f9fc">↓ 2 APK downloads</text>
   <rect x="590" y="214" width="182" height="46" rx="23" fill="url(#accent)"/>
   <text x="681" y="243" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" fill="#071019">GET APK ↓</text>
   <circle cx="783" cy="34" r="4" fill="#7BE495"/>
-  <text x="44" y="256" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#657286">ANDROID · DIRECT DOWNLOAD · GITHUB</text>
 </svg>
