@@ -18,7 +18,7 @@
 <br>
 
 <img src="https://img.shields.io/badge/ANDROID_APPS-8-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="8 Android apps">
-<img src="https://img.shields.io/badge/DIRECT_APK-downloads-238636?style=for-the-badge&logo=github&logoColor=white" alt="Direct APK downloads">
+<img src="https://img.shields.io/badge/DIRECT_APK-downloads-238636?style=for-the-badge&logo=github&logoColor=white" alt="Direct APK total release downloads">
 <img src="https://img.shields.io/badge/WEB-experiences-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web experiences">
 
 </div>
@@ -54,7 +54,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads" alt="PMDDcam downloads">
+<img src="https://img.shields.io/github/downloads/chekento/PMDDcam/total?style=flat-square&label=total%20release%20downloads" alt="PMDDcam total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -74,7 +74,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads" alt="Scenic Path downloads">
+<img src="https://img.shields.io/github/downloads/chekento/scenic-path-android/total?style=flat-square&label=total%20release%20downloads" alt="Scenic Path total release downloads">
 
 </td>
 </tr>
@@ -97,7 +97,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads" alt="PizzaScan downloads">
+<img src="https://img.shields.io/github/downloads/chekento/Pizzascan/total?style=flat-square&label=total%20release%20downloads" alt="PizzaScan total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -117,7 +117,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads" alt="AI News downloads">
+<img src="https://img.shields.io/github/downloads/chekento/Ainews/total?style=flat-square&label=total%20release%20downloads" alt="AI News total release downloads">
 
 </td>
 </tr>
@@ -140,7 +140,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads" alt="Labyrinthia downloads">
+<img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/total?style=flat-square&label=total%20release%20downloads" alt="Labyrinthia total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -160,7 +160,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads" alt="Chroma Clash downloads">
+<img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/total?style=flat-square&label=total%20release%20downloads" alt="Chroma Clash total release downloads">
 
 </td>
 </tr>
@@ -183,7 +183,7 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/PMDDvid/v0.1.7/PMDDvid-0.1.7.apk?style=flat-square&label=APK%20downloads" alt="PMDDvid downloads">
+<img src="https://img.shields.io/github/downloads/chekento/PMDDvid/total?style=flat-square&label=total%20release%20downloads" alt="PMDDvid total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -203,14 +203,14 @@
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/AIevents-/v0.5.3/AIevents-latest.apk?style=flat-square&label=APK%20downloads" alt="AIevents downloads">
+<img src="https://img.shields.io/github/downloads/chekento/AIevents-/total?style=flat-square&label=total%20release%20downloads" alt="AIevents total release downloads">
 
 </td>
 </tr>
 </table>
 
 <sub>
-**Store behavior:** tapping a card opens its repository. **APK** starts the direct Android download. **Slides** opens the manual gallery with previous/next controls, thumbnails and swipe support. More screenshots can be appended without changing the slider code.
+**Store behavior:** tapping a card opens its repository. **APK** starts the direct Android download. **Slides** opens the manual gallery with previous/next controls, thumbnails and swipe support. More screenshots can be appended without changing the slider code.\n\n**Download counters:** each app badge shows the repository-wide total of GitHub Release asset downloads across **all releases and all release assets**, rather than only the current APK or current tag.
 </sub>
 
 ---
