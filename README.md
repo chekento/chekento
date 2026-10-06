@@ -1,6 +1,7 @@
 <div align="center">
 
-# KoSch Apps
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/kosch-android-apps-pmdd-banner.webp?v=5" width="100%" alt="KoSch' Android Apps" title="KoSch' Android Apps — PMDD header">
+
 
 ### Android · AI · Visual Computing · Navigation · Interactive Software
 
@@ -16,7 +17,7 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/ANDROID_APPS-6-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="6 Android apps">
+<img src="https://img.shields.io/badge/ANDROID_APPS-8-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="8 Android apps">
 <img src="https://img.shields.io/badge/DIRECT_APK-downloads-238636?style=for-the-badge&logo=github&logoColor=white" alt="Direct APK downloads">
 <img src="https://img.shields.io/badge/WEB-experiences-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web experiences">
 
@@ -30,7 +31,7 @@
 
 **Compact cards · direct APK · repository · manual screenshot gallery**
 
-[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4)
+[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5)
 
 </div>
 
@@ -47,7 +48,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDcam"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4#pmddcam"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#pmddcam"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddcam-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -67,7 +68,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/scenic-path-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4#scenic-path"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#scenic-path"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#scenic-path-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -90,7 +91,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Pizzascan"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4#pizzascan"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#pizzascan"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pizzascan-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -110,7 +111,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Ainews"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4#ai-news"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#ai-news"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#ai-news-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -133,7 +134,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/labyrinthia-endless-maze"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4#labyrinthia"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#labyrinthia"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#labyrinthia-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -153,13 +154,56 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/chroma-clash-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=4#chroma-clash"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#chroma-clash"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#chroma-clash-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
 <img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads" alt="Chroma Clash downloads">
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/chekento/PMDDvid">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddvid.svg?v=5" width="100%" alt="PMDDvid" title="PMDDvid — open repository">
+</a>
+
+<sub>
+<a href="https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/PMDDvid"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#pmddvid"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#pmddvid-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/PMDDvid/v0.1.7/PMDDvid-0.1.7.apk?style=flat-square&label=APK%20downloads" alt="PMDDvid downloads">
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/chekento/AIevents-">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/aievents.svg?v=5" width="100%" alt="AIevents" title="AIevents — open repository">
+</a>
+
+<sub>
+<a href="https://github.com/chekento/AIevents-/releases/latest/download/AIevents-latest.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/AIevents-"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#aievents"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#aievents-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/AIevents-/v0.5.3/AIevents-latest.apk?style=flat-square&label=APK%20downloads" alt="AIevents downloads">
 
 </td>
 </tr>
@@ -295,6 +339,70 @@ The project does not require a cloud upload for ordinary photo processing and do
 - [WebApp](https://raw.githack.com/chekento/PMDDcam/main/webapp/index.html)
 - [Version Archive](https://github.com/chekento/PMDDcam/blob/main/RELEASES.md)
 - [Changelog](https://github.com/chekento/PMDDcam/blob/main/CHANGELOG.md)
+
+</details>
+
+---
+
+
+<a id="pmddvid-details"></a>
+
+<details>
+
+<summary><strong>🎥 PMDDvid — Perceptual Motion & Depth Design Video</strong></summary>
+
+<br>
+
+## PMDD depth directly while filming
+
+PMDDvid is the video counterpart to PMDDcam: a native Android camera and converter that applies **Perceptual Motion & Depth Design** to moving images.
+
+The current **0.1.7 Android Preview** combines live camera capture, local depth estimation, PMDD rendering and video management in one offline-first workflow.
+
+### Core capabilities
+
+- PMDD processing in live preview and recorded video
+- local MiDaS depth estimation
+- SSD-based object depth anchors
+- signed depth space up to **±6 Z**
+- **48 default / 64 maximum depth layers**
+- **61 video-adapted looks**
+- PMDD Vivid
+- motion- and edge-aware anti-trailing / halo suppression
+- rear and front camera
+- tap to focus
+- pinch zoom
+- HD / Full HD / UHD where supported
+- optional microphone audio
+- pause / resume recording
+- local video library
+- PMDD video conversion
+- depth-map export
+- stereo side-by-side export
+
+### Video storage and management
+
+On Android 10+, recordings and completed conversions are stored in **Movies/PMDDvid** and can be managed directly from the app.
+
+The integrated library provides previews, metadata and actions for opening, sharing, renaming, deleting and exporting video files.
+
+### Converter
+
+The converter can generate PMDD depth video, a grayscale relative depth map and stereo side-by-side video.
+
+Output uses MP4 / H.264 video with AAC audio where applicable. Source timing is preserved and imported originals are not overwritten.
+
+### Privacy
+
+The ordinary PMDD video workflow is designed to run locally. No account or cloud upload is required for core recording and conversion.
+
+### Links
+
+- [Repository](https://github.com/chekento/PMDDvid)
+- [⬇ PMDDvid 0.1.7 APK](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk)
+- [Release v0.1.7](https://github.com/chekento/PMDDvid/releases/tag/v0.1.7)
+- [SHA-256](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/SHA256SUMS.txt)
+- [Changelog](https://github.com/chekento/PMDDvid/blob/main/CHANGELOG.md)
 
 </details>
 
@@ -645,6 +753,64 @@ For important information, the original source should remain the authoritative r
 
 ---
 
+
+<a id="aievents-details"></a>
+
+<details>
+
+<summary><strong>🗓️ AIevents — Worldwide AI Event Discovery</strong></summary>
+
+<br>
+
+## Find current AI events worldwide
+
+AIevents is a native Android discovery app for **AI-focused conferences, meetups, Stammtische, workshops, hackathons, webinars and provider events**.
+
+The current public version is **AIevents 0.5.3**.
+
+### Worldwide discovery
+
+Search is not tied to a fixed city list. AIevents builds discovery dynamically from the selected place and coordinates, a **5–500 km** radius, nearby-city expansion, multilingual terminology, AI relevance signals and future-event validation.
+
+The search intentionally reaches beyond major conferences to include smaller meetups, community groups, university events, research seminars, local chapters, coworking events and specialist gatherings.
+
+### Provider Radar
+
+A separate Provider Radar monitors **240+ AI / LLM / MLOps / LLMOps ecosystems** across model providers, AI cloud platforms, agents, developer tools, MLOps, vector databases, safety/evals, media AI, enterprise AI, research and communities.
+
+Online and in-person provider events can be filtered separately.
+
+### Hybrid search architecture
+
+AIevents combines a rotating central event index refreshed by GitHub Actions with live device-side discovery based on location, language, radius and AI-event vocabulary.
+
+Results can include confidence, relevance, distance, source, provider identity, price/free status, participation type and original event URLs.
+
+### App features
+
+- worldwide place autocomplete
+- collapsible Discover search
+- Provider Radar
+- OpenStreetMap event map
+- favourites
+- Android calendar export
+- reminders
+- multilingual search vocabulary
+- source-transparent original links
+- no user account required
+
+### Links
+
+- [Repository](https://github.com/chekento/AIevents-)
+- [⬇ Current AIevents APK](https://github.com/chekento/AIevents-/releases/latest/download/AIevents-latest.apk)
+- [⬇ AIevents 0.5.3 APK](https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-0.5.3.apk)
+- [Release v0.5.3](https://github.com/chekento/AIevents-/releases/tag/v0.5.3)
+- [SHA-256](https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-0.5.3.apk.sha256)
+
+</details>
+
+---
+
 <a id="labyrinthia-details"></a>
 
 <details>
@@ -854,19 +1020,21 @@ That makes Chroma Clash both a game and an experiment in:
 
 # 🧩 Project Matrix
 
-| Capability | PMDDcam | Scenic Path | PizzaScan | AI News | Labyrinthia | Chroma Clash |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Android | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Web component | ✅ | — | ✅ | ✅ | ✅ | — |
-| Direct APK | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Local-first elements | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Offline capability | ✅ | Partial | Partial | Partial | ✅ | ✅ |
-| Maps / geospatial | — | ✅ | ✅ | — | — | — |
-| Local AI / ML | ✅ | — | ✅ | — | — | — |
-| Information monitoring | — | — | — | ✅ | — | — |
-| Procedural generation | — | — | — | — | ✅ | — |
-| Gamification | — | — | Partial | — | ✅ | ✅ |
-| Experimental interaction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Capability | PMDDcam | PMDDvid | Scenic Path | PizzaScan | AI News | AIevents | Labyrinthia | Chroma Clash |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Android | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Web component | ✅ | — | — | ✅ | ✅ | — | ✅ | — |
+| Direct APK | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Local-first elements | ✅ | ✅ | ✅ | ✅ | ✅ | Partial | ✅ | ✅ |
+| Offline capability | ✅ | ✅ | Partial | Partial | Partial | Partial | ✅ | ✅ |
+| Maps / geospatial | — | — | ✅ | ✅ | — | ✅ | — | — |
+| Local AI / ML | ✅ | ✅ | — | ✅ | — | — | — | — |
+| Information monitoring | — | — | — | — | ✅ | ✅ | — | — |
+| Event discovery | — | — | — | — | — | ✅ | — | — |
+| Video processing | — | ✅ | — | — | — | — | — | — |
+| Procedural generation | — | — | — | — | — | — | ✅ | — |
+| Gamification | — | — | — | Partial | — | — | ✅ | ✅ |
+| Experimental interaction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
@@ -922,11 +1090,15 @@ For important or production-critical use, verify functionality independently and
 
 [📷 PMDDcam](https://github.com/chekento/PMDDcam)
 &nbsp;·&nbsp;
+[🎥 PMDDvid](https://github.com/chekento/PMDDvid)
+&nbsp;·&nbsp;
 [🏞️ Scenic Path](https://github.com/chekento/scenic-path-android)
 &nbsp;·&nbsp;
 [🍕 PizzaScan](https://github.com/chekento/Pizzascan)
 
 [🧠 AI News](https://github.com/chekento/Ainews)
+&nbsp;·&nbsp;
+[🗓️ AIevents](https://github.com/chekento/AIevents-)
 &nbsp;·&nbsp;
 [✦ Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)
 &nbsp;·&nbsp;
@@ -946,6 +1118,6 @@ For important or production-critical use, verify functionality independently and
 
 ## Build · Explore · Iterate
 
-**Six featured Android projects. One experimental software portfolio.**
+**Eight featured Android projects. One experimental software portfolio.**
 
 </div>
