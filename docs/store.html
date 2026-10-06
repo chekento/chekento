@@ -53,7 +53,7 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
       <a class="chip" href="https://chatgpt.com">ChatGPT</a>
     </nav>
   </div>
-  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The first two slides are always the two app advertisements</strong> — first the app-in-action presentation, then the feature banner. In-app and gameplay views follow afterwards. Every slide stays square and uncropped.</div>
+  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The first two slides are always the two app advertisements</strong> — first the app-in-action presentation, then the feature banner. In-app and gameplay views follow afterwards. Every slide stays square and uncropped. <strong>Download counters show the repository-wide total across all GitHub Releases and all release assets.</strong></div>
   <section class="grid" id="app-grid"></section>
   <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Check each repository for status, privacy notes, checksums and limitations.</div>
 </main>
@@ -63,7 +63,7 @@ const apps=[
  id:"pmddcam",name:"PMDDcam",sub:"Perceptual Motion & Depth Design Camera",status:"0.4.0 Preview",
  install:"https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk",
  repo:"https://github.com/chekento/PMDDcam",details:"https://github.com/chekento#pmddcam-details",
- badge:"https://img.shields.io/github/downloads/chekento/PMDDcam/v0.4.0/PMDDcam-0.4.0.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/PMDDcam/total?style=flat-square&label=total%20release%20downloads",
  note:"Local depth estimation, PMDD processing, 80 visual styles and interactive 2.5D viewing.",
  sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/pmddcam-generated.webp?v=1",generatedCount:5,
  images:[
@@ -76,7 +76,7 @@ const apps=[
  id:"pmddvid",name:"PMDDvid",sub:"Perceptual Motion & Depth Design Video",status:"0.1.7 Preview",
  install:"https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk",
  repo:"https://github.com/chekento/PMDDvid",details:"https://github.com/chekento#pmddvid-details",
- badge:"https://img.shields.io/github/downloads/chekento/PMDDvid/v0.1.7/PMDDvid-0.1.7.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/PMDDvid/total?style=flat-square&label=total%20release%20downloads",
  note:"Native PMDD video capture with local depth estimation, ±6 Z, 48/64 depth layers, 61 looks, video library and converter.",
  sprite:"",generatedCount:0,
  images:[
@@ -90,7 +90,7 @@ const apps=[
  id:"scenic-path",name:"Scenic Path",sub:"The Beautiful Way Finder",status:"0.7.3 RC4",
  install:"https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk",
  repo:"https://github.com/chekento/scenic-path-android",details:"https://github.com/chekento#scenic-path-details",
- badge:"https://img.shields.io/github/downloads/chekento/scenic-path-android/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/scenic-path-android/total?style=flat-square&label=total%20release%20downloads",
  note:"ScenicScore routing, route-corridor POIs, Smart Stops and GPS navigation.",
  sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/scenic-path-generated.webp?v=1",generatedCount:5,
  images:[
@@ -103,7 +103,7 @@ const apps=[
  id:"pizzascan",name:"PizzaScan",sub:"Worldwide Pizza Discovery",status:"2.3.23 · Build 58",
  install:"https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk",
  repo:"https://github.com/chekento/Pizzascan",details:"https://github.com/chekento#pizzascan-details",
- badge:"https://img.shields.io/github/downloads/chekento/Pizzascan/v2.3.23/PizzaScan-2.3.23.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/Pizzascan/total?style=flat-square&label=total%20release%20downloads",
  note:"Worldwide pizza discovery with maps, reviews, favorites and optional local CLIP/SigLIP analysis.",
  sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/pizzascan-generated.webp?v=1",generatedCount:5,
  images:[
@@ -115,7 +115,7 @@ const apps=[
  id:"ai-news",name:"AI News",sub:"AI Intelligence & Monitoring",status:"3.8.1 Beta",
  install:"https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk",
  repo:"https://github.com/chekento/Ainews",details:"https://github.com/chekento#ai-news-details",
- badge:"https://img.shields.io/github/downloads/chekento/Ainews/android-latest/AI-News.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/Ainews/total?style=flat-square&label=total%20release%20downloads",
  note:"AI-focused source monitoring, discovery, radar, provider coverage and widgets.",
  sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/ai-news-generated.webp?v=1",generatedCount:4,
  images:[
@@ -128,7 +128,7 @@ const apps=[
  id:"aievents",name:"AIevents",sub:"Worldwide AI Event Discovery",status:"0.5.3",
  install:"https://github.com/chekento/AIevents-/releases/latest/download/AIevents-latest.apk",
  repo:"https://github.com/chekento/AIevents-",details:"https://github.com/chekento#aievents-details",
- badge:"https://img.shields.io/github/downloads/chekento/AIevents-/v0.5.3/AIevents-latest.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/AIevents-/total?style=flat-square&label=total%20release%20downloads",
  note:"Worldwide AI event discovery with 5–500 km search, deep long-tail discovery, Provider Radar for 240+ ecosystems, maps, favourites and reminders.",
  sprite:"",generatedCount:0,
  images:[
@@ -143,7 +143,7 @@ const apps=[
  id:"labyrinthia",name:"Labyrinthia",sub:"The Endless Maze",status:"2.4.3 Pre-Alpha",
  install:"https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk",
  repo:"https://github.com/chekento/labyrinthia-endless-maze",details:"https://github.com/chekento#labyrinthia-details",
- badge:"https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/v2.4.3/Labyrinthia-v2.4.3-debug.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/total?style=flat-square&label=total%20release%20downloads",
  note:"Endless procedural maze, tilt controls, checkpoints, 1,000 ranks and 1,000 achievements.",
  sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/labyrinthia-generated.webp?v=1",generatedCount:4,
  images:[
@@ -157,7 +157,7 @@ const apps=[
  id:"chroma-clash",name:"Chroma Clash",sub:"Universia Coloralis",status:"1.0.0 Public",
  install:"https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk",
  repo:"https://github.com/chekento/chroma-clash-android",details:"https://github.com/chekento#chroma-clash-details",
- badge:"https://img.shields.io/github/downloads/chekento/chroma-clash-android/v1.0.0/Chroma-Clash-1.0.0.apk?style=flat-square&label=APK%20downloads",
+ badge:"https://img.shields.io/github/downloads/chekento/chroma-clash-android/total?style=flat-square&label=total%20release%20downloads",
  note:"Precision color gameplay with CIE Lab / CIEDE2000 scoring, 100 ranks, achievements and offline progression.",
  sprite:"https://raw.githubusercontent.com/chekento/chekento/main/assets/store-generated/chroma-clash-generated.webp?v=1",generatedCount:3,
  images:[
@@ -207,7 +207,7 @@ for(const app of apps){
     <a class="btn" href="${app.repo}">Repository</a>
     <a class="btn" href="${app.details}">Details</a>
   </div>
-  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads"><img src="${app.badge}" alt="${app.name} downloads"></span></div>
+  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads"><img src="${app.badge}" alt="${app.name} total release downloads"></span></div>
   <details class="more"><summary>Quick info</summary><p>${app.note}</p></details>`;
  grid.appendChild(article);
  const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainvisual"),counter=article.querySelector(".counter"),kind=article.querySelector(".slide-kind"),thumbs=article.querySelector(".thumbs");
