@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#f7f9fc">
-<title>KoSch App Store</title>
+<title>KoSch' Android App Store</title>
 <style>
 :root{
   color-scheme:light;
@@ -46,7 +46,7 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
 <body>
 <main class="shell">
   <div class="topbar">
-    <div class="brand"><div class="mark">KS</div><div><h1>KoSch App Store</h1><p class="subtitle">Manual screenshot galleries · direct APKs · repositories</p></div></div>
+    <div class="brand"><div class="mark">KS</div><div><h1>KoSch' Android App Store</h1><p class="subtitle">Manual screenshot galleries · direct APKs · repositories</p></div></div>
     <nav class="toplinks">
       <a class="chip" href="https://github.com/chekento">GitHub</a>
       <a class="chip" href="https://kosch.cloud">kosch.cloud</a>
@@ -70,6 +70,21 @@ const apps=[
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-03.webp",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-hero-04.webp",
   "https://raw.githubusercontent.com/chekento/PMDDcam/main/docs/assets/pmddcam-after.webp"
+ ]},
+
+{
+ id:"pmddvid",name:"PMDDvid",sub:"Perceptual Motion & Depth Design Video",status:"0.1.7 Preview",
+ install:"https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk",
+ repo:"https://github.com/chekento/PMDDvid",details:"https://github.com/chekento#pmddvid-details",
+ badge:"https://img.shields.io/github/downloads/chekento/PMDDvid/v0.1.7/PMDDvid-0.1.7.apk?style=flat-square&label=APK%20downloads",
+ note:"Native PMDD video capture with local depth estimation, ±6 Z, 48/64 depth layers, 61 looks, video library and converter.",
+ sprite:"",generatedCount:0,
+ images:[
+  {src:"https://raw.githubusercontent.com/chekento/PMDDvid/main/docs/images/download-apk-banner-0.1.7.svg",label:"APP AD"},
+  {src:"https://raw.githubusercontent.com/chekento/PMDDvid/main/docs/images/app-camera.webp",label:"FEATURE AD"},
+  "https://raw.githubusercontent.com/chekento/PMDDvid/main/docs/images/app-depth-controls.webp",
+  "https://raw.githubusercontent.com/chekento/PMDDvid/main/docs/images/app-video-converter.webp",
+  "https://raw.githubusercontent.com/chekento/PMDDvid/main/docs/images/app-looks-library.webp"
  ]},
 {
  id:"scenic-path",name:"Scenic Path",sub:"The Beautiful Way Finder",status:"0.7.3 RC4",
@@ -107,6 +122,22 @@ const apps=[
   "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/01-dashboard.svg?v=2",
   "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/02-radar.svg?v=2",
   "https://raw.githubusercontent.com/chekento/chekento/main/assets/store/ai-news/03-widgets.svg?v=2"
+ ]},
+
+{
+ id:"aievents",name:"AIevents",sub:"Worldwide AI Event Discovery",status:"0.5.3",
+ install:"https://github.com/chekento/AIevents-/releases/latest/download/AIevents-latest.apk",
+ repo:"https://github.com/chekento/AIevents-",details:"https://github.com/chekento#aievents-details",
+ badge:"https://img.shields.io/github/downloads/chekento/AIevents-/v0.5.3/AIevents-latest.apk?style=flat-square&label=APK%20downloads",
+ note:"Worldwide AI event discovery with 5–500 km search, deep long-tail discovery, Provider Radar for 240+ ecosystems, maps, favourites and reminders.",
+ sprite:"",generatedCount:0,
+ images:[
+  {src:"https://raw.githubusercontent.com/chekento/AIevents-/main/docs/images/aievents-apk-download.webp",label:"APP AD"},
+  {src:"https://raw.githubusercontent.com/chekento/AIevents-/main/docs/images/aievents-worldwide-search.webp",label:"FEATURE AD"},
+  "https://raw.githubusercontent.com/chekento/AIevents-/main/docs/images/aievents-discover-worldwide-1.webp",
+  "https://raw.githubusercontent.com/chekento/AIevents-/main/docs/images/aievents-hybrid-index.webp",
+  "https://raw.githubusercontent.com/chekento/AIevents-/main/docs/images/aievents-global-ai-events.webp",
+  "https://raw.githubusercontent.com/chekento/AIevents-/main/docs/images/aievents-never-miss-event.webp"
  ]},
 {
  id:"labyrinthia",name:"Labyrinthia",sub:"The Endless Maze",status:"2.4.3 Pre-Alpha",
@@ -157,7 +188,7 @@ for(const app of apps){
    type:"sprite",src:app.sprite,index:i,count:app.generatedCount,
    label:i===0?"APP AD":i===1?"FEATURE AD":"IN-APP"
  }));
- const extras=(app.images||[]).map(src=>({type:"image",src,label:"EXTRA"}));
+ const extras=(app.images||[]).map(item=>typeof item==="string"?({type:"image",src:item,label:"EXTRA"}):({type:"image",src:item.src,label:item.label||"EXTRA"}));
  const slides=[...generated,...extras];
 
  const article=document.createElement("article");article.className="app";article.id=app.id;
