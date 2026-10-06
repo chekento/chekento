@@ -31,7 +31,7 @@
 
 **Compact cards · direct APK · repository · manual screenshot gallery**
 
-[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5)
+[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6)
 
 </div>
 
@@ -40,7 +40,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/PMDDcam">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=4" width="100%" alt="PMDDcam" title="PMDDcam — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=6" width="100%" alt="PMDDcam" title="PMDDcam — open repository">
 </a>
 
 <sub>
@@ -48,7 +48,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDcam"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#pmddcam"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#pmddcam"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddcam-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -60,7 +60,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/scenic-path-android">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=4" width="100%" alt="Scenic Path" title="Scenic Path — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=6" width="100%" alt="Scenic Path" title="Scenic Path — open repository">
 </a>
 
 <sub>
@@ -68,7 +68,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/scenic-path-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#scenic-path"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#scenic-path"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#scenic-path-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -83,7 +83,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/Pizzascan">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=4" width="100%" alt="PizzaScan" title="PizzaScan — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=6" width="100%" alt="PizzaScan" title="PizzaScan — open repository">
 </a>
 
 <sub>
@@ -91,7 +91,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Pizzascan"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#pizzascan"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#pizzascan"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pizzascan-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -103,7 +103,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/Ainews">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=4" width="100%" alt="AI News" title="AI News — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=6" width="100%" alt="AI News" title="AI News — open repository">
 </a>
 
 <sub>
@@ -111,7 +111,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Ainews"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#ai-news"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#ai-news"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#ai-news-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -126,7 +126,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/labyrinthia-endless-maze">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=4" width="100%" alt="Labyrinthia" title="Labyrinthia — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=6" width="100%" alt="Labyrinthia" title="Labyrinthia — open repository">
 </a>
 
 <sub>
@@ -134,7 +134,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/labyrinthia-endless-maze"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#labyrinthia"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#labyrinthia"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#labyrinthia-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -146,7 +146,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/chroma-clash-android">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=4" width="100%" alt="Chroma Clash" title="Chroma Clash — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=6" width="100%" alt="Chroma Clash" title="Chroma Clash — open repository">
 </a>
 
 <sub>
@@ -154,7 +154,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/chroma-clash-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#chroma-clash"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#chroma-clash"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#chroma-clash-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -169,7 +169,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/PMDDvid">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddvid.svg?v=5" width="100%" alt="PMDDvid" title="PMDDvid — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddvid.svg?v=6" width="100%" alt="PMDDvid" title="PMDDvid — open repository">
 </a>
 
 <sub>
@@ -177,7 +177,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDvid"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#pmddvid"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#pmddvid"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddvid-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -189,7 +189,7 @@
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/AIevents-">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/aievents.svg?v=5" width="100%" alt="AIevents" title="AIevents — open repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/aievents.svg?v=6" width="100%" alt="AIevents" title="AIevents — open repository">
 </a>
 
 <sub>
@@ -197,7 +197,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/AIevents-"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=5#aievents"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#aievents"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#aievents-details"><strong>ⓘ Details</strong></a>
 </sub>
