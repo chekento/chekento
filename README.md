@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/kosch-android-apps-pmdd-banner.webp?v=5" width="100%" alt="KoSch' Android Apps" title="KoSch' Android Apps — PMDD header">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/kosch-android-apps-pmdd-banner.svg?v=5" width="100%" alt="KoSch' Android Apps" title="KoSch' Android Apps — PMDD header">
 
 
 ### Android · AI · Visual Computing · Navigation · Interactive Software
