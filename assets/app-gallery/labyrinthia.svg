@@ -32,7 +32,7 @@
       <text x="532" y="180" text-anchor="middle" font-size="14" font-weight="600" fill="#3D444D">1000 RANKS</text>
   <text x="44" y="214" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#59636E">Procedural maze · tilt controls · 1000 achievements</text>
   <rect x="44" y="230" width="214" height="34" rx="17" fill="#FFFFFF" stroke="#D0D7DE"/>
-  <text id="apk-download-count" x="58" y="253" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="760" fill="#1F2328">↓ 0 APK downloads</text>
+  <text id="apk-download-count" x="58" y="253" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="760" fill="#1F2328">TOTAL RELEASE DOWNLOADS ↓</text>
   <rect x="590" y="214" width="182" height="46" rx="23" fill="url(#accent)"/>
   <text x="681" y="243" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">VIEW APP →</text>
   <circle cx="783" cy="34" r="4" fill="#FF6B8A"/>
