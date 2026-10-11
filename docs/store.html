@@ -53,9 +53,9 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
       <a class="chip" href="https://chatgpt.com">ChatGPT</a>
     </nav>
   </div>
-  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The first two slides introduce each project</strong> with promotional artwork or feature banners. Actual gameplay screenshots follow where publicly available; private prototypes show only clearly labelled conceptual previews. Every slide stays square and uncropped. Concept art is labelled separately from real gameplay. Private preview projects have no public APK or code links. <strong>Public download counters show repository-wide GitHub Release totals.</strong></div>
+  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The first two slides introduce each project</strong> with promotional artwork or feature banners. Actual gameplay screenshots follow where available; Parallax artwork is labelled as conceptual illustration, not a gameplay screenshot. Every slide stays square and uncropped. Concept art is labelled separately from real gameplay. <strong>Public download counters show repository-wide GitHub Release totals.</strong></div>
   <section class="grid" id="app-grid"></section>
-  <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Check each repository for status, privacy notes, checksums and limitations.</div>
+  <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Parallax APK releases are produced from successful CI builds. Check each repository for status, privacy notes, checksums and limitations.</div>
 </main>
 <script>
 const apps=[
@@ -167,7 +167,7 @@ const apps=[
  ]}
 
 ,{
- id:"wolf",name:"Wolf · Wildnis & Rudel",sub:"Wilderness, Pack & 2D/3D Exploration",status:"Android Preview",
+ id:"wolf",name:"Wolf · Wildnis & Rudel",sub:"Wilderness, Pack & 2D/3D Exploration",status:"0.15.0 Preview",
  install:"https://github.com/chekento/wolf/releases/latest/download/Wolf-android.apk",
  repo:"https://github.com/chekento/wolf",details:"https://github.com/chekento#wolf-details",
  badge:"https://img.shields.io/github/downloads/chekento/wolf/total?style=flat-square&label=total%20release%20downloads",
@@ -184,9 +184,10 @@ const apps=[
  ]
 },
 {
- id:"parallax-hunt",name:"Parallax Hunt",sub:"Living City · PMDD Open-World Adventure",status:"Private Native Alpha",
- install:null,repo:null,details:"https://github.com/chekento#parallax-hunt-details",badge:null,
- note:"Private Android experiment with a drivable living city, surrounding regions, 2D/3D exploration, Photo Hunt, missions, apartments and social storylines. The source and APK remain private.",
+ id:"parallax-hunt",name:"Parallax Hunt",sub:"Living City · PMDD Open-World Adventure",status:"1.27.0 Native Alpha",
+ install:"https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk",repo:"https://github.com/chekento/parallaxhunt",details:"https://github.com/chekento#parallax-hunt-details",
+ badge:"https://img.shields.io/github/downloads/chekento/parallaxhunt/total?style=flat-square&label=total%20release%20downloads",
+ note:"Public Android native alpha with a drivable living city, surrounding regions, PMDD 2D/3D exploration, Photo Hunt, long-form missions, apartments and relationship stories. The latest APK is published by CI when the complete test suite passes.",
  sprite:"",generatedCount:0,
  images:[
   {src:"https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/parallax-promo.svg?v=1",label:"CONCEPT ART"},
@@ -235,7 +236,7 @@ for(const app of apps){
     ${app.repo?`<a class="btn" href="${app.repo}">Repository</a>`:`<span class="btn unavailable" title="Repository access is restricted">Private repo</span>`}
     <a class="btn" href="${app.details}">Details</a>
   </div>
-  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads">${app.badge?`<img src="${app.badge}" alt="${app.name} total release downloads">`:`<span class="private-label">PRIVATE · NOT DISTRIBUTED</span>`}</span></div>
+  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads">${app.badge?`<img src="${app.badge}" alt="${app.name} total release downloads">`:`<span class="private-label">NOT YET PUBLISHED</span>`}</span></div>
   <details class="more"><summary>Quick info</summary><p>${app.note}</p></details>`;
  grid.appendChild(article);
  const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainvisual"),counter=article.querySelector(".counter"),kind=article.querySelector(".slide-kind"),thumbs=article.querySelector(".thumbs");
