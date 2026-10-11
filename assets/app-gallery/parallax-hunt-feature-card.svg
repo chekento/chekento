@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="290" viewBox="0 0 820 290" role="img" aria-label="Parallax Hunt">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6F8FA"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#62BCEB"/><stop offset="1" stop-color="#9C83F6"/></linearGradient>
+    <radialGradient id="glow" cx=".85" cy=".05" r=".9"><stop offset="0" stop-color="#62BCEB" stop-opacity=".14"/><stop offset=".48" stop-color="#9C83F6" stop-opacity=".04"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#57606A" flood-opacity=".14"/></filter>
+  </defs>
+  <rect x="8" y="8" width="804" height="274" rx="34" fill="url(#bg)" stroke="#D0D7DE" filter="url(#shadow)"/>
+  <rect x="8" y="8" width="804" height="274" rx="34" fill="url(#glow)"/>
+  <rect x="26" y="30" width="148" height="148" rx="36" fill="#FFFFFF" stroke="#D8DEE4"/>
+  <g transform="translate(47 51)"><rect width="106" height="106" rx="25" fill="#192A55"/><path d="M12 72 49 54 95 76 58 96Z" fill="#A6CEE9"/><path d="M12 72v12l46 22V96ZM58 96l37-20v12l-37 18Z" fill="#4768A6"/><path d="m20 37 18-8 17 8-19 10Z" fill="#A6D8EC"/><path d="M20 37v33l16 9V47ZM36 47l19-10v33L36 79Z" fill="#6087CE"/><path d="m54 21 18-9 16 9-18 10Z" fill="#C9DDF8"/><path d="M54 21v45l16 9V31ZM70 31l18-10v45L70 75Z" fill="#668FE3"/><g fill="#D2F5FF"><path d="M24 46v8l7 4v-8Zm0 13v8l7 4v-8Zm35-28v7l6 3v-7Zm0 13v7l6 3v-7Zm16-7v7l8-4v-7Zm0 13v7l8-4v-7Z"/></g><path d="M49 83 63 76" stroke="#F4D7A3" stroke-width="3"/></g>
+  <text x="196" y="72" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="35" font-weight="760" fill="#1F2328">Parallax Hunt</text>
+  <text x="196" y="106" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" fill="#59636E">A connected city and countryside</text>
+  <rect x="196" y="122" width="187" height="28" rx="14" fill="url(#accent)"/>
+  <text x="289.5" y="141" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="750" fill="#081018">CITY LIFE GAME</text>
+  <rect x="196" y="158" width="128" height="34" rx="17" fill="#F6F8FA" stroke="#D0D7DE"/><text x="260" y="180" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#3D444D">DRIVING</text>
+  <rect x="332" y="158" width="128" height="34" rx="17" fill="#F6F8FA" stroke="#D0D7DE"/><text x="396" y="180" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#3D444D">CITY LIFE</text>
+  <rect x="468" y="158" width="128" height="34" rx="17" fill="#F6F8FA" stroke="#D0D7DE"/><text x="532" y="180" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#3D444D">HOMES</text>
+  <text x="44" y="214" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" fill="#59636E">Long-form campaign · social encounters · exploration</text>
+  <rect x="44" y="230" width="214" height="34" rx="17" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="58" y="253" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="760" fill="#1F2328">TOTAL RELEASE DOWNLOADS ↓</text>
+  <rect x="590" y="214" width="182" height="46" rx="23" fill="url(#accent)"/>
+  <text x="681" y="243" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">VIEW APP →</text>
+  <circle cx="783" cy="34" r="4" fill="#62BCEB"/>
+</svg>
