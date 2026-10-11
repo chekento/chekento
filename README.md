@@ -5,7 +5,7 @@
 
 ### Android · AI · Visual Computing · Navigation · Interactive Software
 
-**A compact portfolio of installable Android projects and browser experiences.**
+**A compact portfolio of installable Android projects, browser experiences and clearly labelled private previews.**
 
 [🌐 kosch.cloud](https://kosch.cloud)
 &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -17,9 +17,10 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/ANDROID_APPS-8-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="8 Android apps">
+<img src="https://img.shields.io/badge/ANDROID_APPS-9-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="9 public Android apps">
 <img src="https://img.shields.io/badge/DIRECT_APK-downloads-238636?style=for-the-badge&logo=github&logoColor=white" alt="Direct APK total release downloads">
 <img src="https://img.shields.io/badge/WEB-experiences-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web experiences">
+<img src="https://img.shields.io/badge/PRIVATE_GAME_PREVIEW-1-7970B5?style=for-the-badge" alt="1 private game preview">
 
 </div>
 
@@ -31,7 +32,7 @@
 
 **Compact cards · direct APK · repository · manual screenshot gallery**
 
-[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6)
+[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7)
 
 </div>
 
@@ -48,7 +49,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDcam"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#pmddcam"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#pmddcam"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddcam-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -68,7 +69,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/scenic-path-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#scenic-path"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#scenic-path"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#scenic-path-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -91,7 +92,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Pizzascan"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#pizzascan"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#pizzascan"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pizzascan-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -111,7 +112,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Ainews"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#ai-news"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#ai-news"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#ai-news-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -134,7 +135,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/labyrinthia-endless-maze"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#labyrinthia"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#labyrinthia"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#labyrinthia-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -154,7 +155,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/chroma-clash-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#chroma-clash"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#chroma-clash"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#chroma-clash-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -177,7 +178,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDvid"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#pmddvid"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#pmddvid"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddvid-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -197,13 +198,52 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/AIevents-"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=6#aievents"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#aievents"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#aievents-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
 <img src="https://img.shields.io/github/downloads/chekento/AIevents-/total?style=flat-square&label=total%20release%20downloads" alt="AIevents total release downloads">
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" align="center" valign="top">
+
+<a href="https://github.com/chekento/wolf">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/wolf-promo.svg?v=1" width="100%" alt="Wolf – Wildnis &amp; Rudel" title="Wolf – open public repository">
+</a>
+
+<sub>
+<a href="https://github.com/chekento/wolf/releases/latest/download/Wolf-android.apk"><strong>⬇ APK</strong></a>
+&nbsp;·&nbsp;
+<a href="https://github.com/chekento/wolf"><strong>💻 Repo</strong></a>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#wolf"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#wolf-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<img src="https://img.shields.io/github/downloads/chekento/wolf/total?style=flat-square&amp;label=total%20release%20downloads" alt="Wolf total release downloads">
+
+</td>
+<td width="50%" align="center" valign="top">
+
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/parallax-promo.svg?v=1" width="100%" alt="Parallax Hunt – private Android city game" title="Parallax Hunt – private native alpha">
+
+<sub>
+<strong>🔒 Private preview</strong>
+&nbsp;·&nbsp;
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#parallax-hunt"><strong>🖼 Slides</strong></a>
+&nbsp;·&nbsp;
+<a href="#parallax-hunt-details"><strong>ⓘ Details</strong></a>
+</sub>
+
+<br>
+<sub>No public APK or repository access · Concept artwork, not gameplay footage</sub>
 
 </td>
 </tr>
@@ -1018,23 +1058,83 @@ That makes Chroma Clash both a game and an experiment in:
 
 ---
 
+
+<a id="wolf-details"></a>
+
+<details>
+
+<summary><strong>🐺 Wolf · Wildnis &amp; Rudel — Wilderness, Pack &amp; 2D/3D Exploration</strong></summary>
+
+<br>
+
+## Grow up as a wolf
+
+Wolf is a Godot-powered offline Android wilderness game. Start as a young wolf with your mother, father and two siblings. Explore a large interconnected natural world using a **playable 2D top-down map**, then switch into an interactive **3D wolf-eye view** or follow camera.
+
+### Features
+
+- 256 connected wilderness regions across forests, rivers, mountains, wetlands and coastlines.
+- Scent tracking, discovery, food, water, wildlife encounters and special guardian animals.
+- Pack bonds, sibling play and cuddling; interactive lessons with the parents.
+- Dynamic weather, changing seasons, growing-up progression and persistent discoveries.
+- Illustrated 2D world maps plus native 3D exploration.
+
+### Links
+
+- [⬇ Download latest public Wolf Android APK](https://github.com/chekento/wolf/releases/latest/download/Wolf-android.apk)
+- [Repository](https://github.com/chekento/wolf)
+- [Release archive](https://github.com/chekento/wolf/releases)
+- [Store screenshots and artwork](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#wolf)
+
+</details>
+
+---
+
+<a id="parallax-hunt-details"></a>
+
+<details>
+
+<summary><strong>🏙️ Parallax Hunt — Private Open-World City Preview</strong></summary>
+
+<br>
+
+## A living city, explored your way
+
+Parallax Hunt is a **private Godot Android development prototype** featuring a large urban world and connected outlying regions. Its top-down comic-inspired city combines driving, pedestrian exploration, missions, persistent progress and spatial PMDD-inspired perspective effects.
+
+### Development themes
+
+- Urban districts, traffic, transport, shops, restaurants and accessible locations.
+- Vehicle driving, city jobs, long-form missions and optional exploration.
+- Dedicated 3D Photo Hunt scenes and perspective-based discovery.
+- Social encounters, relationships, homes and other city-life activities.
+- A combined city and countryside world with interactive map navigation.
+
+**Availability:** This project is a private test. The repository, source code and APK are **not publicly accessible**. The portfolio shows only promotional illustrations and general feature information—not downloadable files or actual screenshots.
+
+- [View portfolio artwork and feature gallery](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=7#parallax-hunt)
+
+</details>
+
+---
+
 # 🧩 Project Matrix
 
-| Capability | PMDDcam | PMDDvid | Scenic Path | PizzaScan | AI News | AIevents | Labyrinthia | Chroma Clash |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Android | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Web component | ✅ | — | — | ✅ | ✅ | — | ✅ | — |
-| Direct APK | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Local-first elements | ✅ | ✅ | ✅ | ✅ | ✅ | Partial | ✅ | ✅ |
-| Offline capability | ✅ | ✅ | Partial | Partial | Partial | Partial | ✅ | ✅ |
-| Maps / geospatial | — | — | ✅ | ✅ | — | ✅ | — | — |
-| Local AI / ML | ✅ | ✅ | — | ✅ | — | — | — | — |
-| Information monitoring | — | — | — | — | ✅ | ✅ | — | — |
-| Event discovery | — | — | — | — | — | ✅ | — | — |
-| Video processing | — | ✅ | — | — | — | — | — | — |
-| Procedural generation | — | — | — | — | — | — | ✅ | — |
-| Gamification | — | — | — | Partial | — | — | ✅ | ✅ |
-| Experimental interaction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Capability | PMDDcam | PMDDvid | Scenic Path | PizzaScan | AI News | AIevents | Labyrinthia | Chroma Clash | Wolf | Parallax Hunt |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Android | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Public APK | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🔒 |
+| Public repository | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 🔒 |
+| Web component | ✅ | — | — | ✅ | ✅ | — | ✅ | — | — | — |
+| Offline capability | ✅ | ✅ | Partial | Partial | Partial | Partial | ✅ | ✅ | ✅ | ✅ |
+| Maps / geospatial | — | — | ✅ | ✅ | — | ✅ | — | — | ✅ | ✅ |
+| Local AI / ML | ✅ | ✅ | — | ✅ | — | — | — | — | — | — |
+| Information monitoring | — | — | — | — | ✅ | ✅ | — | — | — | — |
+| Event discovery | — | — | — | — | — | ✅ | — | — | — | — |
+| Video processing | — | ✅ | — | — | — | — | — | — | — | — |
+| Procedural generation | — | — | — | — | — | — | ✅ | — | ✅ | ✅ |
+| Gamification | — | — | — | Partial | — | — | ✅ | ✅ | ✅ | ✅ |
+| Experimental interaction | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
@@ -1104,6 +1204,10 @@ For important or production-critical use, verify functionality independently and
 &nbsp;·&nbsp;
 [🎨 Chroma Clash](https://github.com/chekento/chroma-clash-android)
 
+[🐺 Wolf](https://github.com/chekento/wolf)
+&nbsp;·&nbsp;
+[🏙️ Parallax Hunt · Private Preview](https://github.com/chekento#parallax-hunt-details)
+
 ### Main
 
 [🌐 kosch.cloud](https://kosch.cloud)
@@ -1118,6 +1222,6 @@ For important or production-critical use, verify functionality independently and
 
 ## Build · Explore · Iterate
 
-**Eight featured Android projects. One experimental software portfolio.**
+**Nine publicly downloadable Android apps, one private game preview. One experimental software portfolio.**
 
 </div>
