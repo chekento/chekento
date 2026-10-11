@@ -31,7 +31,7 @@
 
 **Compact cards · direct APK · repository · manual screenshot gallery**
 
-[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8)
+[**🖼 Open the full KoSch App Store**](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9)
 
 </div>
 
@@ -48,13 +48,13 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDcam"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#pmddcam"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#pmddcam"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddcam-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/PMDDcam/total?style=flat-square&label=total%20release%20downloads" alt="PMDDcam total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/PMDDcam/total?style=flat-square&amp;label=total%20release%20downloads" alt="PMDDcam total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -68,17 +68,16 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/scenic-path-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#scenic-path"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#scenic-path"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#scenic-path-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/scenic-path-android/total?style=flat-square&label=total%20release%20downloads" alt="Scenic Path total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/scenic-path-android/total?style=flat-square&amp;label=total%20release%20downloads" alt="Scenic Path total release downloads">
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" align="center" valign="top">
 
@@ -91,13 +90,13 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Pizzascan"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#pizzascan"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#pizzascan"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pizzascan-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/Pizzascan/total?style=flat-square&label=total%20release%20downloads" alt="PizzaScan total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/Pizzascan/total?style=flat-square&amp;label=total%20release%20downloads" alt="PizzaScan total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -111,17 +110,16 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/Ainews"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#ai-news"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#ai-news"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#ai-news-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/Ainews/total?style=flat-square&label=total%20release%20downloads" alt="AI News total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/Ainews/total?style=flat-square&amp;label=total%20release%20downloads" alt="AI News total release downloads">
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" align="center" valign="top">
 
@@ -134,13 +132,13 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/labyrinthia-endless-maze"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#labyrinthia"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#labyrinthia"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#labyrinthia-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/total?style=flat-square&label=total%20release%20downloads" alt="Labyrinthia total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/total?style=flat-square&amp;label=total%20release%20downloads" alt="Labyrinthia total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -154,17 +152,16 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/chroma-clash-android"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#chroma-clash"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#chroma-clash"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#chroma-clash-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/total?style=flat-square&label=total%20release%20downloads" alt="Chroma Clash total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/chroma-clash-android/total?style=flat-square&amp;label=total%20release%20downloads" alt="Chroma Clash total release downloads">
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" align="center" valign="top">
 
@@ -177,13 +174,13 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/PMDDvid"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#pmddvid"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#pmddvid"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#pmddvid-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/PMDDvid/total?style=flat-square&label=total%20release%20downloads" alt="PMDDvid total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/PMDDvid/total?style=flat-square&amp;label=total%20release%20downloads" alt="PMDDvid total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -197,22 +194,21 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/AIevents-"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#aievents"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#aievents"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#aievents-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/AIevents-/total?style=flat-square&label=total%20release%20downloads" alt="AIevents total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/AIevents-/total?style=flat-square&amp;label=total%20release%20downloads" alt="AIevents total release downloads">
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/wolf">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/wolf-promo.svg?v=1" width="100%" alt="Wolf – Wildnis &amp; Rudel" title="Wolf – open public repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/wolf.svg?v=1" width="100%" alt="Wolf · Wildnis &amp; Rudel" title="Wolf · Wildnis &amp; Rudel — open repository">
 </a>
 
 <sub>
@@ -220,19 +216,19 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/wolf"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#wolf"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#wolf"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#wolf-details"><strong>ⓘ Details</strong></a>
 </sub>
 
 <br>
-<img src="https://img.shields.io/github/downloads/chekento/wolf/total?style=flat-square&amp;label=total%20release%20downloads" alt="Wolf total release downloads">
+<img src="https://img.shields.io/github/downloads/chekento/wolf/total?style=flat-square&amp;label=total%20release%20downloads" alt="Wolf · Wildnis &amp; Rudel total release downloads">
 
 </td>
 <td width="50%" align="center" valign="top">
 
 <a href="https://github.com/chekento/parallaxhunt">
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/parallax-promo.svg?v=2" width="100%" alt="Parallax Hunt – public Android city game" title="Parallax Hunt – open public repository">
+<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/parallax-hunt.svg?v=1" width="100%" alt="Parallax Hunt" title="Parallax Hunt — open repository">
 </a>
 
 <sub>
@@ -240,7 +236,7 @@
 &nbsp;·&nbsp;
 <a href="https://github.com/chekento/parallaxhunt"><strong>💻 Repo</strong></a>
 &nbsp;·&nbsp;
-<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#parallax-hunt"><strong>🖼 Slides</strong></a>
+<a href="https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#parallax-hunt"><strong>🖼 Slides</strong></a>
 &nbsp;·&nbsp;
 <a href="#parallax-hunt-details"><strong>ⓘ Details</strong></a>
 </sub>
@@ -248,14 +244,14 @@
 <br>
 <img src="https://img.shields.io/github/downloads/chekento/parallaxhunt/total?style=flat-square&amp;label=total%20release%20downloads" alt="Parallax Hunt total release downloads">
 
-<sub>Native Alpha 1.27.0 · Rolling latest APK · Artwork represents concept, not actual gameplay</sub>
-
 </td>
 </tr>
 </table>
 
 <sub>
-**Store behavior:** tapping a card opens its repository. **APK** starts the direct Android download. **Slides** opens the manual gallery with previous/next controls, thumbnails and swipe support. More screenshots can be appended without changing the slider code.\n\n**Download counters:** each app badge shows the repository-wide total of GitHub Release asset downloads across **all releases and all release assets**, rather than only the current APK or current tag.
+**Store behavior:** every card has the same layout and four actions: **APK**, **Repo**, **Slides** and **Details**. APK opens the newest designated public Android download, while Slides provides gallery navigation.
+
+**Download counters:** each app badge shows the repository-wide total of GitHub Release asset downloads across **all releases and all release assets**, rather than only the current APK or current tag.
 </sub>
 
 ---
@@ -1089,7 +1085,7 @@ Wolf is a Godot-powered offline Android wilderness game. Start as a young wolf w
 - [⬇ Download latest public Wolf Android APK](https://github.com/chekento/wolf/releases/latest/download/Wolf-android.apk)
 - [Repository](https://github.com/chekento/wolf)
 - [Release archive](https://github.com/chekento/wolf/releases)
-- [Store screenshots and artwork](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#wolf)
+- [Store screenshots and artwork](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#wolf)
 
 </details>
 
@@ -1121,7 +1117,7 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 - [GitHub repository](https://github.com/chekento/parallaxhunt)
 - [Latest Android Release](https://github.com/chekento/parallaxhunt/releases/tag/android-latest)
 
-- [View portfolio artwork and feature gallery](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=8#parallax-hunt)
+- [View portfolio artwork and feature gallery](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#parallax-hunt)
 
 </details>
 
