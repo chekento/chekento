@@ -1,0 +1,7 @@
+<resources>
+    <style name="NewsRow">
+        <item name="android:layout_width">match_parent</item><item name="android:layout_height">0dp</item><item name="android:layout_weight">1</item>
+        <item name="android:textColor">#F3F7FF</item><item name="android:textSize">13sp</item><item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item><item name="android:gravity">center_vertical</item><item name="android:paddingTop">4dp</item><item name="android:paddingBottom">4dp</item>
+    </style>
+</resources>

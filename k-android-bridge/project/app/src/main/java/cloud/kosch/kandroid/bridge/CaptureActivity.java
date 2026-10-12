@@ -1,0 +1,3 @@
+package cloud.kosch.kandroid.bridge;
+import android.app.*;import android.content.*;import android.media.projection.MediaProjectionManager;import android.os.*;
+public class CaptureActivity extends Activity {static final int R=44;@Override public void onCreate(Bundle b){super.onCreate(b);MediaProjectionManager m=(MediaProjectionManager)getSystemService(MEDIA_PROJECTION_SERVICE);startActivityForResult(m.createScreenCaptureIntent(),R);}@Override protected void onActivityResult(int r,int c,Intent d){super.onActivityResult(r,c,d);if(r==R&&c==RESULT_OK&&d!=null){Intent s=new Intent(this,AudioBridgeService.class);s.putExtra(AudioBridgeService.EXTRA_CODE,c);s.putExtra(AudioBridgeService.EXTRA_DATA,d);startForegroundService(s);}finish();}}
