@@ -8,8 +8,8 @@
 <style>
 :root{
   color-scheme:light;
-  --bg:#f5f7fb;--card:#fff;--text:#1f2328;--muted:#667085;--line:#e3e8ef;
-  --blue:#1a73e8;--shadow:0 16px 44px rgba(30,41,59,.09);
+  --bg:#edf3f5;--card:#fff;--text:#1f2328;--muted:#667085;--line:#e3e8ef;
+  --blue:#216475;--shadow:0 16px 44px rgba(30,41,59,.09);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -19,7 +19,7 @@ radial-gradient(circle at 100% 18%,rgba(132,94,247,.07),transparent 26rem),var(-
 a{color:inherit}
 .shell{max-width:1180px;margin:auto;padding:28px 18px 70px}
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:24px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px}.mark{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#1a73e8,#7c5cff);display:grid;place-items:center;color:#fff;font-weight:900;box-shadow:0 10px 24px rgba(26,115,232,.22)}
+.brand{display:flex;align-items:center;gap:12px}.mark{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,#173947,#4f9f9a);display:grid;place-items:center;color:#fff;font-weight:900;box-shadow:0 10px 24px rgba(26,115,232,.22)}
 h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margin:7px 0 0;color:var(--muted)}
 .toplinks{display:flex;gap:9px;flex-wrap:wrap}.chip{display:inline-flex;align-items:center;gap:7px;padding:10px 13px;border-radius:999px;border:1px solid var(--line);background:#fff;text-decoration:none;font-size:14px;font-weight:700}
 .intro{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:24px;padding:18px 20px;margin-bottom:22px;box-shadow:0 8px 26px rgba(30,41,59,.05);color:#4b5563}
@@ -46,19 +46,30 @@ h1{font-size:clamp(28px,5vw,46px);margin:0;letter-spacing:-.04em}.subtitle{margi
 <body>
 <main class="shell">
   <div class="topbar">
-    <div class="brand"><div class="mark">KS</div><div><h1>KoSch' Android App Store</h1><p class="subtitle">Manual screenshot galleries · direct APKs · repositories</p></div></div>
+    <div class="brand"><div class="mark">KS</div><div><h1>KoSch' Android App Store</h1><p class="subtitle">11 independent projects · direct APKs · visual galleries</p></div></div>
     <nav class="toplinks">
       <a class="chip" href="https://github.com/chekento">GitHub</a>
       <a class="chip" href="https://kosch.cloud">kosch.cloud</a>
       <a class="chip" href="https://chatgpt.com">ChatGPT</a>
     </nav>
   </div>
-  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The galleries start with consistent project and feature cards</strong>. Verified gameplay screenshots follow where available. Slides preserve their original aspect ratio and are never cropped. The cards are illustrations of features, not in-game screenshots. <strong>Public download counters show repository-wide GitHub Release totals.</strong></div>
+  <div class="intro">Swipe or use ‹ › to browse each app manually. <strong>The galleries start with consistent project and feature cards</strong>. Verified gameplay screenshots follow where available. Slides preserve their original aspect ratio and are never cropped. The cards are illustrations of features, not in-game screenshots. <strong>Counters include only APK files across public releases, including previews. They exclude checksums and metadata and count downloads, not unique installations. Links and counts refresh hourly.</strong></div>
   <section class="grid" id="app-grid"></section>
   <div class="footer">Experimental builds may be Preview, Beta, RC or Pre-Alpha. Parallax APK releases are produced from successful CI builds. Check each repository for status, privacy notes, checksums and limitations.</div>
 </main>
 <script>
 const apps=[
+{
+ id:"skizones",name:"SkiZones",sub:"Dein Berg. Dein Resort. Dein nächster Winter.",status:"0.6.0 Preview",
+ install:"",repo:"https://github.com/chekento/SkiZones",details:"https://github.com/chekento/SkiZones#in-game-screenshots",
+ badge:"",note:"Offline 3D ski resort tycoon. Actual PC-rendered game captures from test resorts, with the game UI visible; not physical Android device captures. Four regions, eight lift types, connected pistes and winter careers.",sprite:"",generatedCount:0,
+ images:[
+ {src:"https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-060.webp",label:"GAMEPLAY · 0.6"},
+ {src:"https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/curves-060.webp",label:"GAMEPLAY · 0.6"},
+ {src:"https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/chair-four.webp",label:"GAMEPLAY · 0.5"},
+ {src:"https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/build-flow-060.webp",label:"GAMEPLAY · 0.6"}
+ ]},
+
 {
  id:"pmddcam",name:"PMDDcam",sub:"Perceptual Motion & Depth Design Camera",status:"0.4.0 Preview",
  install:"https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk",
@@ -196,6 +207,13 @@ const apps=[
 }
 ];
 
+// RELEASE-DATA:START
+const releaseData = {"skizones": {"tag": "v0.6.0", "prerelease": true, "url": "https://github.com/chekento/SkiZones/releases/download/v0.6.0/SkiZones-0.6.0-android-arm64.apk", "release": "https://github.com/chekento/SkiZones/releases/tag/v0.6.0", "total": 12, "latest_downloads": 2, "asset": "SkiZones-0.6.0-android-arm64.apk"}, "pmddcam": {"tag": "v0.4.0", "prerelease": true, "url": "https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk", "release": "https://github.com/chekento/PMDDcam/releases/tag/v0.4.0", "total": 6, "latest_downloads": 1, "asset": "PMDDcam-0.4.0.apk"}, "pmddvid": {"tag": "v0.1.7", "prerelease": true, "url": "https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk", "release": "https://github.com/chekento/PMDDvid/releases/tag/v0.1.7", "total": 11, "latest_downloads": 3, "asset": "PMDDvid-0.1.7.apk"}, "chroma-clash": {"tag": "v1.0.0", "prerelease": true, "url": "https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk", "release": "https://github.com/chekento/chroma-clash-android/releases/tag/v1.0.0", "total": 4, "latest_downloads": 4, "asset": "Chroma-Clash-1.0.0.apk"}, "scenic-path": {"tag": "v0.7.3-rc4", "prerelease": true, "url": "https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk", "release": "https://github.com/chekento/scenic-path-android/releases/tag/v0.7.3-rc4", "total": 15, "latest_downloads": 2, "asset": "Scenic-Path-v0.7.3-rc4-debug.apk"}, "pizzascan": {"tag": "v2.3.23", "prerelease": true, "url": "https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk", "release": "https://github.com/chekento/Pizzascan/releases/tag/v2.3.23", "total": 3, "latest_downloads": 1, "asset": "PizzaScan-2.3.23.apk"}, "ai-news": {"tag": "android-latest", "prerelease": false, "url": "https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk", "release": "https://github.com/chekento/Ainews/releases/tag/android-latest", "total": 8, "latest_downloads": 1, "asset": "AI-News.apk"}, "aievents": {"tag": "v0.5.3", "prerelease": false, "url": "https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-latest.apk", "release": "https://github.com/chekento/AIevents-/releases/tag/v0.5.3", "total": 2, "latest_downloads": 1, "asset": "AIevents-latest.apk"}, "labyrinthia": {"tag": "v2.4.3", "prerelease": true, "url": "https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk", "release": "https://github.com/chekento/labyrinthia-endless-maze/releases/tag/v2.4.3", "total": 1, "latest_downloads": 1, "asset": "Labyrinthia-v2.4.3-debug.apk"}, "wolf": {"tag": "v0.15.0", "prerelease": false, "url": "https://github.com/chekento/wolf/releases/download/v0.15.0/Wolf-android.apk", "release": "https://github.com/chekento/wolf/releases/tag/v0.15.0", "total": 4, "latest_downloads": 1, "asset": "Wolf-android.apk"}, "parallax-hunt": {"tag": "android-latest", "prerelease": false, "url": "https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk", "release": "https://github.com/chekento/parallaxhunt/releases/tag/android-latest", "total": 0, "latest_downloads": 0, "asset": "ParallaxHunt-latest.apk"}};
+// RELEASE-DATA:END
+for (const app of apps) {
+ const release=releaseData[app.id];
+ if(release){app.install=release.url;app.status=release.tag+(release.prerelease?" Preview":"");app.badge="https://raw.githubusercontent.com/chekento/chekento/main/assets/downloads/"+app.id+".svg";}
+}
 const grid=document.getElementById("app-grid");
 function spritePos(index,count){
   if(count<=1) return "0% 0%";
@@ -236,7 +254,7 @@ for(const app of apps){
     ${app.repo?`<a class="btn" href="${app.repo}">Repository</a>`:`<span class="btn unavailable" title="Repository access is restricted">Private repo</span>`}
     <a class="btn" href="${app.details}">Details</a>
   </div>
-  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads">${app.badge?`<img src="${app.badge}" alt="${app.name} total release downloads">`:`<span class="private-label">NOT YET PUBLISHED</span>`}</span></div>
+  <div class="meta"><span>Manual slideshow · swipe enabled</span><span class="downloads">${app.badge?`<img src="${app.badge}" alt="${app.name} APK downloads">`:`<span class="private-label">NOT YET PUBLISHED</span>`}</span></div>
   <details class="more"><summary>Quick info</summary><p>${app.note}</p></details>`;
  grid.appendChild(article);
  const viewer=article.querySelector(".viewer"),main=article.querySelector(".mainvisual"),counter=article.querySelector(".counter"),kind=article.querySelector(".slide-kind"),thumbs=article.querySelector(".thumbs");

@@ -1,173 +1,78 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/chekento/chekento/main/assets/kosch-android-apps-pmdd-banner.svg?v=5" width="100%" alt="KoSch' Android Apps" title="KoSch' Android Apps — PMDD header">
+<img src="assets/portfolio-banner.svg" width="100%" alt="KoSch — Apps, worlds and experiments">
 
+Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-### Android · AI · Visual Computing · Navigation · Interactive Software
-
-**A compact portfolio of 10 public Android projects, browser experiences and interactive software.**
-
-[🌐 kosch.cloud](https://kosch.cloud)
-&nbsp;&nbsp;·&nbsp;&nbsp;
-[🤖 ChatGPT](https://chatgpt.com)
-&nbsp;&nbsp;·&nbsp;&nbsp;
-[💻 GitHub](https://github.com/chekento)
-&nbsp;&nbsp;·&nbsp;&nbsp;
-[📂 All Repositories](https://github.com/chekento?tab=repositories)
-
-<br>
-
-<img src="https://img.shields.io/badge/ANDROID_APPS-10-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="10 public Android apps">
-<img src="https://img.shields.io/badge/DIRECT_APK-downloads-238636?style=for-the-badge&logo=github&logoColor=white" alt="Direct APK total release downloads">
-<img src="https://img.shields.io/badge/WEB-experiences-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web experiences">
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
----
+## On the mountain: SkiZones
 
-## 📲 KoSch Android App Store
+**Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**10 public Android projects · Direct APK downloads · Galleries and project information**
+<!-- SKIZONES-DOWNLOAD:START -->
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.6.0/SkiZones-0.6.0-android-arm64.apk)
 
-[![Open the KoSch App Store](https://img.shields.io/badge/BROWSE-Complete_App_Store-1A73E8?style=for-the-badge&logo=android&logoColor=white)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9)
+[v0.6.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.6.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![12 APK downloads](assets/downloads/skizones.svg)
+<!-- SKIZONES-DOWNLOAD:END -->
 
-Each app card below uses the same design. Tap **Download APK** to get the listed Android release, or open its gallery and documentation.
+[![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-060.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
 
-### 🎨 Creative & Camera
+*Actual PC-rendered game capture with the game UI visible, from a populated test resort. The Android app uses the same Godot game. This is not a capture from a physical Android device.*
 
-#### PMDDcam
+<details>
+<summary>More SkiZones gameplay: pistes and occupied chairlifts</summary>
 
-[![PMDDcam app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddcam.svg?v=6)](https://github.com/chekento/PMDDcam)
+![SkiZones 0.6 — pistes, junctions and ski tracks](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/curves-060.webp)
 
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/PMDDcam)
+![SkiZones 0.5 — four guests in their assigned chairlift seats](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/chair-four.webp)
 
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#pmddcam) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#pmddcam-details)
+</details>
 
-![PMDDcam total release downloads](https://img.shields.io/github/downloads/chekento/PMDDcam/total?style=flat-square&label=total%20release%20downloads)
+## Android collection
 
----
+11 public projects. Choose an APK or open a repository for release notes and requirements.
 
-#### PMDDvid
+<!-- APP-CATALOG:START -->
+**66 APK downloads** across the 11 projects.
 
-[![PMDDvid app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pmddvid.svg?v=6)](https://github.com/chekento/PMDDvid)
+| Project | Explore | Android APK | APK downloads |
+|---|---|---|---:|
+| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.6.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.6.0/SkiZones-0.6.0-android-arm64.apk) | ![12 APK downloads](assets/downloads/skizones.svg) |
+| **[PMDDcam](https://github.com/chekento/PMDDcam)** | Depth photography · 80 visual styles | [↓ v0.4.0 · Preview](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) | ![6 APK downloads](assets/downloads/pmddcam.svg) |
+| **[PMDDvid](https://github.com/chekento/PMDDvid)** | Local depth video · camera & converter | [↓ v0.1.7 · Preview](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) | ![11 APK downloads](assets/downloads/pmddvid.svg) |
+| **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Perceptual colour precision game | [↓ v1.0.0 · Preview](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk) | ![4 APK downloads](assets/downloads/chroma-clash.svg) |
+| **[Scenic Path](https://github.com/chekento/scenic-path-android)** | Scenic routes & discovery | [↓ v0.7.3-rc4 · Preview](https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk) | ![15 APK downloads](assets/downloads/scenic-path.svg) |
+| **[PizzaScan](https://github.com/chekento/Pizzascan)** | Worldwide pizza discovery | [↓ v2.3.23 · Preview](https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk) | ![3 APK downloads](assets/downloads/pizzascan.svg) |
+| **[AI News](https://github.com/chekento/Ainews)** | AI news, sources & radar | [↓ android-latest](https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk) | ![8 APK downloads](assets/downloads/ai-news.svg) |
+| **[AIevents](https://github.com/chekento/AIevents-)** | Worldwide AI events | [↓ v0.5.3](https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-latest.apk) | ![2 APK downloads](assets/downloads/aievents.svg) |
+| **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Procedural mazes · tilt controls | [↓ v2.4.3 · Preview](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk) | ![1 APK downloads](assets/downloads/labyrinthia.svg) |
+| **[Wolf · Wildnis & Rudel](https://github.com/chekento/wolf)** | Wilderness exploration & pack life | [↓ v0.15.0](https://github.com/chekento/wolf/releases/download/v0.15.0/Wolf-android.apk) | ![4 APK downloads](assets/downloads/wolf.svg) |
+| **[Parallax Hunt](https://github.com/chekento/parallaxhunt)** | Living city · Android alpha | [↓ android-latest](https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk) | ![0 APK downloads](assets/downloads/parallax-hunt.svg) |
+<!-- APP-CATALOG:END -->
 
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/PMDDvid)
+**About these numbers:** APK asset downloads across all non-draft GitHub releases, including previews and APK aliases. Checksums, manifests, ZIPs and source archives are excluded. These are file downloads, not unique people or installations. GitHub does not expose historical counts for assets that have been deleted or replaced. Links and counts refresh hourly; image caches can delay the visible badge.
 
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#pmddvid) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#pmddvid-details)
+## Browser experiences
 
-![PMDDvid total release downloads](https://img.shields.io/github/downloads/chekento/PMDDvid/total?style=flat-square&label=total%20release%20downloads)
+[PMDDcam Web](https://raw.githack.com/chekento/PMDDcam/main/webapp/index.html) · [PizzaScan Web](https://raw.githack.com/chekento/Pizzascan/main/web/index.html) · [AI News](https://github.com/chekento/Ainews/blob/main/portal/news.md) · [Labyrinthia](https://maze.on.websim.com)
 
----
+<a id="skizones-details"></a>
 
-#### Chroma Clash
+<details>
+<summary><strong>SkiZones — 3D Ski Resort Tycoon</strong></summary>
 
-[![Chroma Clash app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/chroma-clash.svg?v=6)](https://github.com/chekento/chroma-clash-android)
+Plan interconnected pistes, operate eight types of lifts and build a village around walkable station plazas. Guests use actual routes and assigned vehicle seats. Research, finances, snow, weather and a multi-winter career shape your resort.
 
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/chroma-clash-android)
+Four regions have independent saves. Play offline on Android 7.0+ ARM64 in landscape, or import the project into Godot 4.5.1 on a computer. The APK is a development-signed preview. Gameplay screenshots are rendered from the game; the menu panorama is artwork.
 
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#chroma-clash) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#chroma-clash-details)
+[Repository & current APK](https://github.com/chekento/SkiZones) · [Gameplay screenshots](https://github.com/chekento/SkiZones#in-game-screenshots) · [Release archive](https://github.com/chekento/SkiZones/releases)
 
-![Chroma Clash total release downloads](https://img.shields.io/github/downloads/chekento/chroma-clash-android/total?style=flat-square&label=total%20release%20downloads)
+</details>
 
----
-
-### 🧭 Discovery & Intelligence
-
-#### Scenic Path
-
-[![Scenic Path app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/scenic-path.svg?v=6)](https://github.com/chekento/scenic-path-android)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/scenic-path-android)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#scenic-path) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#scenic-path-details)
-
-![Scenic Path total release downloads](https://img.shields.io/github/downloads/chekento/scenic-path-android/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-#### PizzaScan
-
-[![PizzaScan app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/pizzascan.svg?v=6)](https://github.com/chekento/Pizzascan)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/Pizzascan)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#pizzascan) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#pizzascan-details)
-
-![PizzaScan total release downloads](https://img.shields.io/github/downloads/chekento/Pizzascan/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-#### AI News
-
-[![AI News app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/ai-news.svg?v=6)](https://github.com/chekento/Ainews)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/Ainews)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#ai-news) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#ai-news-details)
-
-![AI News total release downloads](https://img.shields.io/github/downloads/chekento/Ainews/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-#### AIevents
-
-[![AIevents app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/aievents.svg?v=6)](https://github.com/chekento/AIevents-)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/AIevents-/releases/latest/download/AIevents-latest.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/AIevents-)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#aievents) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#aievents-details)
-
-![AIevents total release downloads](https://img.shields.io/github/downloads/chekento/AIevents-/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-### 🎮 Games
-
-#### Labyrinthia
-
-[![Labyrinthia app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/labyrinthia.svg?v=6)](https://github.com/chekento/labyrinthia-endless-maze)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/labyrinthia-endless-maze)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#labyrinthia) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#labyrinthia-details)
-
-![Labyrinthia total release downloads](https://img.shields.io/github/downloads/chekento/labyrinthia-endless-maze/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-#### Wolf · Wildnis & Rudel
-
-[![Wolf · Wildnis & Rudel app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/wolf.svg?v=1)](https://github.com/chekento/wolf)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/wolf/releases/latest/download/Wolf-android.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/wolf)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#wolf) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#wolf-details)
-
-![Wolf · Wildnis & Rudel total release downloads](https://img.shields.io/github/downloads/chekento/wolf/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-#### Parallax Hunt
-
-[![Parallax Hunt app card](https://raw.githubusercontent.com/chekento/chekento/main/assets/app-gallery/parallax-hunt.svg?v=1)](https://github.com/chekento/parallaxhunt)
-
-[![Download Android APK](https://img.shields.io/badge/Android-Download_APK-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk) [![GitHub repository](https://img.shields.io/badge/GitHub-Repository-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chekento/parallaxhunt)
-
-[![Image gallery](https://img.shields.io/badge/View-Screenshots-2563EB?style=flat-square)](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=9#parallax-hunt) [![Project details](https://img.shields.io/badge/Read-Details-64748B?style=flat-square)](#parallax-hunt-details)
-
-![Parallax Hunt total release downloads](https://img.shields.io/github/downloads/chekento/parallaxhunt/total?style=flat-square&label=total%20release%20downloads)
-
----
-
-## 🌐 Web Experiences
-
-[![PMDDcam Web](https://img.shields.io/badge/PMDDcam-Web_App-86F1D1?style=for-the-badge&logo=googlechrome&logoColor=071019)](https://raw.githack.com/chekento/PMDDcam/main/webapp/index.html) [![PizzaScan Web](https://img.shields.io/badge/PizzaScan-Browser-FF9A56?style=for-the-badge&logo=googlemaps&logoColor=071019)](https://raw.githack.com/chekento/Pizzascan/main/web/index.html)
-
-[![AI News Live](https://img.shields.io/badge/AI_News-Live_Intelligence-19F3FF?style=for-the-badge&logo=rss&logoColor=071019)](https://github.com/chekento/Ainews/blob/main/portal/news.md) [![Labyrinthia Web](https://img.shields.io/badge/Labyrinthia-Play_in_Browser-FF6B8A?style=for-the-badge&logo=gamejolt&logoColor=white)](https://maze.on.websim.com)
-
----
-
-# Detailed Project Information
+## Project notes
 
 All detailed descriptions are collapsed by default to keep the profile fast to scan.
 
@@ -1021,64 +926,8 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 
 ---
 
-## 🧩 Project Capabilities
+## Project principles
 
-The portfolio includes camera and video tools, navigation and discovery apps, AI information services, and open-world games.
+Local processing where practical, traceable sources, clear preview labels and direct access to releases. Each repository documents its requirements and limitations.
 
-**Creative tools:** PMDDcam, PMDDvid and Chroma Clash.
-
-**Discovery and intelligence:** Scenic Path, PizzaScan, AI News and AIevents.
-
-**Games:** Labyrinthia, Wolf · Wildnis & Rudel and Parallax Hunt.
-
-All ten projects have a public repository, a direct APK link and a gallery. Specific features and limitations are described in each project's details.
-
----
-
-## 🔐 Project Principles
-
-**Local-first:** Processing stays on the device when it improves privacy, performance or reliability.
-
-**Transparency:** External data sources should be traceable whenever practical.
-
-**Minimal accounts:** Registration is required only when a feature needs it.
-
-**Direct access:** Experimental Android APKs are distributed via GitHub releases.
-
-**Clear versions:** Previews, alphas, betas and release candidates are identified explicitly.
-
-**Continuous improvement:** Interfaces and functionality evolve across versions.
-
----
-
-## ⚠️ Experimental Software
-
-These Android projects are experimental. Features may change, bugs may occur and device compatibility can vary.
-
-Some APKs use development signing. Back up important app data before updating, and check each repository for its current release status and limitations.
-
----
-
-## 🔗 Navigation
-
-**Creative tools**
-
-[PMDDcam](https://github.com/chekento/PMDDcam) · [PMDDvid](https://github.com/chekento/PMDDvid) · [Chroma Clash](https://github.com/chekento/chroma-clash-android)
-
-**Discovery and information**
-
-[Scenic Path](https://github.com/chekento/scenic-path-android) · [PizzaScan](https://github.com/chekento/Pizzascan) · [AI News](https://github.com/chekento/Ainews) · [AIevents](https://github.com/chekento/AIevents-)
-
-**Games**
-
-[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze) · [Wolf](https://github.com/chekento/wolf) · [Parallax Hunt](https://github.com/chekento/parallaxhunt)
-
-**More**
-
-[kosch.cloud](https://kosch.cloud) · [ChatGPT](https://chatgpt.com) · [GitHub](https://github.com/chekento) · [All repositories](https://github.com/chekento?tab=repositories)
-
----
-
-**Build · Explore · Iterate**
-
-Ten publicly accessible Android projects, each with a direct APK download.
+[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html) · [Visit kosch.cloud](https://kosch.cloud)

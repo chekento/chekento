@@ -1,0 +1,79 @@
+[
+  {
+    "id": "skizones",
+    "repo": "SkiZones",
+    "name": "SkiZones",
+    "description": "3D ski resort tycoon · offline",
+    "category": "Games"
+  },
+  {
+    "id": "pmddcam",
+    "repo": "PMDDcam",
+    "name": "PMDDcam",
+    "description": "Depth photography · 80 visual styles",
+    "category": "Creative"
+  },
+  {
+    "id": "pmddvid",
+    "repo": "PMDDvid",
+    "name": "PMDDvid",
+    "description": "Local depth video · camera & converter",
+    "category": "Creative"
+  },
+  {
+    "id": "chroma-clash",
+    "repo": "chroma-clash-android",
+    "name": "Chroma Clash",
+    "description": "Perceptual colour precision game",
+    "category": "Creative"
+  },
+  {
+    "id": "scenic-path",
+    "repo": "scenic-path-android",
+    "name": "Scenic Path",
+    "description": "Scenic routes & discovery",
+    "category": "Discovery"
+  },
+  {
+    "id": "pizzascan",
+    "repo": "Pizzascan",
+    "name": "PizzaScan",
+    "description": "Worldwide pizza discovery",
+    "category": "Discovery"
+  },
+  {
+    "id": "ai-news",
+    "repo": "Ainews",
+    "name": "AI News",
+    "description": "AI news, sources & radar",
+    "category": "Discovery"
+  },
+  {
+    "id": "aievents",
+    "repo": "AIevents-",
+    "name": "AIevents",
+    "description": "Worldwide AI events",
+    "category": "Discovery"
+  },
+  {
+    "id": "labyrinthia",
+    "repo": "labyrinthia-endless-maze",
+    "name": "Labyrinthia",
+    "description": "Procedural mazes · tilt controls",
+    "category": "Games"
+  },
+  {
+    "id": "wolf",
+    "repo": "wolf",
+    "name": "Wolf · Wildnis & Rudel",
+    "description": "Wilderness exploration & pack life",
+    "category": "Games"
+  },
+  {
+    "id": "parallax-hunt",
+    "repo": "parallaxhunt",
+    "name": "Parallax Hunt",
+    "description": "Living city · Android alpha",
+    "category": "Games"
+  }
+]

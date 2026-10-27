@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="310" viewBox="0 0 1280 310" role="img" aria-label="KoSch — Apps, worlds and experiments — Android, AI, visual computing">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c2b"/><stop offset="1" stop-color="#234a59"/></linearGradient></defs>
+<rect width="1280" height="310" rx="24" fill="url(#bg)"/>
+<circle cx="1110" cy="65" r="170" fill="#83d8c5" opacity=".08"/><circle cx="1130" cy="95" r="110" fill="none" stroke="#83d8c5" opacity=".22"/>
+<path d="m930 310 170-190 180 190m-205-57 39-107 37 107" fill="none" stroke="#9cd9dc" stroke-width="2" opacity=".3"/>
+<text x="52" y="55" fill="#94dace" font-family="Arial,sans-serif" font-size="17" letter-spacing="4">KOSCH / INDEPENDENT SOFTWARE</text>
+<text x="48" y="133" fill="#ffffff" font-family="Arial,sans-serif" font-size="64" font-weight="700">Apps. Worlds. Experiments.</text>
+<text x="52" y="185" fill="#cfdee7" font-family="Arial,sans-serif" font-size="23">Android · Applied AI · Visual Computing · Interactive Worlds</text>
+<rect x="52" y="226" width="204" height="39" rx="19" fill="#90d7c7"/><text x="154" y="252" text-anchor="middle" fill="#122e3b" font-family="Arial,sans-serif" font-size="16" font-weight="700">11 Android projects</text>
+<text x="280" y="252" fill="#d5e5eb" font-family="Arial,sans-serif" font-size="18">Build · Explore · Iterate</text>
+</svg>
