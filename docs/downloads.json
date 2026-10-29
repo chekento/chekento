@@ -4,8 +4,8 @@
     "prerelease": true,
     "url": "https://github.com/chekento/SkiZones/releases/download/v0.13.0/SkiZones-0.13.0-android-arm64.apk",
     "release": "https://github.com/chekento/SkiZones/releases/tag/v0.13.0",
-    "total": 33,
-    "latest_downloads": 0,
+    "total": 35,
+    "latest_downloads": 2,
     "asset": "SkiZones-0.13.0-android-arm64.apk"
   },
   "pmddcam": {
@@ -67,7 +67,7 @@
     "prerelease": false,
     "url": "https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-latest.apk",
     "release": "https://github.com/chekento/AIevents-/releases/tag/v0.5.3",
-    "total": 2,
+    "total": 3,
     "latest_downloads": 1,
     "asset": "AIevents-latest.apk"
   },

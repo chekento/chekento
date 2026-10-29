@@ -17,7 +17,7 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 <!-- SKIZONES-DOWNLOAD:START -->
 [![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.13.0/SkiZones-0.13.0-android-arm64.apk)
 
-[v0.13.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.13.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![33 APK downloads](assets/downloads/skizones.svg)
+[v0.13.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.13.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![35 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 [![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/village-promenade-0130.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
@@ -64,18 +64,18 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 11 public projects. Choose an APK or open a repository for release notes and requirements.
 
 <!-- APP-CATALOG:START -->
-**87 APK downloads** across the 11 projects.
+**90 APK downloads** across the 11 projects.
 
 | Project | Explore | Android APK | APK downloads |
 |---|---|---|---:|
-| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.13.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.13.0/SkiZones-0.13.0-android-arm64.apk) | ![33 APK downloads](assets/downloads/skizones.svg) |
+| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.13.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.13.0/SkiZones-0.13.0-android-arm64.apk) | ![35 APK downloads](assets/downloads/skizones.svg) |
 | **[PMDDcam](https://github.com/chekento/PMDDcam)** | Depth photography · 80 visual styles | [↓ v0.4.0 · Preview](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) | ![6 APK downloads](assets/downloads/pmddcam.svg) |
 | **[PMDDvid](https://github.com/chekento/PMDDvid)** | Local depth video · camera & converter | [↓ v0.1.7 · Preview](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) | ![11 APK downloads](assets/downloads/pmddvid.svg) |
 | **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Perceptual colour precision game | [↓ v1.0.0 · Preview](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk) | ![4 APK downloads](assets/downloads/chroma-clash.svg) |
 | **[Scenic Path](https://github.com/chekento/scenic-path-android)** | Scenic routes & discovery | [↓ v0.7.3-rc4 · Preview](https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk) | ![15 APK downloads](assets/downloads/scenic-path.svg) |
 | **[PizzaScan](https://github.com/chekento/Pizzascan)** | Worldwide pizza discovery | [↓ v2.3.23 · Preview](https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk) | ![3 APK downloads](assets/downloads/pizzascan.svg) |
 | **[AI News](https://github.com/chekento/Ainews)** | AI news, sources & radar | [↓ android-latest](https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk) | ![8 APK downloads](assets/downloads/ai-news.svg) |
-| **[AIevents](https://github.com/chekento/AIevents-)** | Worldwide AI events | [↓ v0.5.3](https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-latest.apk) | ![2 APK downloads](assets/downloads/aievents.svg) |
+| **[AIevents](https://github.com/chekento/AIevents-)** | Worldwide AI events | [↓ v0.5.3](https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-latest.apk) | ![3 APK downloads](assets/downloads/aievents.svg) |
 | **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Procedural mazes · tilt controls | [↓ v2.4.3 · Preview](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk) | ![1 APK downloads](assets/downloads/labyrinthia.svg) |
 | **[Wolf · Wildnis & Rudel](https://github.com/chekento/wolf)** | Wilderness exploration & pack life | [↓ v0.15.0](https://github.com/chekento/wolf/releases/download/v0.15.0/Wolf-android.apk) | ![4 APK downloads](assets/downloads/wolf.svg) |
 | **[Parallax Hunt](https://github.com/chekento/parallaxhunt)** | Living city · Android alpha | [↓ android-latest](https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk) | ![0 APK downloads](assets/downloads/parallax-hunt.svg) |
