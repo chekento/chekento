@@ -4,7 +4,7 @@
 
 Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.12.0) · [All repositories](https://github.com/chekento?tab=repositories)
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.13.0) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
@@ -12,20 +12,28 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**New in 0.12.0:** accurate waypoint placement at rotated and low camera angles, selectable 14–36 m piste widths, validated smoother bends and gentle lateral terrain adjustments. Benches, lamps and building footprints stay outside the full piste corridor. Complete German and English interface. 748 model/render checks plus 31 Android activity and real screen-tap cases.
+**New in 0.13.0:** eight distinct resorts with their own mountains, starting lift types and budgets. A shared village promenade, short courtyard branches, growing footpaths and street-facing entrances make construction more natural. Updated chalets, snowy planters and lanterns, equipment-specific friction and guest headway complete the winter village. Full German and English interface; existing resorts retain their original landscape. Verified by 816 model/render checks and 31 Android activity and screen-tap cases.
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.12.0/SkiZones-0.12.0-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.13.0/SkiZones-0.13.0-android-arm64.apk)
 
-[v0.12.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.12.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![31 APK downloads](assets/downloads/skizones.svg)
+[v0.13.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.13.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![33 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
-[![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/cute-village-0100.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
+[![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/village-promenade-0130.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
 
 *Actual PC-rendered game capture with the game UI visible, from a populated test resort. The Android app uses the same Godot game. This is not a capture from a physical Android device.*
 
 <details>
-<summary>More SkiZones gameplay: precise planning, selectable widths and the winter world</summary>
+<summary>More SkiZones gameplay: eight resorts, village building and piste planning</summary>
+
+![SkiZones 0.13 — a village promenade and its actual building entrances](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/village-promenade-0130.webp)
+
+![SkiZones 0.13 — eight independent resorts in the English mountain pass](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-pass-en-0130.webp)
+
+![SkiZones 0.13 — Glacier Royale mountain terrain](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-gletscherwelt-0130.webp)
+
+![SkiZones 0.13 — Starlight Valhalla, the largest resort](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-sternengrat-0130.webp)
 
 ![SkiZones 0.12 — 36-metre piste planning and smoothed curves](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/de-width-curves-0120.webp)
 
@@ -56,11 +64,11 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 11 public projects. Choose an APK or open a repository for release notes and requirements.
 
 <!-- APP-CATALOG:START -->
-**85 APK downloads** across the 11 projects.
+**87 APK downloads** across the 11 projects.
 
 | Project | Explore | Android APK | APK downloads |
 |---|---|---|---:|
-| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.12.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.12.0/SkiZones-0.12.0-android-arm64.apk) | ![31 APK downloads](assets/downloads/skizones.svg) |
+| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.13.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.13.0/SkiZones-0.13.0-android-arm64.apk) | ![33 APK downloads](assets/downloads/skizones.svg) |
 | **[PMDDcam](https://github.com/chekento/PMDDcam)** | Depth photography · 80 visual styles | [↓ v0.4.0 · Preview](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) | ![6 APK downloads](assets/downloads/pmddcam.svg) |
 | **[PMDDvid](https://github.com/chekento/PMDDvid)** | Local depth video · camera & converter | [↓ v0.1.7 · Preview](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) | ![11 APK downloads](assets/downloads/pmddvid.svg) |
 | **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Perceptual colour precision game | [↓ v1.0.0 · Preview](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk) | ![4 APK downloads](assets/downloads/chroma-clash.svg) |
@@ -950,4 +958,4 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 
 Local processing where practical, traceable sources, clear preview labels and direct access to releases. Each repository documents its requirements and limitations.
 
-[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.12.0) · [Visit kosch.cloud](https://kosch.cloud)
+[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.13.0) · [Visit kosch.cloud](https://kosch.cloud)
