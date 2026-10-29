@@ -1,12 +1,12 @@
 {
   "skizones": {
-    "tag": "v0.10.0",
+    "tag": "v0.11.0",
     "prerelease": true,
-    "url": "https://github.com/chekento/SkiZones/releases/download/v0.10.0/SkiZones-0.10.0-android-arm64.apk",
-    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.10.0",
+    "url": "https://github.com/chekento/SkiZones/releases/download/v0.11.0/SkiZones-0.11.0-android-arm64.apk",
+    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.11.0",
     "total": 29,
-    "latest_downloads": 2,
-    "asset": "SkiZones-0.10.0-android-arm64.apk"
+    "latest_downloads": 0,
+    "asset": "SkiZones-0.11.0-android-arm64.apk"
   },
   "pmddcam": {
     "tag": "v0.4.0",
