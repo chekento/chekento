@@ -4,7 +4,7 @@
 
 Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.14.3) · [All repositories](https://github.com/chekento?tab=repositories)
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.15.0) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
@@ -12,12 +12,12 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**New in 0.14.3:** precise phone waypoint grips, direct editing of individual piste points and real junctions anywhere along an existing piste centreline. Shared points move connected branches together; adjoining snow corridors meet without overlapping surfaces. Four offline real-world scenarios — Braunlage/Wurmberg, Filzmoos, Kitzbühel and Seiser Alm — add staff shifts, repairs, groomers, rescue, overnight hotels and evening activities to the eight original resorts. Building footprints, entrance reservations and path crossings improve construction. Language settings and map-data credits are available from the main menu. Verified by 1,021 model/render checks and 43 Android 11/16 emulator cases.
+**New in 0.15.0:** the main game comes before optional scenarios; the map stays full-screen at every graphics quality. Pistes follow the visible terrain continuously across Braunlage/Wurmberg, Filzmoos, Kitzbühel and Seiser Alm. On-map missions show the next objective. Select a lift to manage base, top and shared middle-station crews, shifts and reserve staff directly. Career and free play retain their own saves. German and English are included. Verified by 1,075 model/render checks and 43 Android 11/16 emulator cases.
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.14.3/SkiZones-0.14.3-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.15.0/SkiZones-0.15.0-android-arm64.apk)
 
-[v0.14.3 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.14.3) · [Game & documentation](https://github.com/chekento/SkiZones) · ![42 APK downloads](assets/downloads/skizones.svg)
+[v0.15.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.15.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![42 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 [![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/piste-editor-0143.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
@@ -25,7 +25,13 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 *Actual PC-rendered game captures with the game UI visible, from prepared test resorts. The Android app uses the same Godot scenes; physical-phone performance has not been measured.*
 
 <details>
-<summary>More SkiZones gameplay: connected pistes, real scenarios and resort operations</summary>
+<summary>More SkiZones gameplay: main game, direct station teams, connected pistes and scenarios</summary>
+
+![SkiZones 0.15.0 — main game before optional scenarios](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/main-game-first-0150.webp)
+
+![SkiZones 0.15.0 — direct base and middle-station staff management](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/lift-team-stations-0150.webp)
+
+![SkiZones 0.15.0 — full-screen map and anchored planning points](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/stable-planning-0150.webp)
 
 ![SkiZones 0.14.3 — editable individual piste points](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/piste-editor-0143.webp)
 
@@ -82,7 +88,7 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 | Project | Explore | Android APK | APK downloads |
 |---|---|---|---:|
-| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.14.3 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.14.3/SkiZones-0.14.3-android-arm64.apk) | ![42 APK downloads](assets/downloads/skizones.svg) |
+| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.15.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.15.0/SkiZones-0.15.0-android-arm64.apk) | ![42 APK downloads](assets/downloads/skizones.svg) |
 | **[PMDDcam](https://github.com/chekento/PMDDcam)** | Depth photography · 80 visual styles | [↓ v0.4.0 · Preview](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) | ![6 APK downloads](assets/downloads/pmddcam.svg) |
 | **[PMDDvid](https://github.com/chekento/PMDDvid)** | Local depth video · camera & converter | [↓ v0.1.7 · Preview](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) | ![11 APK downloads](assets/downloads/pmddvid.svg) |
 | **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Perceptual colour precision game | [↓ v1.0.0 · Preview](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk) | ![4 APK downloads](assets/downloads/chroma-clash.svg) |
@@ -972,4 +978,4 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 
 Local processing where practical, traceable sources, clear preview labels and direct access to releases. Each repository documents its requirements and limitations.
 
-[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.14.3) · [Visit kosch.cloud](https://kosch.cloud)
+[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.15.0) · [Visit kosch.cloud](https://kosch.cloud)
