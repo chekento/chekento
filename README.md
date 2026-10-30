@@ -4,7 +4,7 @@
 
 Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.15.0) · [All repositories](https://github.com/chekento?tab=repositories)
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.16.0) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
@@ -12,7 +12,7 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**New in 0.15.0:** the main game comes before optional scenarios; the map stays full-screen at every graphics quality. Pistes follow the visible terrain continuously across Braunlage/Wurmberg, Filzmoos, Kitzbühel and Seiser Alm. On-map missions show the next objective. Select a lift to manage base, top and shared middle-station crews, shifts and reserve staff directly. Career and free play retain their own saves. German and English are included. Verified by 1,075 model/render checks and 43 Android 11/16 emulator cases.
+**New in 0.16.0:** guests follow personal holiday wishes. Families have individual children and adults, use actual lift seats and regroup at the summit. Some visitors stay on blue runs; others seek blue and red, every difficulty, a complete holiday checklist, or black runs and snowparks. Food, warmth and rest affect satisfaction, recommendations and revenue. Guests & Wishes connects reachable facilities, real reviews and income. Main-game priority, stable maps and direct lift teams remain included. German and English. Verified by 1,165 model/render checks and 43 Android emulator cases.
 
 <!-- SKIZONES-DOWNLOAD:START -->
 [![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.16.0/SkiZones-0.16.0-android-arm64.apk)
@@ -20,7 +20,7 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 [v0.16.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.16.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![46 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
-[![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/piste-editor-0143.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
+[![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/family-group-0160.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
 
 *Actual PC-rendered game captures with the game UI visible, from prepared test resorts. The Android app uses the same Godot scenes; physical-phone performance has not been measured.*
 
@@ -978,4 +978,4 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 
 Local processing where practical, traceable sources, clear preview labels and direct access to releases. Each repository documents its requirements and limitations.
 
-[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.15.0) · [Visit kosch.cloud](https://kosch.cloud)
+[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.16.0) · [Visit kosch.cloud](https://kosch.cloud)
