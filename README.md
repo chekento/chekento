@@ -10,6 +10,18 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 ## On the mountain: SkiZones
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/icon_512.png" width="108" alt="SkiZones — PMDD 4.0 winter icon">
+</div>
+
+<details>
+<summary>Preview the new SkiZones 0.19 PMDD winter icon and full-screen startup art</summary>
+
+![SkiZones 0.19 — PMDD winter loading screen](https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/splash_1920.png)
+
+*The new artwork is committed in the game repository. Version 0.19 is still undergoing Android release tests; the APK button below continues to point to the latest verified public release.*
+</details>
+
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
 **New in 0.18.0:** direct operation and staff menus for each lift and building. Whole lift lines show their valley, shared middle and summit teams together; workshops manage their own repairs and parts. Lift planning offers safe adjacent station sites, flat transfers and automatic valley/summit order. An affordable-first village catalog adds hot chocolate, Kaiserschmarrn and pizza shops with real staff, guest needs and visit revenue. GitHub version checks now save before opening the browser; the app-owned APK installer and installation permission are removed. Four independent careers, individual families, longer days and all-night visits remain available. German and English. Verified by 1,428 model/render checks across 45 suites and 53 Android emulator cases.
