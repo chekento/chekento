@@ -20,6 +20,9 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 [v0.17.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.17.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![54 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
+> **Google Play Protect:** “Harmful app blocked” was reported for SkiZones 0.17.0. The cause and any reclassification are unconfirmed. The next build removes the app-owned APK installer and uses browser updates. [Review status and official guidance](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md).
+
+
 [![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/individual-families-0170.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
 
 *Actual PC-rendered game captures with the game UI visible, from prepared test resorts. The Android app uses the same Godot scenes; physical-phone performance has not been measured.*
