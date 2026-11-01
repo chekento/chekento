@@ -4,7 +4,7 @@
 
 Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.18.0) · [All repositories](https://github.com/chekento?tab=repositories)
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.19.0) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
@@ -15,21 +15,21 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 </div>
 
 <details>
-<summary>Preview the new SkiZones 0.19 PMDD winter icon and full-screen startup art</summary>
+<summary>SkiZones 0.19 — new PMDD icon and full-screen loading screen</summary>
 
 ![SkiZones 0.19 — PMDD winter loading screen](https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/splash_1920.png)
 
-*The new artwork is committed in the game repository. Version 0.19 is still undergoing Android release tests; the APK button below continues to point to the latest verified public release.*
+*The new artwork is included in the published v0.19.0 Android APK. PMDD is a depth and motion-illusion artwork approach here, not live sensor-driven parallax.*
 </details>
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**New in 0.18.0:** direct operation and staff menus for each lift and building. Whole lift lines show their valley, shared middle and summit teams together; workshops manage their own repairs and parts. Lift planning offers safe adjacent station sites, flat transfers and automatic valley/summit order. An affordable-first village catalog adds hot chocolate, Kaiserschmarrn and pizza shops with real staff, guest needs and visit revenue. GitHub version checks now save before opening the browser; the app-owned APK installer and installation permission are removed. Four independent careers, individual families, longer days and all-night visits remain available. German and English. Verified by 1,428 model/render checks across 45 suites and 53 Android emulator cases.
+**New in 0.19.0:** original PMDD 4.0 winter icon, Android adaptive launcher graphics and a full-screen 1920×1080 startup scene showing skiers, gondolas and a playful snowman. The signed ARM64 preview passed the Godot validation suite and the Android 30/36 emulator lifecycle, touch and upgrade checks. All 0.18 resort gameplay remains: direct lift and building operations, valley/middle/summit staffing, repair teams, improved lift docking, four career slots, individualized families, skiing/snowboarding/snowblading and German/English UI.
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.18.0/SkiZones-0.18.0-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.19.0/SkiZones-0.19.0-android-arm64.apk)
 
-[v0.18.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.18.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![61 APK downloads](assets/downloads/skizones.svg)
+[v0.19.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.19.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![SkiZones APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 > **Google Play Protect:** “Harmful app blocked” was reported for SkiZones 0.17.0. The cause and any reclassification are unconfirmed. Version 0.18 removes the app-owned APK installer and uses browser updates; a Google clearance is not confirmed. [Review status and official guidance](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md).
