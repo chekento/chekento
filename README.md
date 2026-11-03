@@ -24,12 +24,21 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**New in 0.20.0:** compact ski villages in all four real scenarios, usable hotels and multi-day holidays, overnight stays for individual families, per-building profit/loss and safer overtaking on pistes. PMDD loading progress follows the selected scenario's preparation. Real-source roads carry a visible fictional hotel-to-gondola shuttle; passenger boarding remains future work. Four careers, station staffing, repairs and German/English controls are retained. The signed ARM64 preview passed 1,558 model/render checks and the Android 11/16 emulator release checks.
+**New in 0.22.0:** enter any of 26 building types to play a short optional activity. Create a menu of three custom pizzas; run ski-school slalom, snack orders and pouring shifts. Six accommodation types bring multi-day holidays to the normal game, with individual hotel pricing, staff, comfort, cleaning, ratings and named hotel chains. Optional weekly passes include a cost floor, while higher service tariffs improve regular income. This release also includes 1,000 achievements, 500 mastery ranks, sponsors and five art directions. Automated game, save-migration, signing and Android 30/36 tests passed. [Full 0.22 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.22.0.md).
+
+The main game offers career and free build across eight fantasy resorts; real scenarios remain disabled.
+
+<details>
+<summary>Earlier updates: 0.20.0</summary>
+
+**0.20.0:** compact ski villages in all four real scenarios, usable hotels and multi-day holidays, overnight stays for individual families, per-building profit/loss and safer overtaking on pistes. PMDD loading progress follows the selected scenario's preparation. Real-source roads carry a visible fictional hotel-to-gondola shuttle; passenger boarding remains future work. Four careers, station staffing, repairs and German/English controls are retained. The signed ARM64 preview passed 1,558 model/render checks and the Android 11/16 emulator release checks.
+
+</details>
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.21.0/SkiZones-0.21.0-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.22.0/SkiZones-0.22.0-android-arm64.apk)
 
-[v0.21.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.21.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![85 APK downloads](assets/downloads/skizones.svg)
+[v0.22.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.22.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![SkiZones APK downloads](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/apk-downloads.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 > **Google Play Protect:** “Harmful app blocked” was reported for SkiZones 0.17.0. The cause and any reclassification are unconfirmed. Version 0.18 removes the app-owned APK installer and uses browser updates; a Google clearance is not confirmed. [Review status and official guidance](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md).
