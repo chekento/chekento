@@ -4,7 +4,7 @@
 
 Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.36.0) · [All repositories](https://github.com/chekento?tab=repositories)
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.37.0) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
@@ -24,7 +24,7 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
-**New in 0.36.0:** optional persistent hotel rooms with real guest/family reservations, protected occupied rooms, cleaning after checkout and a mobile floorplan. Manual cleaning charges 8 € per dirty room; room moves cost 250 €. Includes the complete 0.35.1 traffic, free-build and early-save hotfix. Android 30/36, signing continuity and in-place updates passed. [Full 0.36.0 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.36.0.md).
+**New in 0.37.0:** fixed piste planning with simultaneous elevation profile, length, width, cost and grades in percent/degrees; freehand paths with four saved and visible surfaces; continuous snow trails and clearer Alpine terrain. Retains hotel room operations and the traffic/free-build/legacy-save fixes. Android 30/36, signing continuity and in-place updates passed. [Full 0.37.0 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.37.0.md).
 
 The main game offers career and free build across eight fantasy resorts, plus four optional real-world scenarios.
 
@@ -1019,4 +1019,4 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 
 Local processing where practical, traceable sources, clear preview labels and direct access to releases. Each repository documents its requirements and limitations.
 
-[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.36.0) · [Visit kosch.cloud](https://kosch.cloud)
+[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.37.0) · [Visit kosch.cloud](https://kosch.cloud)
