@@ -4,7 +4,7 @@
 
 Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.38.0) · [All repositories](https://github.com/chekento?tab=repositories)
+[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.38.1) · [All repositories](https://github.com/chekento?tab=repositories)
 
 </div>
 
@@ -24,6 +24,8 @@ Independent Android apps, applied AI and interactive worlds by **KoSch**.
 
 **Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
 
+**Current hotfix 0.38.1:** automatic public restroom maintenance respects staff absence, preserves daily hygiene aging and charges only for actual service. Android API 30/36, signing continuity and four-career in-place upgrades passed. [0.38.1 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.38.1.md).
+
 **New in 0.38.0:** clearer building KPIs and prominent actions; a playable hotel operations simulator; an independent public Dixi/restroom manager with real family queues, hygiene, tanks and its own research. Fullscreen save management adds diagnostics, verified copying, backup recovery and archiving. Updated Alpine scenery, piste traffic and touch radio controls retain the existing hotel rooms, freehand paths and legacy-save fixes. Android API 30/36, signing continuity and four-career in-place upgrades passed. [Full 0.38.0 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.38.0.md).
 
 The main game offers career and free build across eight fantasy resorts, plus four optional real-world scenarios.
@@ -36,9 +38,9 @@ The main game offers career and free build across eight fantasy resorts, plus fo
 </details>
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.38.0/SkiZones-0.38.0-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.38.1/SkiZones-0.38.1-android-arm64.apk)
 
-[v0.38.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.38.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![187 APK downloads](assets/downloads/skizones.svg)
+[v0.38.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.38.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![188 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 > **Google Play Protect:** “Harmful app blocked” was reported for SkiZones 0.17.0. The cause and any reclassification are unconfirmed. Version 0.18 removes the app-owned APK installer and uses browser updates; a Google clearance is not confirmed. [Review status and official guidance](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md).
@@ -129,7 +131,7 @@ The main game offers career and free build across eight fantasy resorts, plus fo
 
 | Project | Explore | Android APK | APK downloads |
 |---|---|---|---:|
-| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.38.0 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.38.0/SkiZones-0.38.0-android-arm64.apk) | ![187 APK downloads](assets/downloads/skizones.svg) |
+| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.38.1 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.38.1/SkiZones-0.38.1-android-arm64.apk) | ![188 APK downloads](assets/downloads/skizones.svg) |
 | **[PMDDcam](https://github.com/chekento/PMDDcam)** | Depth photography · 80 visual styles | [↓ v0.4.0 · Preview](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) | ![6 APK downloads](assets/downloads/pmddcam.svg) |
 | **[PMDDvid](https://github.com/chekento/PMDDvid)** | Local depth video · camera & converter | [↓ v0.1.7 · Preview](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) | ![11 APK downloads](assets/downloads/pmddvid.svg) |
 | **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Perceptual colour precision game | [↓ v1.0.0 · Preview](https://github.com/chekento/chroma-clash-android/releases/download/v1.0.0/Chroma-Clash-1.0.0.apk) | ![4 APK downloads](assets/downloads/chroma-clash.svg) |
@@ -1019,4 +1021,4 @@ Parallax Hunt is a **public Godot Android development prototype** featuring a la
 
 Local processing where practical, traceable sources, clear preview labels and direct access to releases. Each repository documents its requirements and limitations.
 
-[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.38.0) · [Visit kosch.cloud](https://kosch.cloud)
+[Browse the app galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.38.1) · [Visit kosch.cloud](https://kosch.cloud)
