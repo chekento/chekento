@@ -1,12 +1,5 @@
 [
   {
-    "id": "skizones",
-    "repo": "SkiZones",
-    "name": "SkiZones",
-    "description": "3D ski resort tycoon · offline",
-    "category": "Games"
-  },
-  {
     "id": "pmddcam",
     "repo": "PMDDcam",
     "name": "PMDDcam",
@@ -21,11 +14,18 @@
     "category": "Creative"
   },
   {
-    "id": "chroma-clash",
-    "repo": "chroma-clash-android",
-    "name": "Chroma Clash",
-    "description": "Perceptual colour precision game",
-    "category": "Creative"
+    "id": "skizones",
+    "repo": "SkiZones",
+    "name": "SkiZones",
+    "description": "3D ski resort tycoon · offline",
+    "category": "Games"
+  },
+  {
+    "id": "ai-news",
+    "repo": "Ainews",
+    "name": "AI News",
+    "description": "AI news, sources & radar",
+    "category": "Discovery"
   },
   {
     "id": "scenic-path",
@@ -42,13 +42,6 @@
     "category": "Discovery"
   },
   {
-    "id": "ai-news",
-    "repo": "Ainews",
-    "name": "AI News",
-    "description": "AI news, sources & radar",
-    "category": "Discovery"
-  },
-  {
     "id": "aievents",
     "repo": "AIevents-",
     "name": "AIevents",
@@ -56,10 +49,10 @@
     "category": "Discovery"
   },
   {
-    "id": "labyrinthia",
-    "repo": "labyrinthia-endless-maze",
-    "name": "Labyrinthia",
-    "description": "Procedural mazes · tilt controls",
+    "id": "parallax-hunt",
+    "repo": "parallaxhunt",
+    "name": "Parallax Hunt",
+    "description": "Living city · Android alpha",
     "category": "Games"
   },
   {
@@ -70,10 +63,17 @@
     "category": "Games"
   },
   {
-    "id": "parallax-hunt",
-    "repo": "parallaxhunt",
-    "name": "Parallax Hunt",
-    "description": "Living city · Android alpha",
+    "id": "labyrinthia",
+    "repo": "labyrinthia-endless-maze",
+    "name": "Labyrinthia",
+    "description": "Procedural mazes · tilt controls",
     "category": "Games"
+  },
+  {
+    "id": "chroma-clash",
+    "repo": "chroma-clash-android",
+    "name": "Chroma Clash",
+    "description": "Perceptual colour precision game",
+    "category": "Creative"
   }
 ]
