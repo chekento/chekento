@@ -1,130 +1,130 @@
 <div align="center">
 
-<img src="assets/portfolio-banner.svg" width="100%" alt="KoSch — Apps, worlds and experiments">
+<img src="assets/portfolio-banner.svg" width="100%" alt="KoSch — Independent Software · AI · Android · Visual Computing">
 
-Independent Android apps, applied AI and interactive worlds by **KoSch**.
+# KoSch · Independent Software & Applied AI
 
-[kosch.cloud](https://kosch.cloud) · [App Store & galleries](https://raw.githack.com/chekento/chekento/main/docs/store.html?v=skizones-0.38.1) · [All repositories](https://github.com/chekento?tab=repositories)
+**Original applications, intelligent workflows, computational imagery and interactive worlds.**  
+*Eigenständige Softwareentwicklung · angewandte KI · kreative Bildtechnologie · komplexe Simulationen*
+
+[**🌐 kosch.cloud**](https://kosch.cloud) &nbsp;·&nbsp; [**📱 App-Galerie**](https://raw.githack.com/chekento/chekento/main/docs/store.html) &nbsp;·&nbsp; [**🔎 Alle Repositories**](https://github.com/chekento?tab=repositories)
 
 </div>
 
-## On the mountain: SkiZones
+---
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/icon_512.png" width="108" alt="SkiZones — PMDD 4.0 winter icon">
-</div>
+## ❄️ Aktuell im Fokus · SkiZones
 
-<details>
-<summary>SkiZones 0.19 — new PMDD icon and full-screen loading screen</summary>
+<table>
+<tr>
+<td width="136" align="center"><a href="https://github.com/chekento/SkiZones"><img src="https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/icon_512.png" width="112" alt="SkiZones app icon"></a></td>
+<td>
 
-![SkiZones 0.19 — PMDD winter loading screen](https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/splash_1920.png)
+### [SkiZones – 3D Ski Resort Tycoon](https://github.com/chekento/SkiZones)
 
-*The new artwork is included in the published v0.19.0 Android APK. PMDD is a depth and motion-illusion artwork approach here, not live sensor-driven parallax.*
-</details>
+**Eine lebendige, wirtschaftlich simulierte Alpenwelt.** Pisten und Lifte konstruieren, Hotels und Services betreiben, Gäste mit individuellen Bedürfnissen begleiten und ein Resort durch mehrere Saisons führen. Mit Personal, Finanzen, Pistenrettung, Winterereignissen und deutschen/englischen Oberflächen.
 
-**Build a resort. Watch it come alive.** A 3D ski resort tycoon for Android: connected pistes, eight lift types, individual guests, snow, research and winter seasons.
+**Android ARM64 · Offline-Gameplay · Entwicklungsversion mit automatisierten Release-Checks**
 
-**Current hotfix 0.38.1:** automatic public restroom maintenance respects staff absence, preserves daily hygiene aging and charges only for actual service. Android API 30/36, signing continuity and four-career in-place upgrades passed. [0.38.1 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.38.1.md).
-
-**New in 0.38.0:** clearer building KPIs and prominent actions; a playable hotel operations simulator; an independent public Dixi/restroom manager with real family queues, hygiene, tanks and its own research. Fullscreen save management adds diagnostics, verified copying, backup recovery and archiving. Updated Alpine scenery, piste traffic and touch radio controls retain the existing hotel rooms, freehand paths and legacy-save fixes. Android API 30/36, signing continuity and four-career in-place upgrades passed. [Full 0.38.0 release notes](https://github.com/chekento/SkiZones/blob/main/docs/releases/0.38.0.md).
-
-The main game offers career and free build across eight fantasy resorts, plus four optional real-world scenarios.
-
-<details>
-<summary>Earlier updates: 0.20.0</summary>
-
-**0.20.0:** compact ski villages in all four real scenarios, usable hotels and multi-day holidays, overnight stays for individual families, per-building profit/loss and safer overtaking on pistes. PMDD loading progress follows the selected scenario's preparation. Real-source roads carry a visible fictional hotel-to-gondola shuttle; passenger boarding remains future work. Four careers, station staffing, repairs and German/English controls are retained. The signed ARM64 preview passed 1,558 model/render checks and the Android 11/16 emulator release checks.
-
-</details>
+</td>
+</tr>
+</table>
 
 <!-- SKIZONES-DOWNLOAD:START -->
 [![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.40.1/SkiZones-0.40.1-android-arm64.apk)
 
-[v0.40.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.40.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![219 APK downloads](assets/downloads/skizones.svg)
+[v0.40.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.40.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![SkiZones APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
-> **Google Play Protect:** “Harmful app blocked” was reported for SkiZones 0.17.0. The cause and any reclassification are unconfirmed. Version 0.18 removes the app-owned APK installer and uses browser updates; a Google clearance is not confirmed. [Review status and official guidance](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md).
+*Die Banner-Verlinkung wird aus echten GitHub-Releases aktualisiert. Nur veröffentlichte APKs erscheinen als aktueller Download. Vorschauversionen sind nicht mit einer Store- oder Gerätefreigabe gleichzusetzen.*
 
+[**Release-Archiv**](https://github.com/chekento/SkiZones/releases) · [**Changelog**](https://github.com/chekento/SkiZones/blob/main/CHANGELOG.md) · [**Spielstand- und Android-Hinweise**](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md)
 
-[![SkiZones — actual in-game resort view](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/individual-families-0170.webp)](https://github.com/chekento/SkiZones#in-game-screenshots)
+---
 
-*Actual PC-rendered game captures with the game UI visible, from prepared test resorts. The Android app uses the same Godot scenes; physical-phone performance has not been measured.*
+## ✨ Signature projects · Auswahl nach Innovationsgrad, Tiefe und Nutzen
 
-<details>
-<summary>SkiZones 0.31 newspaper, new art styles and earlier gameplay views</summary>
+*Kuratiert nach Eigenständigkeit der Idee, technischer Umsetzungstiefe und praktischem Potenzial – keine behauptete objektive Bewertung oder Download-Rangliste.*
 
-![SkiZones 0.31 — individual newspaper and real resort statistics](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/newspaper-031.webp)
+<table>
+<tr><td width="50%" valign="top">
 
-![SkiZones 0.31 — Neon Noir](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/neon-noir-031.webp)
+### 01 · [PMDDcam](https://github.com/chekento/PMDDcam)
 
-![SkiZones 0.31 — Aurora Ink](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/aurora-ink-031.webp)
+**Fotografie als wahrnehmbarer Raum.** Experimentelle Android-Kamera mit lokalen Tiefenebenen, interaktiver Perspektive, Bild- und Tiefenkarten-Export sowie zahlreichen kreativen Stilrichtungen.
 
-![SkiZones 0.31 — Bauhaus](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/bauhaus-031.webp)
+[Projekt & Android-Version](https://github.com/chekento/PMDDcam)
 
+</td><td width="50%" valign="top">
 
-![SkiZones 0.18 — valley, middle and summit teams in one lift menu](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/three-stations-0180.webp)
+### 02 · [PMDDvid](https://github.com/chekento/PMDDvid)
 
-![SkiZones 0.18 — workshop repairs, employees and spare parts](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/asset-operations-0180.webp)
+**Räumliche Gestaltung für Bewegtbild.** Eigenständige Videokamera mit lokaler Tiefenschätzung, Aufnahme, Video-Konvertierung und Ausgabe für mehrere räumliche Ansichten.
 
-![SkiZones 0.18 — lift planning with automatic station assignment](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/lift-docking-0180.webp)
+[Projekt & Android-Version](https://github.com/chekento/PMDDvid)
 
-![SkiZones 0.17 — four independent careers](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/career-slots-0170.webp)
+</td></tr>
+<tr><td valign="top">
 
-![SkiZones 0.15.0 — main game before optional scenarios](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/main-game-first-0150.webp)
+### 03 · [SkiZones](https://github.com/chekento/SkiZones)
 
-![SkiZones 0.15.0 — direct base and middle-station staff management](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/lift-team-stations-0150.webp)
+**Aus einer Piste wird eine Welt.** Verknüpfte 3D-Simulation von Geländebau, Liftbetrieb, Gästen, Personal, Ökonomie, Wetter und Wintersaison.
 
-![SkiZones 0.15.0 — full-screen map and anchored planning points](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/stable-planning-0150.webp)
+[Spiel, Tests & APK](https://github.com/chekento/SkiZones)
 
-![SkiZones 0.14.3 — editable individual piste points](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/piste-editor-0143.webp)
+</td><td valign="top">
 
-![SkiZones 0.14.3 — adjoining snow corridors and shared branches](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/piste-junction-0143.webp)
+### 04 · [AI News](https://github.com/chekento/Ainews)
 
-![Four real regions with invented scenario objectives](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/real-scenarios-0140.webp)
+**KI-Entwicklungen im Blick behalten.** Quellenorientiertes Monitoring für Modelle, Anbieter, Forschung, Agenten und KI-Regulierung mit Suche, Themen und eigenen Beobachtungen.
 
-![Staff, workshops, groomers and rescue in the operating office](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/operations-office-0140.webp)
+[AI-Intelligence-Projekt](https://github.com/chekento/Ainews)
 
-![Actual evening visitors in the outdoor pool](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/en-evening-pool-0140.webp)
+</td></tr>
+<tr><td valign="top">
 
-![Main-menu language and graphics settings](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/en-settings-0140.webp)
+### 05 · [Scenic Path](https://github.com/chekento/scenic-path-android)
 
-![Map-data credits in the main menu](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/en-data-credits-0140.webp)
+**Der Weg ist Teil des Ziels.** Routen entdecken und nach landschaftlicher Qualität, Sehenswürdigkeiten und vertretbaren Umwegen statt nur nach Fahrzeit bewerten.
 
-![SkiZones 0.13 — a village promenade and its actual building entrances](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/village-promenade-0130.webp)
+[Android-Routenplaner](https://github.com/chekento/scenic-path-android)
 
-![SkiZones 0.13 — eight independent resorts in the English mountain pass](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-pass-en-0130.webp)
+</td><td valign="top">
 
-![SkiZones 0.13 — Glacier Royale mountain terrain](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-gletscherwelt-0130.webp)
+### 06 · [PizzaScan](https://github.com/chekento/Pizzascan)
 
-![SkiZones 0.13 — Starlight Valhalla, the largest resort](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/resort-sternengrat-0130.webp)
+**Globale Restaurantentdeckung mit eigener Logik.** Kartensuche für Pizza und italienische Küche mit Detailfiltern, persönlichen Bewertungen und optionaler lokaler Bildanalyse.
 
-![SkiZones 0.12 — 36-metre piste planning and smoothed curves](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/de-width-curves-0120.webp)
+[Restaurant-Discovery-App](https://github.com/chekento/Pizzascan)
 
-![SkiZones 0.12 — a built graded corridor with clear edges](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/en-graded-piste-0120.webp)
+</td></tr>
+</table>
 
-![SkiZones 0.11 — route assistance and connection checks in German](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/de-route-planning-0110.webp)
+## 🧠 AI, Interfaces & produktive Werkzeuge
 
-![SkiZones 0.11 — English guest profile after an actual restaurant visit](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/en-guest-services-0110.webp)
+| Projekt | Worum es geht | Projektstand |
+|:--|:--|:--|
+| **[Avatar AI](https://github.com/chekento/avatar-ai)** | Animierte, sprechende Assistentin mit Mimik, Gestik, Blick und lippensynchroner Sprachausgabe für Web und Android | Aktive Entwicklung |
+| **[KeySwiper](https://github.com/chekento/KeySwiper)** | Adaptives Android-Keyboard mit Wischgesten, Sprach-/Stifteingabe, Übersetzung und optionaler lokaler KI | Alpha |
+| **[CorpNet Insights](https://github.com/chekento/corpnet-insights-android)** | Unternehmensnetzwerke verständlich modellieren und mit lokaler oder optionaler Cloud-KI analysieren | Android-Projekt |
+| **[AIevents](https://github.com/chekento/AIevents-)** | KI-Konferenzen, Meetups, Workshops und Anbietertermine weltweit finden und beobachten | Android-Preview |
+| **[AntiGolem](https://github.com/chekento/antigolem)** | Aussagen, Formulierungen und semantische Argumentation systematisch untersuchen; quellengestützte Antwortarbeit | Web-Werkzeug |
+| **[KAL · KoSch AI Launcher](https://github.com/chekento/kosch-ai-android)** | Android-Startoberfläche mit App-Suche, Workspaces, Werkzeugen und optionalen KI-Funktionen | Frühe Alpha, nicht alltagstauglich |
 
-![SkiZones 0.11 — the fully translated English main menu](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/en-menu-0110.webp)
+## 🎮 Spielwelten & experimentelle Simulationen
 
-![SkiZones 0.10 — actual snowy resort diorama](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/cute-resort-0100.webp)
+| Projekt | Was daran besonders ist | Projektstand |
+|:--|:--|:--|
+| **[Rektor · School Tycoon](https://github.com/chekento/schooltycoon)** | Schule und Campus wirtschaftlich und organisatorisch aufbauen – mit Lehrkräften, Schülern und Stundenplänen | Godot-/Unity-Projekt |
+| **[Parallax Hunt](https://github.com/chekento/parallaxhunt)** | Offene Stadtwelt mit Erkundung, Fortbewegung, Beziehungen und perspektivischer Bildgestaltung | Android-Alpha |
+| **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Prozedurale Labyrinthe, Bewegungssteuerung, Rätsel und langfristige Progression | Android-Preview |
+| **[Wolf · Wildnis & Rudel](https://github.com/chekento/wolf)** | Natur, Rudelbeziehungen und das Aufwachsen eines Wolfes als interaktive Simulation | Android-Projekt |
+| **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Farbgenauigkeit als Spielmechanik mit wahrnehmungsbezogener CIEDE2000-Bewertung | Android-Preview |
+| **[CAB · Real World Taxi](https://github.com/chekento/cab-realworld-taxi)** | Geplante Taxi- und Verkehrs-Simulation mit realweltlichem Bezug | Frühe Entwicklung / Repository-Basis |
 
-![SkiZones 0.10 — real skiers, snowboarders and snowbladers](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/winter-sports-0100.webp)
+## 📱 Installierbare Android-Previews
 
-![SkiZones 0.9 — editable connected footpath preview](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/footpath-preview-090.webp)
-
-![SkiZones 0.9 — hiking up a counter-slope with a personal activity explanation](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/hiking-090.webp)
-
-![SkiZones 0.7 — personal guest profiles and moods](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/guest-070.webp)
-
-![SkiZones 0.7 — remodeling existing pistes](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/screenshots/remodel-070.webp)
-
-</details>
-
-## Android collection
-
-11 public projects. Choose an APK or open a repository for release notes and requirements.
+*Echte verfügbare APKs – diese Liste und die Download-Zahlen aktualisieren sich automatisch. Ein Projekt ohne öffentliches APK-Release wird oben nur mit seinem Repository verlinkt.*
 
 <!-- APP-CATALOG:START -->
 **277 APK downloads** across the 11 projects.
@@ -144,11 +144,17 @@ The main game offers career and free build across eight fantasy resorts, plus fo
 | **[Parallax Hunt](https://github.com/chekento/parallaxhunt)** | Living city · Android alpha | [↓ android-latest](https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk) | ![0 APK downloads](assets/downloads/parallax-hunt.svg) |
 <!-- APP-CATALOG:END -->
 
-**About these numbers:** APK asset downloads across all non-draft GitHub releases, including previews and APK aliases. Checksums, manifests, ZIPs and source archives are excluded. These are file downloads, not unique people or installations. GitHub does not expose historical counts for assets that have been deleted or replaced. Links and counts refresh hourly; image caches can delay the visible badge.
+<sub>APK-Zahlen sind Downloads von GitHub-Release-Dateien, keine Nutzerzahlen. Vorabversionen sind als solche gekennzeichnet. Die Statistik wird durch einen eigenen stündlichen Workflow aktualisiert.</sub>
 
-## Browser experiences
+## 🌍 Im Browser entdecken
 
 [PMDDcam Web](https://raw.githack.com/chekento/PMDDcam/main/webapp/index.html) · [PizzaScan Web](https://raw.githack.com/chekento/Pizzascan/main/web/index.html) · [AI News](https://github.com/chekento/Ainews/blob/main/portal/news.md) · [Labyrinthia](https://maze.on.websim.com)
+
+---
+
+## 📚 Projekt-Details, Technik und Hintergrund
+
+Die ausführliche Dokumentation zu einzelnen Anwendungen bleibt weiter unten erhalten und ist für eine bessere Übersicht einklappbar.
 
 <a id="skizones-details"></a>
 
