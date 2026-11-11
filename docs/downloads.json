@@ -18,13 +18,13 @@
     "asset": "PMDDvid-0.1.7.apk"
   },
   "skizones": {
-    "tag": "v0.40.1",
+    "tag": "v0.41.1",
     "prerelease": true,
-    "url": "https://github.com/chekento/SkiZones/releases/download/v0.40.1/SkiZones-0.40.1-android-arm64.apk",
-    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.40.1",
-    "total": 220,
-    "latest_downloads": 5,
-    "asset": "SkiZones-0.40.1-android-arm64.apk"
+    "url": "https://github.com/chekento/SkiZones/releases/download/v0.41.1/SkiZones-0.41.1-android-arm64.apk",
+    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.41.1",
+    "total": 223,
+    "latest_downloads": 1,
+    "asset": "SkiZones-0.41.1-android-arm64.apk"
   },
   "ai-news": {
     "tag": "android-latest",
