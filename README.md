@@ -47,6 +47,16 @@
 *Kuratiert nach Eigenständigkeit der Idee, technischer Umsetzungstiefe und praktischem Potenzial – keine behauptete objektive Bewertung oder Download-Rangliste.*
 
 <table>
+<tr>
+<td width="33%" align="center"><a href="https://github.com/chekento/PMDDcam"><img src="assets/app-gallery/pmddcam.svg" alt="PMDDcam – Wahrnehmungstiefe in der Fotografie" width="100%"></a></td>
+<td width="33%" align="center"><a href="https://github.com/chekento/PMDDvid"><img src="assets/app-gallery/pmddvid.svg" alt="PMDDvid – Tiefengestaltung für Video" width="100%"></a></td>
+<td width="33%" align="center"><a href="https://github.com/chekento/Ainews"><img src="assets/app-gallery/ai-news.svg" alt="AI News – KI-Quellen und News-Radar" width="100%"></a></td>
+</tr>
+</table>
+
+
+
+<table>
 <tr><td width="50%" valign="top">
 
 <h3>01 · <a href="https://github.com/chekento/PMDDcam">PMDDcam</a></h3>
