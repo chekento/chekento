@@ -102,25 +102,25 @@
 
 ## 🧠 AI, Interfaces & produktive Werkzeuge
 
-| Projekt | Worum es geht | Projektstand |
-|:--|:--|:--|
-| **[Avatar AI](https://github.com/chekento/avatar-ai)** | Animierte, sprechende Assistentin mit Mimik, Gestik, Blick und lippensynchroner Sprachausgabe für Web und Android | Aktive Entwicklung |
-| **[KeySwiper](https://github.com/chekento/KeySwiper)** | Adaptives Android-Keyboard mit Wischgesten, Sprach-/Stifteingabe, Übersetzung und optionaler lokaler KI | Alpha |
-| **[CorpNet Insights](https://github.com/chekento/corpnet-insights-android)** | Unternehmensnetzwerke verständlich modellieren und mit lokaler oder optionaler Cloud-KI analysieren | Android-Projekt |
-| **[AIevents](https://github.com/chekento/AIevents-)** | KI-Konferenzen, Meetups, Workshops und Anbietertermine weltweit finden und beobachten | Android-Preview |
-| **[AntiGolem](https://github.com/chekento/antigolem)** | Aussagen, Formulierungen und semantische Argumentation systematisch untersuchen; quellengestützte Antwortarbeit | Web-Werkzeug |
-| **[KAL · KoSch AI Launcher](https://github.com/chekento/kosch-ai-android)** | Android-Startoberfläche mit App-Suche, Workspaces, Werkzeugen und optionalen KI-Funktionen | Frühe Alpha, nicht alltagstauglich |
+| Rang | Projekt | Worum es geht | Projektstand |
+|:--:|:--|:--|:--|
+| **07**  **[Avatar AI](https://github.com/chekento/avatar-ai)** | Animierte, sprechende Assistentin mit Mimik, Gestik, Blick und lippensynchroner Sprachausgabe für Web und Android | Aktive Entwicklung |
+| **08**  **[KeySwiper](https://github.com/chekento/KeySwiper)** | Adaptives Android-Keyboard mit Wischgesten, Sprach-/Stifteingabe, Übersetzung und optionaler lokaler KI | Alpha |
+| **09**  **[CorpNet Insights](https://github.com/chekento/corpnet-insights-android)** | Unternehmensnetzwerke verständlich modellieren und mit lokaler oder optionaler Cloud-KI analysieren | Android-Projekt |
+| **10**  **[AIevents](https://github.com/chekento/AIevents-)** | KI-Konferenzen, Meetups, Workshops und Anbietertermine weltweit finden und beobachten | Android-Preview |
+| **11**  **[AntiGolem](https://github.com/chekento/antigolem)** | Aussagen, Formulierungen und semantische Argumentation systematisch untersuchen; quellengestützte Antwortarbeit | Web-Werkzeug |
+| **12**  **[KAL · KoSch AI Launcher](https://github.com/chekento/kosch-ai-android)** | Android-Startoberfläche mit App-Suche, Workspaces, Werkzeugen und optionalen KI-Funktionen | Frühe Alpha, nicht alltagstauglich |
 
 ## 🎮 Spielwelten & experimentelle Simulationen
 
-| Projekt | Was daran besonders ist | Projektstand |
-|:--|:--|:--|
-| **[Rektor · School Tycoon](https://github.com/chekento/schooltycoon)** | Schule und Campus wirtschaftlich und organisatorisch aufbauen – mit Lehrkräften, Schülern und Stundenplänen | Godot-/Unity-Projekt |
-| **[Parallax Hunt](https://github.com/chekento/parallaxhunt)** | Offene Stadtwelt mit Erkundung, Fortbewegung, Beziehungen und perspektivischer Bildgestaltung | Android-Alpha |
-| **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Prozedurale Labyrinthe, Bewegungssteuerung, Rätsel und langfristige Progression | Android-Preview |
-| **[Wolf · Wildnis & Rudel](https://github.com/chekento/wolf)** | Natur, Rudelbeziehungen und das Aufwachsen eines Wolfes als interaktive Simulation | Android-Projekt |
-| **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Farbgenauigkeit als Spielmechanik mit wahrnehmungsbezogener CIEDE2000-Bewertung | Android-Preview |
-| **[CAB · Real World Taxi](https://github.com/chekento/cab-realworld-taxi)** | Geplante Taxi- und Verkehrs-Simulation mit realweltlichem Bezug | Frühe Entwicklung / Repository-Basis |
+| Rang | Projekt | Was daran besonders ist | Projektstand |
+|:--:|:--|:--|:--|
+| **13**  **[Rektor · School Tycoon](https://github.com/chekento/schooltycoon)** | Schule und Campus wirtschaftlich und organisatorisch aufbauen – mit Lehrkräften, Schülern und Stundenplänen | Godot-/Unity-Projekt |
+| **14**  **[Parallax Hunt](https://github.com/chekento/parallaxhunt)** | Offene Stadtwelt mit Erkundung, Fortbewegung, Beziehungen und perspektivischer Bildgestaltung | Android-Alpha |
+| **15**  **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Prozedurale Labyrinthe, Bewegungssteuerung, Rätsel und langfristige Progression | Android-Preview |
+| **16**  **[Wolf · Wildnis & Rudel](https://github.com/chekento/wolf)** | Natur, Rudelbeziehungen und das Aufwachsen eines Wolfes als interaktive Simulation | Android-Projekt |
+| **17**  **[Chroma Clash](https://github.com/chekento/chroma-clash-android)** | Farbgenauigkeit als Spielmechanik mit wahrnehmungsbezogener CIEDE2000-Bewertung | Android-Preview |
+| **18**  **[CAB · Real World Taxi](https://github.com/chekento/cab-realworld-taxi)** | Geplante Taxi- und Verkehrs-Simulation mit realweltlichem Bezug | Frühe Entwicklung / Repository-Basis |
 
 ## 📱 Installierbare Android-Previews
 
