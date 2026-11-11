@@ -31,9 +31,9 @@
 </table>
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.40.1/SkiZones-0.40.1-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.41.1/SkiZones-0.40.1-android-arm64.apk)
 
-[v0.40.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.40.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![220 APK downloads](assets/downloads/skizones.svg)
+[v0.41.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.41.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![222 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 *Die Banner-Verlinkung wird aus echten GitHub-Releases aktualisiert. Nur veröffentlichte APKs erscheinen als aktueller Download. Vorschauversionen sind nicht mit einer Store- oder Gerätefreigabe gleichzusetzen.*
