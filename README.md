@@ -20,11 +20,11 @@
 <td width="136" align="center"><a href="https://github.com/chekento/SkiZones"><img src="https://raw.githubusercontent.com/chekento/SkiZones/main/assets/branding/icon_512.png" width="112" alt="SkiZones app icon"></a></td>
 <td>
 
-### [SkiZones – 3D Ski Resort Tycoon](https://github.com/chekento/SkiZones)
+<h3><a href="https://github.com/chekento/SkiZones">SkiZones – 3D Ski Resort Tycoon</a></h3>
 
-**Eine lebendige, wirtschaftlich simulierte Alpenwelt.** Pisten und Lifte konstruieren, Hotels und Services betreiben, Gäste mit individuellen Bedürfnissen begleiten und ein Resort durch mehrere Saisons führen. Mit Personal, Finanzen, Pistenrettung, Winterereignissen und deutschen/englischen Oberflächen.
+<strong>Eine lebendige, wirtschaftlich simulierte Alpenwelt.</strong> Pisten und Lifte konstruieren, Hotels und Services betreiben, Gäste mit individuellen Bedürfnissen begleiten und ein Resort durch mehrere Saisons führen. Mit Personal, Finanzen, Pistenrettung, Winterereignissen und deutschen/englischen Oberflächen.
 
-**Android ARM64 · Offline-Gameplay · Entwicklungsversion mit automatisierten Release-Checks**
+<strong>Android ARM64 · Offline-Gameplay · Entwicklungsversion mit automatisierten Release-Checks</strong>
 
 </td>
 </tr>
@@ -38,7 +38,7 @@
 
 *Die Banner-Verlinkung wird aus echten GitHub-Releases aktualisiert. Nur veröffentlichte APKs erscheinen als aktueller Download. Vorschauversionen sind nicht mit einer Store- oder Gerätefreigabe gleichzusetzen.*
 
-[**Release-Archiv**](https://github.com/chekento/SkiZones/releases) · [**Changelog**](https://github.com/chekento/SkiZones/blob/main/CHANGELOG.md) · [**Spielstand- und Android-Hinweise**](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md)
+[<strong>Release-Archiv</strong>](https://github.com/chekento/SkiZones/releases) · [<strong>Changelog</strong>](https://github.com/chekento/SkiZones/blob/main/CHANGELOG.md) · [<strong>Spielstand- und Android-Hinweise</strong>](https://github.com/chekento/SkiZones/blob/main/docs/PLAY_PROTECT.md)
 
 ---
 
@@ -49,53 +49,53 @@
 <table>
 <tr><td width="50%" valign="top">
 
-### 01 · [PMDDcam](https://github.com/chekento/PMDDcam)
+<h3>01 · <a href="https://github.com/chekento/PMDDcam">PMDDcam</a></h3>
 
-**Fotografie als wahrnehmbarer Raum.** Experimentelle Android-Kamera mit lokalen Tiefenebenen, interaktiver Perspektive, Bild- und Tiefenkarten-Export sowie zahlreichen kreativen Stilrichtungen.
+<strong>Fotografie als wahrnehmbarer Raum.</strong> Experimentelle Android-Kamera mit lokalen Tiefenebenen, interaktiver Perspektive, Bild- und Tiefenkarten-Export sowie zahlreichen kreativen Stilrichtungen.
 
-[Projekt & Android-Version](https://github.com/chekento/PMDDcam)
+<p><a href="https://github.com/chekento/PMDDcam">Projekt & Android-Version</a></p>
 
 </td><td width="50%" valign="top">
 
-### 02 · [PMDDvid](https://github.com/chekento/PMDDvid)
+<h3>02 · <a href="https://github.com/chekento/PMDDvid">PMDDvid</a></h3>
 
-**Räumliche Gestaltung für Bewegtbild.** Eigenständige Videokamera mit lokaler Tiefenschätzung, Aufnahme, Video-Konvertierung und Ausgabe für mehrere räumliche Ansichten.
+<strong>Räumliche Gestaltung für Bewegtbild.</strong> Eigenständige Videokamera mit lokaler Tiefenschätzung, Aufnahme, Video-Konvertierung und Ausgabe für mehrere räumliche Ansichten.
 
-[Projekt & Android-Version](https://github.com/chekento/PMDDvid)
-
-</td></tr>
-<tr><td valign="top">
-
-### 03 · [SkiZones](https://github.com/chekento/SkiZones)
-
-**Aus einer Piste wird eine Welt.** Verknüpfte 3D-Simulation von Geländebau, Liftbetrieb, Gästen, Personal, Ökonomie, Wetter und Wintersaison.
-
-[Spiel, Tests & APK](https://github.com/chekento/SkiZones)
-
-</td><td valign="top">
-
-### 04 · [AI News](https://github.com/chekento/Ainews)
-
-**KI-Entwicklungen im Blick behalten.** Quellenorientiertes Monitoring für Modelle, Anbieter, Forschung, Agenten und KI-Regulierung mit Suche, Themen und eigenen Beobachtungen.
-
-[AI-Intelligence-Projekt](https://github.com/chekento/Ainews)
+<p><a href="https://github.com/chekento/PMDDvid">Projekt & Android-Version</a></p>
 
 </td></tr>
 <tr><td valign="top">
 
-### 05 · [Scenic Path](https://github.com/chekento/scenic-path-android)
+<h3>03 · <a href="https://github.com/chekento/SkiZones">SkiZones</a></h3>
 
-**Der Weg ist Teil des Ziels.** Routen entdecken und nach landschaftlicher Qualität, Sehenswürdigkeiten und vertretbaren Umwegen statt nur nach Fahrzeit bewerten.
+<strong>Aus einer Piste wird eine Welt.</strong> Verknüpfte 3D-Simulation von Geländebau, Liftbetrieb, Gästen, Personal, Ökonomie, Wetter und Wintersaison.
 
-[Android-Routenplaner](https://github.com/chekento/scenic-path-android)
+<p><a href="https://github.com/chekento/SkiZones">Spiel, Tests & APK</a></p>
 
 </td><td valign="top">
 
-### 06 · [PizzaScan](https://github.com/chekento/Pizzascan)
+<h3>04 · <a href="https://github.com/chekento/Ainews">AI News</a></h3>
 
-**Globale Restaurantentdeckung mit eigener Logik.** Kartensuche für Pizza und italienische Küche mit Detailfiltern, persönlichen Bewertungen und optionaler lokaler Bildanalyse.
+<strong>KI-Entwicklungen im Blick behalten.</strong> Quellenorientiertes Monitoring für Modelle, Anbieter, Forschung, Agenten und KI-Regulierung mit Suche, Themen und eigenen Beobachtungen.
 
-[Restaurant-Discovery-App](https://github.com/chekento/Pizzascan)
+<p><a href="https://github.com/chekento/Ainews">AI-Intelligence-Projekt</a></p>
+
+</td></tr>
+<tr><td valign="top">
+
+<h3>05 · <a href="https://github.com/chekento/scenic-path-android">Scenic Path</a></h3>
+
+<strong>Der Weg ist Teil des Ziels.</strong> Routen entdecken und nach landschaftlicher Qualität, Sehenswürdigkeiten und vertretbaren Umwegen statt nur nach Fahrzeit bewerten.
+
+<p><a href="https://github.com/chekento/scenic-path-android">Android-Routenplaner</a></p>
+
+</td><td valign="top">
+
+<h3>06 · <a href="https://github.com/chekento/Pizzascan">PizzaScan</a></h3>
+
+<strong>Globale Restaurantentdeckung mit eigener Logik.</strong> Kartensuche für Pizza und italienische Küche mit Detailfiltern, persönlichen Bewertungen und optionaler lokaler Bildanalyse.
+
+<p><a href="https://github.com/chekento/Pizzascan">Restaurant-Discovery-App</a></p>
 
 </td></tr>
 </table>
