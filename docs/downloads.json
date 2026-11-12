@@ -22,8 +22,8 @@
     "prerelease": true,
     "url": "https://github.com/chekento/SkiZones/releases/download/v0.41.1/SkiZones-0.41.1-android-arm64.apk",
     "release": "https://github.com/chekento/SkiZones/releases/tag/v0.41.1",
-    "total": 223,
-    "latest_downloads": 1,
+    "total": 224,
+    "latest_downloads": 2,
     "asset": "SkiZones-0.41.1-android-arm64.apk"
   },
   "ai-news": {
@@ -58,7 +58,7 @@
     "prerelease": false,
     "url": "https://github.com/chekento/AIevents-/releases/download/v0.5.3/AIevents-latest.apk",
     "release": "https://github.com/chekento/AIevents-/releases/tag/v0.5.3",
-    "total": 5,
+    "total": 7,
     "latest_downloads": 1,
     "asset": "AIevents-latest.apk"
   },
