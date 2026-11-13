@@ -33,7 +33,7 @@
 <!-- SKIZONES-DOWNLOAD:START -->
 [![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.41.1/SkiZones-0.41.1-android-arm64.apk)
 
-[v0.41.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.41.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![229 APK downloads](assets/downloads/skizones.svg)
+[v0.41.1 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.41.1) · [Game & documentation](https://github.com/chekento/SkiZones) · ![232 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 *Die Banner-Verlinkung wird aus echten GitHub-Releases aktualisiert. Nur veröffentlichte APKs erscheinen als aktueller Download. Vorschauversionen sind nicht mit einer Store- oder Gerätefreigabe gleichzusetzen.*
@@ -137,13 +137,13 @@
 *Echte verfügbare APKs – diese Liste und die Download-Zahlen aktualisieren sich automatisch. Ein Projekt ohne öffentliches APK-Release wird oben nur mit seinem Repository verlinkt.*
 
 <!-- APP-CATALOG:START -->
-**289 APK downloads** across the 11 projects.
+**292 APK downloads** across the 11 projects.
 
 | Project | Explore | Android APK | APK downloads |
 |---|---|---|---:|
 | **[PMDDcam](https://github.com/chekento/PMDDcam)** | Depth photography · 80 visual styles | [↓ v0.4.0 · Preview](https://github.com/chekento/PMDDcam/releases/download/v0.4.0/PMDDcam-0.4.0.apk) | ![6 APK downloads](assets/downloads/pmddcam.svg) |
 | **[PMDDvid](https://github.com/chekento/PMDDvid)** | Local depth video · camera & converter | [↓ v0.1.7 · Preview](https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk) | ![11 APK downloads](assets/downloads/pmddvid.svg) |
-| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.41.1 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.41.1/SkiZones-0.41.1-android-arm64.apk) | ![229 APK downloads](assets/downloads/skizones.svg) |
+| **[SkiZones](https://github.com/chekento/SkiZones)** | 3D ski resort tycoon · offline | [↓ v0.41.1 · Preview](https://github.com/chekento/SkiZones/releases/download/v0.41.1/SkiZones-0.41.1-android-arm64.apk) | ![232 APK downloads](assets/downloads/skizones.svg) |
 | **[AI News](https://github.com/chekento/Ainews)** | AI news, sources & radar | [↓ android-latest](https://github.com/chekento/Ainews/releases/download/android-latest/AI-News.apk) | ![9 APK downloads](assets/downloads/ai-news.svg) |
 | **[Scenic Path](https://github.com/chekento/scenic-path-android)** | Scenic routes & discovery | [↓ v0.7.3-rc4 · Preview](https://github.com/chekento/scenic-path-android/releases/download/v0.7.3-rc4/Scenic-Path-v0.7.3-rc4-debug.apk) | ![15 APK downloads](assets/downloads/scenic-path.svg) |
 | **[PizzaScan](https://github.com/chekento/Pizzascan)** | Worldwide pizza discovery | [↓ v2.3.23 · Preview](https://github.com/chekento/Pizzascan/releases/download/v2.3.23/PizzaScan-2.3.23.apk) | ![3 APK downloads](assets/downloads/pizzascan.svg) |
