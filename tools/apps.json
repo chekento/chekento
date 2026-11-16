@@ -3,77 +3,49 @@
     "id": "pmddcam",
     "repo": "PMDDcam",
     "name": "PMDDcam",
-    "description": "Depth photography · 80 visual styles",
-    "category": "Creative"
-  },
-  {
-    "id": "pmddvid",
-    "repo": "PMDDvid",
-    "name": "PMDDvid",
-    "description": "Local depth video · camera & converter",
-    "category": "Creative"
-  },
-  {
-    "id": "skizones",
-    "repo": "SkiZones",
-    "name": "SkiZones",
-    "description": "3D ski resort tycoon · offline",
-    "category": "Games"
+    "description": "Fotografie mit Wahrnehmungstiefe und kreativen Bildstilen",
+    "category": "Kreativität"
   },
   {
     "id": "ai-news",
     "repo": "Ainews",
     "name": "AI News",
-    "description": "AI news, sources & radar",
-    "category": "Discovery"
+    "description": "KI-Nachrichten, Quellen und persönliches Themenradar",
+    "category": "Wissen"
   },
   {
     "id": "scenic-path",
     "repo": "scenic-path-android",
     "name": "Scenic Path",
-    "description": "Scenic routes & discovery",
-    "category": "Discovery"
+    "description": "Schöne Wege, Sehenswürdigkeiten und neue Perspektiven",
+    "category": "Entdecken"
   },
   {
     "id": "pizzascan",
     "repo": "Pizzascan",
     "name": "PizzaScan",
-    "description": "Worldwide pizza discovery",
-    "category": "Discovery"
+    "description": "Pizza und italienische Küche auf der Karte entdecken",
+    "category": "Entdecken"
   },
   {
     "id": "aievents",
     "repo": "AIevents-",
     "name": "AIevents",
-    "description": "Worldwide AI events",
-    "category": "Discovery"
-  },
-  {
-    "id": "parallax-hunt",
-    "repo": "parallaxhunt",
-    "name": "Parallax Hunt",
-    "description": "Living city · Android alpha",
-    "category": "Games"
-  },
-  {
-    "id": "wolf",
-    "repo": "wolf",
-    "name": "Wolf · Wildnis & Rudel",
-    "description": "Wilderness exploration & pack life",
-    "category": "Games"
+    "description": "KI-Konferenzen, Meetups und Workshops weltweit",
+    "category": "Wissen"
   },
   {
     "id": "labyrinthia",
     "repo": "labyrinthia-endless-maze",
     "name": "Labyrinthia",
-    "description": "Procedural mazes · tilt controls",
-    "category": "Games"
+    "description": "Prozedurale Labyrinthe und Bewegungssteuerung",
+    "category": "Spiele"
   },
   {
     "id": "chroma-clash",
     "repo": "chroma-clash-android",
     "name": "Chroma Clash",
-    "description": "Perceptual colour precision game",
-    "category": "Creative"
+    "description": "Farbgefühl und Wahrnehmung spielerisch trainieren",
+    "category": "Spiele"
   }
 ]

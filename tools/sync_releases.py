@@ -28,14 +28,17 @@ def releases(repo):
         page += 1
 
 
-def summarize(rows):
+def summarize(rows, official_only=False):
     public = [r for r in rows if not r['draft']]
     pairs = [(r, a) for r in public for a in r['assets']
              if a['name'].lower().endswith('.apk') and a.get('state', 'uploaded') == 'uploaded']
     if not pairs:
         raise ValueError('No published APK asset found; preserve previous links and counts')
     # Asset timestamps also support rolling releases published long ago.
-    release, apk = max(pairs, key=lambda pair: (
+    candidates = [(r, a) for r, a in pairs if not official_only or re.fullmatch(r"v\d+\.\d+\.\d+", r["tag_name"])]
+    if not candidates:
+        raise ValueError("No regular published APK; preserve existing download")
+    release, apk = max(candidates, key=lambda pair: (
         pair[1].get('created_at', pair[0]['published_at']),
         pair[0]['published_at'], pair[1]['name']))
     return dict(tag=release['tag_name'], prerelease=release['prerelease'],
@@ -61,7 +64,7 @@ def badge(count):
 
 def sync(snapshot=None, ski=False):
     def fetch(repo):
-        return summarize(snapshot[repo] if snapshot is not None else releases(repo))
+        return summarize(snapshot[repo] if snapshot is not None else releases(repo), official_only=(repo == 'SkiZones'))
     if ski:
         release = fetch('SkiZones')
         text = Path('README.md').read_text()
@@ -82,12 +85,24 @@ def sync(snapshot=None, ski=False):
         return
 
     apps = json.loads(Path('tools/apps.json').read_text())
+    if snapshot is None:
+        starred = []
+        page = 1
+        while True:
+            batch = get(f'https://api.github.com/users/chekento/starred?per_page=100&page={page}')
+            starred.extend(r['full_name'].lower() for r in batch if not r.get('archived'))
+            if len(batch) < 100: break
+            page += 1
+        apps = [app for app in apps if ('chekento/' + app['repo']).lower() in starred]
     # Complete every read before mutating generated files. API errors must not become zeroes.
     metadata = {app['id']: fetch(app['repo']) for app in apps}
     text = Path('README.md').read_text()
     total = sum(value['total'] for value in metadata.values())
-    lines = [f'**{total} APK downloads** across the 11 projects.', '',
-             '| Project | Explore | Android APK | APK downloads |',
+    apps.sort(key=lambda app: (app['id'] != 'pmddcam', -metadata[app['id']]['total'], app['name']))
+    ski_release = fetch('SkiZones')
+    metadata['skizones'] = ski_release
+    lines = [f'**{len(apps)} ausgewählte Apps · {total} APK-Downloads**', '',
+             '| App | Entdecken | Android-Download | APK-Downloads |',
              '|---|---|---|---:|']
     for app in apps:
         r = metadata[app['id']]
@@ -95,6 +110,7 @@ def sync(snapshot=None, ski=False):
         lines.append(f"| **[{app['name']}](https://github.com/chekento/{app['repo']})** | {app['description']} | [↓ {label}]({r['url']}) | ![{r['total']} APK downloads](assets/downloads/{app['id']}.svg) |")
     text = block(text, 'APP-CATALOG', '\n'.join(lines))
     ski_release = metadata['skizones']
+    Path('assets/downloads/skizones.svg').write_text(badge(ski_release['total']))
     text = block(text, 'SKIZONES-DOWNLOAD', f'''[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)]({ski_release['url']})
 
 [{ski_release['tag']} · Android Preview]({ski_release['release']}) · [Game & documentation](https://github.com/chekento/SkiZones) · ![{ski_release['total']} APK downloads](assets/downloads/skizones.svg)''')

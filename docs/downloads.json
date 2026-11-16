@@ -8,24 +8,6 @@
     "latest_downloads": 1,
     "asset": "PMDDcam-0.4.0.apk"
   },
-  "pmddvid": {
-    "tag": "v0.1.7",
-    "prerelease": true,
-    "url": "https://github.com/chekento/PMDDvid/releases/download/v0.1.7/PMDDvid-0.1.7.apk",
-    "release": "https://github.com/chekento/PMDDvid/releases/tag/v0.1.7",
-    "total": 11,
-    "latest_downloads": 3,
-    "asset": "PMDDvid-0.1.7.apk"
-  },
-  "skizones": {
-    "tag": "v0.42.0-test.1",
-    "prerelease": true,
-    "url": "https://github.com/chekento/SkiZones/releases/download/v0.42.0-test.1/SkiZones-0.42.0-test1-android-arm64.apk",
-    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.42.0-test.1",
-    "total": 252,
-    "latest_downloads": 1,
-    "asset": "SkiZones-0.42.0-test1-android-arm64.apk"
-  },
   "ai-news": {
     "tag": "android-latest",
     "prerelease": false,
@@ -62,24 +44,6 @@
     "latest_downloads": 1,
     "asset": "AIevents-latest.apk"
   },
-  "parallax-hunt": {
-    "tag": "android-latest",
-    "prerelease": false,
-    "url": "https://github.com/chekento/parallaxhunt/releases/download/android-latest/ParallaxHunt-latest.apk",
-    "release": "https://github.com/chekento/parallaxhunt/releases/tag/android-latest",
-    "total": 0,
-    "latest_downloads": 0,
-    "asset": "ParallaxHunt-latest.apk"
-  },
-  "wolf": {
-    "tag": "v0.15.0",
-    "prerelease": false,
-    "url": "https://github.com/chekento/wolf/releases/download/v0.15.0/Wolf-android.apk",
-    "release": "https://github.com/chekento/wolf/releases/tag/v0.15.0",
-    "total": 4,
-    "latest_downloads": 1,
-    "asset": "Wolf-android.apk"
-  },
   "labyrinthia": {
     "tag": "v2.4.3",
     "prerelease": true,
@@ -97,5 +61,14 @@
     "total": 4,
     "latest_downloads": 4,
     "asset": "Chroma-Clash-1.0.0.apk"
+  },
+  "skizones": {
+    "tag": "v0.42.0",
+    "prerelease": true,
+    "url": "https://github.com/chekento/SkiZones/releases/download/v0.42.0/SkiZones-0.42.0-android-arm64.apk",
+    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.42.0",
+    "total": 254,
+    "latest_downloads": 0,
+    "asset": "SkiZones-0.42.0-android-arm64.apk"
   }
 }
