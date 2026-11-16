@@ -44,7 +44,7 @@ Die von mir mit einem GitHub-Stern ausgewählten Projekte. PMDD Cam steht im Fok
 <!-- SKIZONES-DOWNLOAD:START -->
 [![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.42.0/SkiZones-0.42.0-android-arm64.apk)
 
-[v0.42.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![255 APK downloads](assets/downloads/skizones.svg)
+[v0.42.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![256 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 Die 0.42 bringt unter anderem den Pisteneditor mit Rückgängig/Wiederholen, zwanzig Snowpark-Module, überarbeitete Gebäude in zehn Grafikstilen, NPC-Schneekontakt, Pistenrettung, frühe Ziele und die Mitarbeiterakademie.
