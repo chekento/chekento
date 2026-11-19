@@ -42,9 +42,9 @@ Die von mir mit einem GitHub-Stern ausgewählten Projekte. PMDD Cam steht im Fok
 **Dein Berg. Dein Resort. Dein nächster Winter.** Pisten bauen, Lifte betreiben und eine lebendige Alpenwelt mit Gästen, Personal und Wirtschaft entwickeln.
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.42.0/SkiZones-0.42.0-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.42.2/SkiZones-0.42.2-android-arm64.apk)
 
-[v0.42.0 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.0) · [Game & documentation](https://github.com/chekento/SkiZones) · ![260 APK downloads](assets/downloads/skizones.svg)
+[v0.42.2 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.2) · [Game & documentation](https://github.com/chekento/SkiZones) · ![267 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 Die 0.42 bringt unter anderem den Pisteneditor mit Rückgängig/Wiederholen, zwanzig Snowpark-Module, überarbeitete Gebäude in zehn Grafikstilen, NPC-Schneekontakt, Pistenrettung, frühe Ziele und die Mitarbeiterakademie.
