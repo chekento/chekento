@@ -37,7 +37,7 @@ Die von mir mit einem GitHub-Stern ausgewählten Projekte. PMDD Cam steht im Fok
 | **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Prozedurale Labyrinthe und Bewegungssteuerung | [↓ v2.4.3 · Preview](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk) | ![1 APK downloads](assets/downloads/labyrinthia.svg) |
 <!-- APP-CATALOG:END -->
 
-## ❄️ Neu veröffentlicht: SkiZones 0.42.0
+## ❄️ Neu veröffentlicht: SkiZones 0.42.3
 
 **Dein Berg. Dein Resort. Dein nächster Winter.** Pisten bauen, Lifte betreiben und eine lebendige Alpenwelt mit Gästen, Personal und Wirtschaft entwickeln.
 
@@ -47,7 +47,7 @@ Die von mir mit einem GitHub-Stern ausgewählten Projekte. PMDD Cam steht im Fok
 [v0.42.3 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.3) · [Game & documentation](https://github.com/chekento/SkiZones) · ![272 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
-Die 0.42 bringt unter anderem den Pisteneditor mit Rückgängig/Wiederholen, zwanzig Snowpark-Module, überarbeitete Gebäude in zehn Grafikstilen, NPC-Schneekontakt, Pistenrettung, frühe Ziele und die Mitarbeiterakademie.
+**Neu in 0.42.3:** Kritische Absicherung gegen Spielstands-Rücksprünge (Tag 9 → Tag 7), mit verifiziertem Speichern, geschützter Wiederherstellung und zusätzlichem Autosave. Außerdem verbesserte Personalwege, Gebäudewirtschaft, Bergrettung und schnellerer Nacht-Zeitraffer. Die zuvor eingeführten Pisteneditor-, Snowpark- und Grafikfunktionen bleiben enthalten.
 
 [**Changelog**](https://github.com/chekento/SkiZones/blob/main/CHANGELOG.md) · [**Spiel & Screenshots**](https://github.com/chekento/SkiZones)
 
