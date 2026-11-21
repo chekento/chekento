@@ -63,12 +63,12 @@
     "asset": "Chroma-Clash-1.0.0.apk"
   },
   "skizones": {
-    "tag": "v0.42.2",
+    "tag": "v0.42.3",
     "prerelease": true,
-    "url": "https://github.com/chekento/SkiZones/releases/download/v0.42.2/SkiZones-0.42.2-android-arm64.apk",
-    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.42.2",
-    "total": 269,
-    "latest_downloads": 4,
-    "asset": "SkiZones-0.42.2-android-arm64.apk"
+    "url": "https://github.com/chekento/SkiZones/releases/download/v0.42.3/SkiZones-0.42.3-android-arm64.apk",
+    "release": "https://github.com/chekento/SkiZones/releases/tag/v0.42.3",
+    "total": 272,
+    "latest_downloads": 1,
+    "asset": "SkiZones-0.42.3-android-arm64.apk"
   }
 }
