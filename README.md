@@ -44,7 +44,7 @@ Die von mir mit einem GitHub-Stern ausgewählten Projekte. PMDD Cam steht im Fok
 <!-- SKIZONES-DOWNLOAD:START -->
 [![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.42.4/SkiZones-0.42.4-android-arm64.apk)
 
-[v0.42.4 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.4) · [Game & documentation](https://github.com/chekento/SkiZones) · ![SkiZones APK-Downloads](assets/downloads/skizones.svg)
+[v0.42.4 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.4) · [Game & documentation](https://github.com/chekento/SkiZones) · ![277 APK downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
 **Neu in 0.42.4:** Hotfix für zuverlässiges Speichern und Laden: Eine neuere Tag-9-Sicherung gewinnt gegenüber einer älteren Tag-7-Hauptdatei und wird vor versehentlichem Überschreiben geschützt. Die Android-30/36-, Altspielstands- und Signaturprüfungen sind bestanden. **Als Update installieren – App-Daten nicht löschen.** Die 0.42.3-Verbesserungen an Mitarbeiterwegen, Wirtschaft, Bergrettung und Nacht-Zeitraffer bleiben enthalten.
