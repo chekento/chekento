@@ -37,17 +37,17 @@ Die von mir mit einem GitHub-Stern ausgewählten Projekte. PMDD Cam steht im Fok
 | **[Labyrinthia](https://github.com/chekento/labyrinthia-endless-maze)** | Prozedurale Labyrinthe und Bewegungssteuerung | [↓ v2.4.3 · Preview](https://github.com/chekento/labyrinthia-endless-maze/releases/download/v2.4.3/Labyrinthia-v2.4.3-debug.apk) | ![1 APK downloads](assets/downloads/labyrinthia.svg) |
 <!-- APP-CATALOG:END -->
 
-## ❄️ Neu veröffentlicht: SkiZones 0.42.3
+## ❄️ Neu veröffentlicht: SkiZones 0.42.4
 
 **Dein Berg. Dein Resort. Dein nächster Winter.** Pisten bauen, Lifte betreiben und eine lebendige Alpenwelt mit Gästen, Personal und Wirtschaft entwickeln.
 
 <!-- SKIZONES-DOWNLOAD:START -->
-[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.42.3/SkiZones-0.42.3-android-arm64.apk)
+[![Download SkiZones APK](https://raw.githubusercontent.com/chekento/SkiZones/main/docs/images/download-apk.svg)](https://github.com/chekento/SkiZones/releases/download/v0.42.4/SkiZones-0.42.4-android-arm64.apk)
 
-[v0.42.3 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.3) · [Game & documentation](https://github.com/chekento/SkiZones) · ![272 APK downloads](assets/downloads/skizones.svg)
+[v0.42.4 · Android Preview](https://github.com/chekento/SkiZones/releases/tag/v0.42.4) · [Game & documentation](https://github.com/chekento/SkiZones) · ![SkiZones APK-Downloads](assets/downloads/skizones.svg)
 <!-- SKIZONES-DOWNLOAD:END -->
 
-**Neu in 0.42.3:** Kritische Absicherung gegen Spielstands-Rücksprünge (Tag 9 → Tag 7), mit verifiziertem Speichern, geschützter Wiederherstellung und zusätzlichem Autosave. Außerdem verbesserte Personalwege, Gebäudewirtschaft, Bergrettung und schnellerer Nacht-Zeitraffer. Die zuvor eingeführten Pisteneditor-, Snowpark- und Grafikfunktionen bleiben enthalten.
+**Neu in 0.42.4:** Hotfix für zuverlässiges Speichern und Laden: Eine neuere Tag-9-Sicherung gewinnt gegenüber einer älteren Tag-7-Hauptdatei und wird vor versehentlichem Überschreiben geschützt. Die Android-30/36-, Altspielstands- und Signaturprüfungen sind bestanden. **Als Update installieren – App-Daten nicht löschen.** Die 0.42.3-Verbesserungen an Mitarbeiterwegen, Wirtschaft, Bergrettung und Nacht-Zeitraffer bleiben enthalten.
 
 [**Changelog**](https://github.com/chekento/SkiZones/blob/main/CHANGELOG.md) · [**Spiel & Screenshots**](https://github.com/chekento/SkiZones)
 
